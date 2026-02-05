@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Font_MLD;
+  src: url('/fonts/MonsieurLaDoulaise-Regular.ttf');
+}
+
+@font-face {
+  font-family: Font_Q;
+  src: url('/fonts/QUARTZ.ttf');
+}
+
+@font-face {
+  font-family: Font_YIV;
+  src: url('/fonts/Ysabeau-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Font_YV;
+  src: url('/fonts/Ysabeau-VariableFont_wght.ttf');
+}
+
+
+body {
+  position: relative;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+.Font_MLD {
+  font-family: Font_MLD;
+}
+
+.Font_Q {
+  font-family: Font_Q;
+}
+
+.Font_YIV {
+  font-family: Font_YIV;
+}
+
+.Font_YV {
+  font-family: Font_YV;
+}
+
+h2 {
+  font-size: 3.75rem;
+  line-height: 2.76rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+}
+
+p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+}
+
+
+/* 
+
+label{
+ display:flex;
+  flex-direction:column;
+  width:70px;
+  cursor:pointer;
+}
+
+label span{
+  background: #5e2222;
+  border-radius:10px;
+  height:7px;
+  margin: 7px 0;
+  transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+}
+
+
+span:nth-of-type(1){
+  width:50%;
+  
+}
+
+span:nth-of-type(2){
+  width:100%;
+}
+
+
+span:nth-of-type(3){
+  width:75%;
+ 
+}
+
+
+input[type="checkbox"]{
+  display:none;
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1){
+  transform-origin:bottom;
+  transform:rotatez(45deg) translate(8px,0px)
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2){
+  
+  transform-origin:top;
+  transform:rotatez(-45deg)
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3){
+  
+  transform-origin:bottom;
+  width:50%;
+  transform: translate(30px,-11px) rotatez(45deg);
+
+} */
