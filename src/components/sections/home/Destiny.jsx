@@ -165,49 +165,71 @@ const Destiny = () => {
             <img src={`/imgs/home/imgH2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
 
             <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] max-sm:pt-[10vh] '>
-                {/* <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] flex flex-col gap-[2rem]  '>
+                <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] flex flex-col gap-[2rem]  '>
                     <div className='w-full h-fit flex justify-center T2T2T items-center'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
-                    <img src={`/svgs/Title1Destiny.svg`} className='w-full T2T2T object-cover' alt="SVG" />
+                    {/* <img src={`/svgs/Title1Destiny.svg`} className='w-full T2T2T object-cover' alt="SVG" /> */}
+
+                    <div className='w-full h-fit flex justify-center gap-[2vw] items-center text-[#5F171D]'>
+                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>United</h1>
+                        <h1 className='Font_YIV  text-[8vw] leading-[8vw]'>by</h1>
+                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>Destiny</h1>
+                    </div>
                 </div>
 
                 <div className='w-full h-fit flex mt-[5vw] TT2T'>
-                    <div className='w-1/2 pr-[10vw] max-sm:w-full max-sm:text-justify max-sm:pr-0'>
-                        <p className='Font_YV'> Our story didn’t begin with grand gestures or dramatic moments. It began with tradition, with families coming together, and with a quiet sense of trust. Guided by shared values and mutual respect, we were brought into each other’s lives at just the right time.</p>
+                    <div className='w-1/2 pr-[5vw] max-sm:w-full text-justify max-sm:text-justify max-sm:pr-0'>
+                        <p className='Font_YV'> It all began at a graduation party, where Sonal was busy charming the room when Kush walked in, caught one glimpse of her, and instantly knew he had to meet her. What followed was an unforgettable night filled with poker, laughter, and undeniable chemistry. They played their cards right (literally), won a little money, and unknowingly placed the biggest bet of all - on each other.
+                            <br></br>
+                            For a year, they stayed in touch, their connection never fading. Then fate stepped in. Sonal moved to New York City, and when Kush reached out, he discovered she was living just a ten minute walk from his apartment. Some call it destiny, some call it great real estate planning, but either way, their first date was pure magic. With no furniture in Sonal’s apartment yet, they sat on the floor, shared a bottle of wine, and talked for hours. It was simple, it was effortless, and it felt like home.
+                        </p>
                     </div>
-                    <div className='w-1/2 pl-[10vw] max-sm:hidden'>
-                        <p className='Font_YV'>In those early moments, everything felt simple. There was curiosity, respect, and an unspoken understanding that allowed us to be ourselves. No rush, no expectations—just space to grow and learn about one another.</p>
+                    <div className='w-1/2 pl-[5vw] max-sm:hidden'>
+                        <p className='Font_YV'>Three amazing years later, Kush planned the ultimate surprise - a trip to Jamaica. Surrounded by turquoise waters and golden sunsets, he got down on one knee and asked Sonal to spend forever with him. <br></br>
+                            And now, here we are, ready to celebrate our greatest adventure yet - our wedding. We can’t wait to share this special moment with all of you!
+                        </p>
                     </div>
                 </div>
 
 
-          
+
                 <div className='w-full h-fit flex max-sm:flex-col mt-[5vw] mb-[50vh] max-sm:mb-[20vh] gap-[5vw] relative TT3T will-change-transform '>
-                
+
                     <div className='w-2/4 relative z-20 DCD1 max-sm:w-full '>
                         <div className='w-full h-auto'>
                             <img src={`/imgs/home/imgH3.webp`} className='w-full aspect-[2/3] object-cover object-center z-20 ' alt="IMG" />
                         </div>
                     </div>
 
-                    
+
                     <div className='w-full relative z-20 DCD2 '>
                         <div className='w-full h-auto'>
                             <img src={`/imgs/Same2img.webp`} className='w-full aspect-[2/2] max-sm:aspect-auto object-cover object-center z-20 ' alt="IMG" />
                         </div>
                     </div>
 
-                
+
                     <div className='w-full h-full absolute bottom-0  left-0 uppercase text-[#75171d38] flex flex-wrap text-wrap z-10 '>
                         <img src={`/svgs/BGTxtDestiny.svg`} alt="IMG" className='w-full h-full object-cover object-center ' />
                     </div>
-                </div> */}
+                </div>
+
+                {/* ------------------------------------------------------------------------------------------------------------ */}
+                {/* ------------------------------------------------------------------------------------------------------------ */}
+                {/* ------------------------------------------------------------------------------------------------------------ */}
+                {/* ------------------------------------------------------------------------------------------------------------ */}
+
+
+                <div className='w-fit h-fit flex flex-col justify-center m-auto gap-[2vw]  items-start'>
+                    <h1 className='Font_YIV  text-[8vw] leading-[8vw] translate-y-20 text-[#5F171D]'>by</h1>
+                    <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] text-[#5F171D]'>MATCHMAKER</h1>
+                </div>
 
                 <AccordGallery />
-                <div className='w-full h-fit flex max-sm:flex-col  justify-start items-end max-sm:justify-center '>
+                <div className='w-full h-fit flex max-sm:flex-col  justify-start items-end max-sm:justify-center mb-[20vh] '>
                     {/* Left */}
                     <div className='w-1/2 h-full DCD5 max-sm:w-full '>
                         <div className='w-1/2 h-fit max-sm:w-full'>
-                            
+
                             <div className='w-[280px] fit uppercase Font_YV'>
                                 <p className='mt-8'>to know him and his family, her family felt confident and happy about the match. </p>
                             </div>
@@ -228,12 +250,9 @@ const Destiny = () => {
 
 
 
-                {/* ------------------------------------------------------------------------------------------------------------ */}
-                {/* ------------------------------------------------------------------------------------------------------------ */}
-                {/* ------------------------------------------------------------------------------------------------------------ */}
-                {/* ------------------------------------------------------------------------------------------------------------ */}
 
-                <div className='w-full h-fit flex flex-col mb-[10vh] max-sm:mb-8 relative SecondInnerContDestiny opacity-0  mt-[30vh]'>
+
+                {/* <div className='w-full h-fit flex flex-col mb-[10vh] max-sm:mb-8 relative SecondInnerContDestiny opacity-0  mt-[30vh]'>
                     <div className='w-full relative'>
                         <div className='w-1/2 flex mb-[80vh] max-sm:mb-[40vh] relative flex-col max-sm:w-[80%]'>
                             <div className='w-full h-fit flex justify-start items-center T2T2T mb-[2rem]'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
@@ -242,23 +261,23 @@ const Destiny = () => {
                             <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >one</h1>
                         </div>
 
-                        {/* 2Img-COMT */}
+                        
                         <div className='w-full h-fit flex justify-center  items-center absolute top-[30%] max-sm:top-[18%] left-0'>
-                            {/* left */}
+                            
                             <div className='w-[380px] h-[500px] max-sm:w-full max-sm:h-[200px]   rotate-z-[5deg] z-30 relative DCD3'>
                                 <img src={`/imgs/home/img1Destiny2.webp`} alt="IMG" className='w-full h-full object-cover object-center' />
-                                {/* Random text */}
+                                
                                 <img src={`/svgs/randomText.svg`} className='w-[100px] absolute top-[110%] left-1/2 object-cover object-center' alt="IMG" />
                             </div>
 
-                            {/* Right */}
+                            
                             <div className='w-[380px] h-[500px] max-sm:w-full max-sm:h-[200px] overflow-hidden -rotate-z-[5deg] z-20 translate-y-[-10%] DCD4'>
                                 <img src={`/imgs/home/img2Destiny2.webp`} alt="IMG" className='w-full h-full object-cover object-center' />
                             </div>
                         </div>
 
                         <div className='w-full h-fit flex max-sm:flex-col  justify-start items-end '>
-                            {/* Left */}
+                        
                             <div className='w-1/2 h-full DCD5 max-sm:w-full '>
                                 <div className='w-1/2 h-fit max-sm:w-full'>
                                     <div className='w-[270px] h-[204px] max-sm:w-full max-sm:h-[300px] overflow-hidden flex flex-col '>
@@ -270,13 +289,13 @@ const Destiny = () => {
                                 </div>
                             </div>
 
-                            {/* Right */}
+                            
                             <div className='w-1/2 h-fit max-sm:w-full flex justify-end DCD6'>
 
                                 <div className='w-1/2 h-fit flex flex-col max-sm:w-full max-sm:mt-[10vw]'>
                                     <div className="flex gap-8 max-sm:gap-4 items-end max-w-5xl w-full">
 
-                                        {/* Left Image – Shorter */}
+                                    
                                         <div className="flex-1">
                                             <img
                                                 src={`/imgs/home/img2Destiny2.webp`}
@@ -285,7 +304,7 @@ const Destiny = () => {
                                             />
                                         </div>
 
-                                        {/* Right Image – Taller */}
+                                 
                                         <div className="flex-1">
                                             <img
                                                 src={`/imgs/home/img2Destiny2.webp`}
@@ -305,7 +324,7 @@ const Destiny = () => {
 
 
 
-                </div>
+                </div> */}
 
 
             </div>

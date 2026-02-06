@@ -10,57 +10,56 @@ gsap.registerPlugin(ScrollTrigger)
 const CardX = () => {
 
 
-  useGSAP(()=>{
-    gsap.from('.imgQ1',{
-      y:20,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.imgQ1',
-        start:'top 80%',
-        end:'top 60%',
-        scrub:true,
+  useGSAP(() => {
+    gsap.from('.imgQ1', {
+      y: 20,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.imgQ1',
+        start: 'top 80%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.imgQ2',{
-      y:20,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.imgQ2',
-        start:'top 80%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.imgQ2', {
+      y: 20,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.imgQ2',
+        start: 'top 80%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.imgQ3',{
-      y:20,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.imgQ3',
-        start:'top 80%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.imgQ3', {
+      y: 20,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.imgQ3',
+        start: 'top 80%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-  },[])
+  }, [])
 
   return (
     <div className="w-full h-fit flex flex-col z-20 mt-[150vh]">
-      {/* div-1 */}
+      {/* div-1 Sangeet */}
       <div className="w-full min-h-screen flex max-sm:flex-col">
         {/* Left */}
         <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col text-[#75171E] justify-center items-center">
           <h2 className="Font_Q">Day 1</h2>
-          <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-6">MEHENDI AND HALDI</h5>
-          <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center ">MEHENDI </h5>
+          <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-6 uppercase ">Sangeet</h5>
           <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
             </span>
             <span>
-              <span className="font-semibold">TIME:</span> 4:00 PM
+              <span className="font-semibold">TIME:</span> 7:30 PM
             </span>
             <span>
               <span className="font-semibold">VENUE:</span> La
@@ -69,33 +68,10 @@ const CardX = () => {
           </div>
 
           <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-            Guests are welcomed for a relaxed and joyful afternoon as we begin
-            the celebrations with Mehendi and Haldi ceremonies. These rituals
-            are filled with laughter, music, and meaningful traditions shared
-            with close family and friends.
+            Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
           </p>
 
-          {/* Design */}
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 left-0"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 right-0 rotate-90"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 right-0 rotate-180"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 left-0 -rotate-90"
-            alt="Img"
-          />
+           <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
         </div>
 
         {/* right */}
@@ -118,12 +94,12 @@ const CardX = () => {
         </div>
       </div>
 
-      {/* div-2 */}
-      <div className="w-full min-h-screen flex max-sm:flex-col max-sm:flex-col-reverse">
+      {/* Div - 2*/}
+      <div className='w-full min-h-screen relative flex '>
         {/* Left */}
-        <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex flex-col bg-[#75171E] px-12 justify-center items-center">
+        <div className='w-1/2 h-screen sticky top-0 left-0 flex justify-center items-center bg-[#75171E]'>
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q text-[#E4BD95] uppercase">OutFit</h2>
+            <h3 className="Font_Q text-[#E4BD95] uppercase">OutFit</h3>
             <p className="Font_YV text-[#E4BD95] mt-4">
               Light-coloured Indian or fusion wear
             </p>
@@ -138,108 +114,274 @@ const CardX = () => {
             />
           </div>
         </div>
+
         {/* Right */}
-        <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] bg-white flex relative flex-col text-[#75171E] justify-center items-center">
-          <h2 className="Font_Q">Day 2</h2>
-          <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">SANGEET Night</h5>
-          <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
-            <span>
-              <span className="font-semibold">DATE:</span> 25 March 2006
-            </span>
-            <span>
-              <span className="font-semibold">TIME:</span> 4:00 PM
-            </span>
-            <span>
-              <span className="font-semibold">VENUE:</span> La
-              Mamounia,Marrakech
-            </span>
+        <div className='w-1/2 min-h-screen bg-white relative top-0 ml-auto'>
+          {/* Day Sticky */}
+          <div className='w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] bg-white z-60 '>
+            <h2 className="Font_Q text-[#75171E]">Day 2</h2>
           </div>
 
-          <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-            Guests are welcomed for a relaxed and joyful afternoon as we begin
-            the celebrations with Mehendi and Haldi ceremonies. These rituals
-            are filled with laughter, music, and meaningful traditions shared
-            with close family and friends.
-          </p>
+          {/* 1 Detail Haldi */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Haldi</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 22 September 2026
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 10 AM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
 
-          {/* Design */}
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 left-0"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 right-0 rotate-90"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 right-0 rotate-180"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 left-0 -rotate-90"
-            alt="Img"
-          />
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Where tradition meets sunshine and a great playlist. Come celebrate our haldi with vibrant colors, music, and nonstop dancing
+            </p>
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
+            </p>
+
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(Yellow )</span>
+
+          </div>
+
+
+          {/* 2 Detail */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Barat</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 25 March 2006
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 3 PM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Guests are welcomed for a relaxed and joyful afternoon as we begin
+              the celebrations with Mehendi and Haldi ceremonies. These rituals
+              are filled with laughter, music, and meaningful traditions shared
+              with close family and friends.
+            </p> */}
+
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>( No White Red )</span>
+
+          </div>
+
+          {/* 3 Detail Standing Barat (girls side) */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Standing Barat (girls side)</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 25 March 2006
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 4:00 PM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Guests are welcomed for a relaxed and joyful afternoon as we begin
+              the celebrations with Mehendi and Haldi ceremonies. These rituals
+              are filled with laughter, music, and meaningful traditions shared
+              with close family and friends.
+            </p> */}
+
+          </div>
+
+          {/* 4 Wedding */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Wedding</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 25 March 2006
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 6 PM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Beneath carved arches and golden skies, we promise each other forever. Join us for a wedding steeped in tradition, grace, and enduring love.
+            </p>
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Amidst timeless beauty and sacred rituals, our forever begins. Join us as love is celebrated with grace, heritage, and quiet grandeur.
+            </p>
+
+          </div>
+
+          {/* 5 Wedding Dinner*/}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Wedding Dinner</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 25 March 2006
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 7:00 PM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Guests are welcomed for a relaxed and joyful afternoon as we begin
+              the celebrations with Mehendi and Haldi ceremonies. These rituals
+              are filled with laughter, music, and meaningful traditions shared
+              with close family and friends.
+            </p> */}
+
+          </div>
+
+
         </div>
       </div>
 
-       {/* div-3 */}
-      <div className="w-full min-h-screen flex max-sm:flex-col ">
-        {/* Left */}
-        <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] bg-white flex relative flex-col text-[#75171E] justify-center items-center">
-          <h2 className="Font_Q">Day 3</h2>
-          <h5 className="Font_Q text-[40px] leading-[40px]  mt-6">WEDDING &</h5>
-          <h5 className="Font_Q text-[40px] leading-[40px] ">RECEPTION</h5>
-          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 justify-center max-sm:text-center items-center">
-            <span>
-              <span className="font-semibold">DATE:</span> 25 March 2006
-            </span>
-            <span>
-              <span className="font-semibold">TIME:</span> 4:00 PM
-            </span>
-            <span>
-              <span className="font-semibold">VENUE:</span> La
-              Mamounia,Marrakech
-            </span>
+      {/* Div - 3*/}
+      <div className='w-full min-h-screen relative flex '>
+       
+
+        {/* left */}
+        <div className='w-1/2 min-h-screen bg-white relative top-0 mr-auto'>
+          {/* Day Sticky */}
+          <div className='w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] bg-white z-60 '>
+            <h2 className="Font_Q text-[#75171E]">Day 3</h2>
           </div>
 
-          <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-            Guests are welcomed for a relaxed and joyful afternoon as we begin
-            the celebrations with Mehendi and Haldi ceremonies. These rituals
-            are filled with laughter, music, and meaningful traditions shared
-            with close family and friends.
-          </p>
+          {/* 1 Detail Pool Party & Lunch */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Pool Party & Lunch</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 23 September 2026
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 10 AM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
 
-          {/* Design */}
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 left-0"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute top-0 right-0 rotate-90"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 right-0 rotate-180"
-            alt="Img"
-          />
-          <img
-            src={`/svgs/WeddingDesign.svg`}
-            className="w-1/5 object-cover absolute bottom-0 left-0 -rotate-90"
-            alt="Img"
-          />
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Sun out, volume up, worries off. Join us poolside for a beach-club-inspired party made for dancing, and soaking it all in.
+            </p>
+            {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
+            </p> */}
+
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white )</span>
+
+          </div>
+
+          {/* 2 Detail Cocktail Hour */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Cocktail Hour</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 23 September 2026
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span>  7:00 PM
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Sun out, volume up, worries off. Join us poolside for a beach-club-inspired party made for dancing, and soaking it all in.
+            </p> */}
+            {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
+            </p> */}
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span>
+
+
+          </div>
+
+          {/* 3 Reception */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Reception</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 23 September 2026
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 8:00 PM 
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Candlelight, old-world beauty, and a night made to celebrate. Come toast to love in a reception filled with warmth, rhythm, and refined revelry.
+            </p>
+            {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
+            </p> */}
+
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span>
+
+          </div>
+
+          {/* 4 After Party */}
+          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Reception</h5>
+            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
+              <span>
+                <span className="font-semibold">DATE:</span> 23 September 2026
+              </span>
+              <span>
+                <span className="font-semibold">TIME:</span> 12:00 AM 
+              </span>
+              <span>
+                <span className="font-semibold">VENUE:</span> La
+                Mamounia,Marrakech
+              </span>
+            </div>
+
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              Sleep is optional. Meet us after dark for a high-energy after party where the music doesn’t stop and neither do we.
+            </p>
+            {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+              Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
+            </p> */}
+             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white & gold )</span>
+
+          </div>
+
+
+
         </div>
 
-        {/* right */}
-        <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] h-screen flex flex-col bg-[#75171E] px-12 justify-center items-center">
+         {/* right */}
+        <div className='w-1/2 h-screen sticky top-0 right-0 flex justify-center items-center bg-[#75171E]'>
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q text-[#E4BD95] uppercase">OutFit</h2>
+            <h3 className="Font_Q text-[#E4BD95] uppercase">OutFit</h3>
             <p className="Font_YV text-[#E4BD95] mt-4">
               Light-coloured Indian or fusion wear
             </p>
@@ -250,7 +392,7 @@ const CardX = () => {
             <img
               src={`/demo.png`}
               alt="Img"
-              className="w-full object-cover imgQ3 object-center mt-4"
+              className="w-full object-cover imgQ2 object-center mt-4"
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
 
                 <div className="w-full aspect-2/3">
@@ -18,7 +18,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
 
                 <div className="w-full aspect-2/3">
@@ -39,7 +39,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
 
                 <div className="w-full aspect-2/3">
@@ -60,7 +60,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
 
                 <div className="w-full aspect-2/3">
@@ -81,7 +81,7 @@ export default function AccordGallery() {
                         alt="img"
                         className="w-full h-full object-cover"
                     />
-                    <p className="mt-4 text-red-950">Timmy</p>
+                    <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
             </div>
         </div>
