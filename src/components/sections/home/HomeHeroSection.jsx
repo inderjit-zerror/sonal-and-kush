@@ -59,16 +59,17 @@ const HomeHeroSection = () => {
     return (
         <div className='w-full h-screen overflow-hidden relative COLOR_BG_RED '>
             <div ref={containerRefHome} className='w-full h-screen flex overflow-hidden'>
-                {/* <Image
+                <Image
                     ref={imageRefHome}
-                    src={`/imgs/home/imgH1.webp`}
-                    className='w-full h-full object-cover object-center scale-[1.1]'
+                    src={`/imgs/r1.webp`}
+                    // className='w-full h-full object-cover object-center scale-[1.1]'
+                    className='w-full h-screen scale-[1.4] opacity-0 object-cover object-center'
                     width={1000}
                     height={1000}
                     alt='IMG'
-                /> */}
+                />
 
-                <video ref={imageRefHome} muted autoPlay loop src={`/file.mp4`} className='w-full h-screen scale-[1.4] opacity-0 object-cover object-center'></video>
+                {/* <video ref={imageRefHome} muted autoPlay loop src={`/file.mp4`} className='w-full h-screen scale-[1.4] opacity-0 object-cover object-center'></video> */}
             </div>
             <div className='w-full h-screen absolute top-0 left-0 z-20 flex max-sm:pb-8 justify-center items-end HOMEMAIM'>
                 <h1 className=' uppercase  text-[9vw] max-sm:text-[14vw] max-sm:leading-[14vw] max-sm:text-center Font_Q -translate-y-4/3 max-sm:translate-y-[-350%] scale-[0.5] opacity-0 text-white HOMEMAIM'>sonal & Kush</h1>
