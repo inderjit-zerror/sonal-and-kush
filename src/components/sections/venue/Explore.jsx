@@ -479,7 +479,7 @@ const Explore = () => {
                 <div className='w-[50vw] h-screen  flex justify-center items-center  '>
                     <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
                         <p className=' uppercase Font_YV text-[#75171E] contA6'>Explore Marrakech</p>
-                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6'>La Mamounia</h4>
+                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6 uppercase '>raffles udaipur</h4>
                         <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
                             <div className='text-[#395238] text-[18px] contA6 Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
                             {/* BTN */}
