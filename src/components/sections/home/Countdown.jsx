@@ -61,11 +61,11 @@
 
 //     return (
 //         <section className="pb-30 pt-10 w-full h-fit select-none bg-white flex flex-col justify-center items-center text-center">
-//             <h3 className=" Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 CDD1">
+//             <h3 className=" Font_Q tracking-widest uppercase COLOR_TEXT_RED mb-20 CDD1">
 //                 Until the wedding
 //             </h3>
 
-//             <div className="w-full h-fit flex justify-center gap-10 text-[#7A2E2E] CDD1">
+//             <div className="w-full h-fit flex justify-center gap-10 COLOR_TEXT_RED CDD1">
 //                 {[
 //                     { label: 'Days', value: timeLeft.days },
 //                     { label: 'Hours', value: timeLeft.hours },
@@ -173,11 +173,11 @@ const Countdown = () => {
 
     return (
         <section className="pb-[30vh] pt-10 max-sm:pt-5 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
-            <h3 className="Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 max-sm:mb-10 CDD1">
+            <h3 className="Font_Q tracking-widest uppercase COLOR_TEXT_RED mb-20 max-sm:mb-10 CDD1">
                 Until the wedding
             </h3>
 
-            <div className="w-full h-fit flex justify-center gap-10 max-sm:gap-1 text-[#7A2E2E] CDD1">
+            <div className="w-full h-fit flex justify-center gap-10 max-sm:gap-1 COLOR_TEXT_RED CDD1">
                 {[
                     { label: 'Days', value: timeLeft.days },
                     { label: 'Hours', value: timeLeft.hours },

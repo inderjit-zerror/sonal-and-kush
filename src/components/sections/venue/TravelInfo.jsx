@@ -59,10 +59,10 @@ const TravelInfo = () => {
   }, [])
 
   return (
-    <section className="relative bg-[#7A0F16] py-32 px-6 overflow-hidden">
+    <section className="relative COLOR_BG_RED py-32 px-6 overflow-hidden">
 
       {/* Background oversized text */}
-      <div className="absolute inset-0 flex flex-col justify-center gap-10 text-[#E4BD95] opacity-5 pointer-events-none">
+      <div className="absolute inset-0 flex flex-col justify-center gap-10 COLOR_TEXT_CREAM opacity-5 pointer-events-none">
 
         {/* ROW 1 */}
         <div className="flex whitespace-nowrap uppercase Font_Q" ref={row1}>
@@ -96,16 +96,16 @@ const TravelInfo = () => {
       {/* Content */}
       <div className="relative max-w-3xl mx-auto text-center flex flex-col justify-center items-center">
 
-        <p className=" uppercase mb-6 text-[#E4BD95]">
+        <p className=" uppercase mb-6 COLOR_TEXT_CREAM">
           Travel Information
         </p>
 
-        <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 text-[#E4BD95] max-sm:text-white max-sm:uppercase">
+        <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
           <h2> The Way To</h2>  <h2>Travel</h2>
         </div>
 
         <div className="space-y-6 max-sm:space-y-4 ">
-          <p className="uppercase Font_YV text-[#E4BD95]">
+          <p className="uppercase Font_YV COLOR_TEXT_CREAM">
             Nearest Airport :
           </p>
 

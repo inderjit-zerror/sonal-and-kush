@@ -31,7 +31,7 @@ const WeddingVenue = () => {
 
   return (
     <section className="h-screen max-sm:h-fit  WeddingTextCont my-[10vh] flex items-center justify-center bg-white px-6">
-      <div className=" text-center text-[#5B1F1F]  ">
+      <div className=" text-center COLOR_TEXT_RED  ">
 
         {/* Top label */}
         <p className="tracking-tight uppercase mb-6 Font_YV WeddingText max-sm:font-semibold">
@@ -57,7 +57,7 @@ const WeddingVenue = () => {
         </div>
 
         {/* Description */}
-        <p className="max-w-xl mx-auto Font_YV leading-[20px] text-[#3E2A2A] WeddingText">
+        <p className="max-w-xl mx-auto Font_YV leading-[20px] COLOR_TEXT_RED WeddingText">
           A serene luxury resort nestled in the heart of Marrakech, blending
           traditional Moroccan architecture with modern comfort. This is where
           all our wedding celebrations will take place.

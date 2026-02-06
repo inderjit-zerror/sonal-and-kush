@@ -73,6 +73,26 @@ p {
 }
 
 
+.COLOR_BG_RED{
+  background-color: #551301;
+}
+.COLOR_TEXT_RED{
+  color: #551301;
+}
+.COLOR_TEXT_ORANGE{
+  color: #B97241;
+}
+.COLOR_BG_ORANGE{
+  background-color: #B97241;
+}
+.COLOR_TEXT_CREAM{
+  color: #EFDFCB;
+}
+.COLOR_BG_CREAM{
+  background-color: #EFDFCB;
+}
+
+
 /* 
 
 label{

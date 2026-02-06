@@ -277,7 +277,7 @@ const Itinerary = () => {
         {/* div-1 Sangeet */}
         <div className="w-full min-h-screen flex max-sm:flex-col">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col text-[#75171E] justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <h2 className="Font_Q">Day 1</h2>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-6 uppercase ">Sangeet</h5>
             
@@ -303,7 +303,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] text-[#75171E] flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h2 className="Font_Q  uppercase">OutFit</h2>
               <p className="Font_YV  mt-4">
@@ -325,7 +325,7 @@ const Itinerary = () => {
         {/* Div - 2*/}
         <div className='w-full min-h-screen relative flex '>
           {/* Left */}
-          <div className='w-1/2 h-screen sticky top-0 left-0 flex justify-center items-center text-[#75171E]'>
+          <div className='w-1/2 h-screen sticky top-0 left-0 flex justify-center items-center COLOR_TEXT_RED'>
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-4">
@@ -347,11 +347,11 @@ const Itinerary = () => {
           <div className='w-1/2 min-h-screen bg-white relative top-0 ml-auto'>
             {/* Day Sticky */}
             <div className='w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] bg-white z-60 '>
-              <h2 className="Font_Q text-[#75171E]">Day 2</h2>
+              <h2 className="Font_Q COLOR_TEXT_RED">Day 2</h2>
             </div>
 
             {/* 1 Detail Haldi */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Haldi</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -379,7 +379,7 @@ const Itinerary = () => {
 
 
             {/* 2 Detail */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Barat</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -406,7 +406,7 @@ const Itinerary = () => {
             </div>
 
             {/* 3 Detail Standing Barat (girls side) */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Standing Barat (girls side)</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -431,7 +431,7 @@ const Itinerary = () => {
             </div>
 
             {/* 4 Wedding */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Wedding</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -456,7 +456,7 @@ const Itinerary = () => {
             </div>
 
             {/* 5 Wedding Dinner*/}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Wedding Dinner</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -492,11 +492,11 @@ const Itinerary = () => {
           <div className='w-1/2 min-h-screen bg-white relative top-0 mr-auto'>
             {/* Day Sticky */}
             <div className='w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] bg-white z-60 '>
-              <h2 className="Font_Q text-[#75171E]">Day 3</h2>
+              <h2 className="Font_Q COLOR_TEXT_RED">Day 3</h2>
             </div>
 
             {/* 1 Detail Pool Party & Lunch */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Pool Party & Lunch</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -523,7 +523,7 @@ const Itinerary = () => {
             </div>
 
             {/* 2 Detail Cocktail Hour */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Cocktail Hour</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -550,7 +550,7 @@ const Itinerary = () => {
             </div>
 
             {/* 3 Reception */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Reception</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -577,7 +577,7 @@ const Itinerary = () => {
             </div>
 
             {/* 4 After Party */}
-            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col text-[#75171E] justify-center items-center">
+            <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Reception</h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -608,7 +608,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className='w-1/2 h-screen sticky top-0 right-0 flex justify-center items-center text-[#75171E]'>
+          <div className='w-1/2 h-screen sticky top-0 right-0 flex justify-center items-center COLOR_TEXT_RED'>
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-4">

@@ -166,10 +166,10 @@ const Destiny = () => {
 
             <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] max-sm:pt-[10vh] '>
                 <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] flex flex-col gap-[2rem]  '>
-                    <div className='w-full h-fit flex justify-center T2T2T items-center'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
+                    <div className='w-full h-fit flex justify-center T2T2T items-center'> <span className='Font_YV uppercase text-[1rem] COLOR_TEXT_RED font-semibold '>Our story</span></div>
                     {/* <img src={`/svgs/Title1Destiny.svg`} className='w-full T2T2T object-cover' alt="SVG" /> */}
 
-                    <div className='w-full h-fit flex justify-center gap-[2vw] items-center text-[#5F171D]'>
+                    <div className='w-full h-fit flex justify-center gap-[2vw] items-center COLOR_TEXT_RED'>
                         <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>United</h1>
                         <h1 className='Font_YIV  text-[8vw] leading-[8vw]'>by</h1>
                         <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>Destiny</h1>
@@ -208,7 +208,7 @@ const Destiny = () => {
                     </div>
 
 
-                    <div className='w-full h-full absolute bottom-0  left-0 uppercase text-[#75171d38] flex flex-wrap text-wrap z-10 '>
+                    <div className='w-full h-full absolute bottom-0  left-0 uppercase COLOR_TEXT_RED flex flex-wrap text-wrap z-10 '>
                         <img src={`/svgs/BGTxtDestiny.svg`} alt="IMG" className='w-full h-full object-cover object-center ' />
                     </div>
                 </div>
@@ -220,8 +220,8 @@ const Destiny = () => {
 
 
                 <div className='w-fit h-fit flex flex-col justify-center m-auto gap-[2vw]  items-start'>
-                    <h1 className='Font_YIV  text-[8vw] leading-[8vw] translate-y-20 text-[#5F171D]'>by</h1>
-                    <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] text-[#5F171D]'>MATCHMAKER</h1>
+                    <h1 className='Font_YIV  text-[8vw] leading-[8vw] translate-y-20 COLOR_TEXT_RED'>by</h1>
+                    <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] COLOR_TEXT_RED'>MATCHMAKER</h1>
                 </div>
 
                 <AccordGallery />
@@ -255,10 +255,10 @@ const Destiny = () => {
                 {/* <div className='w-full h-fit flex flex-col mb-[10vh] max-sm:mb-8 relative SecondInnerContDestiny opacity-0  mt-[30vh]'>
                     <div className='w-full relative'>
                         <div className='w-1/2 flex mb-[80vh] max-sm:mb-[40vh] relative flex-col max-sm:w-[80%]'>
-                            <div className='w-full h-fit flex justify-start items-center T2T2T mb-[2rem]'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
-                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >Together</h1>
-                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >as</h1>
-                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >one</h1>
+                            <div className='w-full h-fit flex justify-start items-center T2T2T mb-[2rem]'> <span className='Font_YV uppercase text-[1rem] COLOR_TEXT_RED font-semibold '>Our story</span></div>
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q COLOR_TEXT_RED' >Together</h1>
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q COLOR_TEXT_RED' >as</h1>
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q COLOR_TEXT_RED' >one</h1>
                         </div>
 
                         

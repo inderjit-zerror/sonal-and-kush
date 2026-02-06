@@ -55,7 +55,7 @@ const Hearts = () => {
 
     return (
         <div className='w-full h-[250vh] relative heart_cont '>
-            <div className='w-full h-screen overflow-hidden sticky flex flex-col max-sm:hidden justify-center top-0 left-0 bg-[#75171E] text-[#E4BD95] uppercase'>
+            <div className='w-full h-screen overflow-hidden sticky flex flex-col max-sm:hidden justify-center top-0 left-0 COLOR_BG_RED COLOR_TEXT_CREAM uppercase'>
                 {/* 1 */}
                 <div className=' w-full innderHerartCont  h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[10vw] justify-center'>
                     <h1>Two</h1>
@@ -74,14 +74,14 @@ const Hearts = () => {
                     <h1> began.</h1>
                 </div>
 
-                <div className=' TOPUPTEXT absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#E4BD95] flex flex-col justify-center items-center'>
+                <div className=' TOPUPTEXT absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 COLOR_TEXT_CREAM flex flex-col justify-center items-center'>
                     <h5 className='text-[40px] Font_Q font-light'>Gracefully</h5>
                     <p className='Font_YV font-semibold'>United</p>
                 </div>
             </div>
 
             {/* SM */}
-            <div className='w-full h-screen overflow-hidden sticky flex flex-col px-[20px] text-[3rem] leading-[3rem] sm:hidden justify-center top-0 left-0 bg-[#75171E] text-[#E4BD95] uppercase'>
+            <div className='w-full h-screen overflow-hidden sticky flex flex-col px-[20px] text-[3rem] leading-[3rem] sm:hidden justify-center top-0 left-0 COLOR_BG_RED COLOR_TEXT_CREAM uppercase'>
                 {/* 1 */}
                 <div className=' w-full  overflow-hidden h-fit  Font_Q flex flex-col '>
                     <h1>Two</h1>
@@ -100,7 +100,7 @@ const Hearts = () => {
                     <h1> began.</h1>
                 </div>
 
-                <div className=' TOPUPTEXTSM absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#E4BD95] flex flex-col justify-center items-center'>
+                <div className=' TOPUPTEXTSM absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 COLOR_TEXT_CREAM flex flex-col justify-center items-center'>
                     <h5 className='text-[40px] Font_Q font-light'>Gracefully</h5>
                     <p className='Font_YV font-semibold'>United</p>
                 </div>

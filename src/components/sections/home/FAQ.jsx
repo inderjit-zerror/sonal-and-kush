@@ -23,7 +23,7 @@ export default function FAQ() {
     
 
     return (
-        <section id='FAQ' className="min-h-screen max-sm:min-h-fit bg-[#6b0f15] text-white flex items-center justify-center max-sm:py-[20vw]">
+        <section id='FAQ' className="min-h-screen max-sm:min-h-fit COLOR_BG_RED text-white flex items-center justify-center max-sm:py-[20vw]">
             <div className=" w-[80%] max-sm:w-full px-6 max-sm:px-[20px]  flex flex-col gap-20 ">
                 <h2 className="text-center Font_Q flex justify-center items-center ">FAQ</h2>
 
@@ -47,7 +47,7 @@ export default function FAQ() {
                                         }`}
                                 >
                                     <img src={`/svgs/IconPlus.svg`} alt='IMG' className="absolute inset-0 m-auto object-cover object-center w-full h-full " />
-                                    <span className="absolute inset-0 m-auto w-[7px] h-[7px] bg-[#6b0f15]" />
+                                    <span className="absolute inset-0 m-auto w-[7px] h-[7px] COLOR_BG_RED" />
                                 </span>
                             </button>
 

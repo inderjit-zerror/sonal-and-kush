@@ -57,7 +57,7 @@ const HomeHeroSection = () => {
 
 
     return (
-        <div className='w-full h-screen overflow-hidden relative bg-[#6E0E16] '>
+        <div className='w-full h-screen overflow-hidden relative COLOR_BG_RED '>
             <div ref={containerRefHome} className='w-full h-screen flex overflow-hidden'>
                 {/* <Image
                     ref={imageRefHome}

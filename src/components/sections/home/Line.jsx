@@ -23,7 +23,7 @@ const Line = () => {
 
   return (
     <div className="w-full h-[50vh] flex justify-center  bg-white items-start">
-      <div className="w-[2px] rounded-full h-0 bg-[#75171E] LHD1"></div>
+      <div className="w-[2px] rounded-full h-0 COLOR_BG_RED LHD1"></div>
     </div>
   );
 };

@@ -99,7 +99,7 @@ const VenueGallery = () => {
             <div className="w-1/2 h-fit flex flex-col max-sm:w-full ">
                 {/* 1 */}
                 <div className="w-full flex h-fit L1Cont max-sm:flex-col  max-sm:gap-2 ">
-                    <div className="w-1/2 h-auto flex sm:flex-col justify-between max-sm:gap-5 max-sm:items-center text-[#5F171D] max-sm:w-full">
+                    <div className="w-1/2 h-auto flex sm:flex-col justify-between max-sm:gap-5 max-sm:items-center COLOR_TEXT_RED max-sm:w-full">
                         <h2 className="Font_Q ">01</h2>
 
                         <div className="w-full h-fit flex sm:flex-col uppercase">
@@ -114,7 +114,7 @@ const VenueGallery = () => {
 
                 {/* 2 */}
                 <div className="w-full flex flex-col h-fit gap-3 mt-[27vh] max-sm:mt-[5vh] L2Cont ">
-                    <div className="w-full h-fit flex justify-between items-end  text-[#5F171D]">
+                    <div className="w-full h-fit flex justify-between items-end  COLOR_TEXT_RED">
                         <h2 className="Font_Q">02</h2>
 
                         <div className="w-fit h-fit flex justify-end items-end uppercase ">
@@ -132,7 +132,7 @@ const VenueGallery = () => {
                     <div className="w-1/2 h-fit L3ImgCont max-sm:w-[80%] max-sm:ml-auto">
                         <img src={`/imgs/r1.webp`} alt="IMG" className="w-full max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:object-cover sm:object-center sm:aspect-2/2" />
                     </div>
-                    <div className="w-1/2 h-auto flex max-sm:w-[80%] max-sm:gap-[2vw] max-sm:items-center max-sm:ml-auto sm:flex-col justify-between text-[#5F171D]">
+                    <div className="w-1/2 h-auto flex max-sm:w-[80%] max-sm:gap-[2vw] max-sm:items-center max-sm:ml-auto sm:flex-col justify-between COLOR_TEXT_RED">
                         <h2 className="Font_Q">03</h2>
 
                         <div className="w-full h-fit flex sm:flex-col uppercase">
@@ -154,7 +154,7 @@ const VenueGallery = () => {
                     <div className="w-[70%] h-fit R4ImgCont max-sm:w-full">
                         <img src={`/imgs/venue/horizontal_section/img4.webp`} alt="IMG" className="w-full max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:aspect-2/2" />
                     </div>
-                    <div className="w-[30%] max-sm:w-full h-auto flex sm:flex-col max-sm:items-center max-sm:gap-[2vw] justify-between text-[#5F171D]">
+                    <div className="w-[30%] max-sm:w-full h-auto flex sm:flex-col max-sm:items-center max-sm:gap-[2vw] justify-between COLOR_TEXT_RED">
                         <h2 className="Font_Q">04</h2>
 
                         <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
@@ -168,7 +168,7 @@ const VenueGallery = () => {
 
                 {/* 5 */}
                 <div className="w-full flex h-fit mt-[15vh] max-sm:mt-[5vh] max-sm:flex-col gap-2 R5Cont ">
-                    <div className="w-1/2 max-sm:w-[80%] h-auto flex max-sm:items-center sm:flex-col justify-between text-[#5F171D] pl-20 max-sm:pl-0">
+                    <div className="w-1/2 max-sm:w-[80%] h-auto flex max-sm:items-center sm:flex-col justify-between COLOR_TEXT_RED pl-20 max-sm:pl-0">
                         <h2 className="Font_Q">05</h2>
 
                         <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
@@ -184,7 +184,7 @@ const VenueGallery = () => {
 
                 {/* 6 */}
                 <div className="w-full flex flex-col h-fit gap-3 mt-[15vh] max-sm:mt-[5vh] R6Cont ">
-                    <div className="w-full h-fit flex justify-between items-end max-sm:items-center  text-[#5F171D]">
+                    <div className="w-full h-fit flex justify-between items-end max-sm:items-center  COLOR_TEXT_RED">
                         <h2 className="Font_Q">06</h2>
 
                         <div className="w-fit h-fit flex justify-end items-end uppercase ">
