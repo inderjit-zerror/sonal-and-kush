@@ -9,104 +9,113 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Itinerary = () => {
 
-  useGSAP(()=>{
+  useGSAP(() => {
 
-    gsap.from('.ImgTDcont',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.ImgTDcont',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.ImgTDcont', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.ImgTDcont',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate1TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate1TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.animate1TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate1TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate2TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate2TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.animate2TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate2TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate3TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate3TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.animate3TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate3TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate4TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate4TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 65%',
-        scrub:true,
+    gsap.from('.animate4TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate4TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 65%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate5TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate5TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.animate5TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate5TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
-    gsap.from('.animate6TDIMGANDTEXT',{
-      yPercent:20,
-      opacity:0,
-      ease:'none',
-      scrollTrigger:{
-        trigger:'.animate6TDIMGANDTEXT',
-        start:'top 90%',
-        end:'top 60%',
-        scrub:true,
+    gsap.from('.animate6TDIMGANDTEXT', {
+      yPercent: 20,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.animate6TDIMGANDTEXT',
+        start: 'top 90%',
+        end: 'top 60%',
+        scrub: true,
         // markers:true
       }
     })
 
-  },[])
+  }, [])
 
   return (
-    <div  className='w-full min-h-screen bg-white flex flex-col relative px-10 overflow-hidden'>
-{/* 
+    <div className='w-full min-h-screen bg-white flex flex-col relative px-10 overflow-hidden'>
+      {/* 
       <img src={`/svgs/WeddingDesign.svg`} className=' absolute object-cover object-center top-0 left-0 w-1/4' alt="IMG" />
       <img src={`/svgs/WeddingDesign.svg`} className=' absolute object-cover object-center top-0 right-0 w-1/4 rotate-[90deg]' alt="IMG" /> */}
 
       {/* Titile */}
       <div className='w-full h-[50vh]  max-sm:h-fit flex justify-center items-center mt-[30vh] max-sm:mt-[10vh] mb-[20vh] max-sm:mb-[10vh] ImgTDcont'>
-        <img src={`/svgs/WeddingTitle.svg`} alt="IMG" className=' sm:h-full max-sm:w-full object-cover object-center  ' />
+        {/* <img src={`/svgs/WeddingTitle.svg`} alt="IMG" className=' sm:h-full max-sm:w-full object-cover object-center  ' /> */}
+        <div className='w-fit flex flex-col text-[#7b1e24]' >
+          <h1 className='Font_YIV text-[7rem] translate-y-10 leading-[7rem]'>The</h1>
+          <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>Wedding</h1>
+          <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>ITINERARY.</h1>
+          <div className='Font_YV mt-5 w-full flex flex-col text-center'>
+            <p>A series of sacred ceremonies and joyful </p>
+            <p>celebrations as we begin our new journey together</p>
+          </div>
+        </div>
       </div>
 
       {/* 1 */}
@@ -122,7 +131,10 @@ const Itinerary = () => {
         <div className='w-1/2 h-fit animate2TDIMGANDTEXT max-sm:w-full max-sm:mt-[5vh]'>
           <div className="w-full text-center flex flex-col justify-center items-center px-6 ">
             <p className='Font_YV'>25 March 2026</p>
-            <img src={`/svgs/Day01.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
+            {/* <img src={`/svgs/Day01.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' /> */}
+            <div className='w-full'>
+              <h1 className='Font_Q text-[7rem] text-center  mb-5 text-[#7b1e24]'>Day 01</h1>
+            </div>
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug">
               MEHENDI AND HALDI
@@ -163,10 +175,12 @@ const Itinerary = () => {
         <div className='w-1/2 h-fit animate3TDIMGANDTEXT max-sm:w-full'>
           <div className="w-full text-center flex flex-col justify-center items-center px-6 ">
             <p className='Font_YV'>26 March 2026</p>
-            <img src={`/svgs/Day02.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
+            <div className='w-full'>
+              <h1 className='Font_Q text-[7rem] text-center  mb-5 text-[#7b1e24]'>Day 02</h1>
+            </div>
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug uppercase">
-             Sangeet
+              Sangeet
             </h3>
 
             {/* Time */}
@@ -183,7 +197,7 @@ const Itinerary = () => {
 
             {/* Button */}
             <div className="mt-10 flex justify-center">
-             <Link href={'/venue'} > <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
+              <Link href={'/venue'} > <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
                 VIEW DETAILS
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                   →
@@ -203,7 +217,7 @@ const Itinerary = () => {
 
       </div>
 
-       {/* 3 */}
+      {/* 3 */}
       <div className='w-full h-fit flex max-sm:flex-col max-sm:flex-col-reverse justify-center items-center mt-20 mb-[30vh] max-sm:mb-[10vh]'>
 
         {/* left */}
@@ -213,10 +227,12 @@ const Itinerary = () => {
         </div>
 
         {/* Right */}
-        <div className='w-1/2 max-sm:w-full h-fit animate6TDIMGANDTEXT'> 
+        <div className='w-1/2 max-sm:w-full h-fit animate6TDIMGANDTEXT'>
           <div className="w-full text-center flex flex-col justify-center items-center px-6 max-sm:mt-10 ">
             <p className='Font_YV'>27 March 2026</p>
-            <img src={`/svgs/Day03.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
+            <div className='w-full'>
+              <h1 className='Font_Q text-[7rem] text-center  mb-5 text-[#7b1e24]'>Day 03</h1>
+            </div>
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug">
               MEHENDI AND HALDI

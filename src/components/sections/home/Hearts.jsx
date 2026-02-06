@@ -57,18 +57,18 @@ const Hearts = () => {
         <div className='w-full h-[250vh] relative heart_cont '>
             <div className='w-full h-screen overflow-hidden sticky flex flex-col max-sm:hidden justify-center top-0 left-0 bg-[#75171E] text-[#E4BD95] uppercase'>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont overflow-hidden h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[13vw] justify-center'>
+                <div className=' w-full innderHerartCont  h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[10vw] justify-center'>
                     <h1>Two</h1>
                     <h1>hearts</h1>
                     <h1> met</h1>
                 </div>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont2 overflow-hidden  whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
+                <div className=' w-full innderHerartCont2   whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
                     <h1>love grew</h1>
                     <h1> quietly,</h1>
                 </div>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont overflow-hidden h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
+                <div className=' w-full innderHerartCont  h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
                     <h1>and </h1>
                     <h1>forever </h1>
                     <h1> began.</h1>

@@ -61,7 +61,12 @@ const WeddingHome = () => {
           alt="Img"
         />
 
-        <img  src={`/svgs/WDText.svg`} alt="IMG" className=" absolute object-cover object-center w-1/3 max-sm:w-2/3 top-1/2 max-sm:top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+        {/* <img  src={`/svgs/WDText.svg`} alt="IMG" className=" absolute object-cover object-center w-1/3 max-sm:w-2/3 top-1/2 max-sm:top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2" /> */}
+         <div className='w-fit flex flex-col absolute top-1/2 max-sm:top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white' >
+          <h1 className='Font_YIV text-[7rem] translate-y-10 leading-[7rem]'>The</h1>
+          <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>Wedding</h1>
+          <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>ITINERARY.</h1>
+        </div>
       </div>
     </div>
   );

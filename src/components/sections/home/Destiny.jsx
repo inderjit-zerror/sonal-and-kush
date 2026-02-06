@@ -237,7 +237,9 @@ const Destiny = () => {
                     <div className='w-full relative'>
                         <div className='w-1/2 flex mb-[80vh] max-sm:mb-[40vh] relative flex-col max-sm:w-[80%]'>
                             <div className='w-full h-fit flex justify-start items-center T2T2T mb-[2rem]'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
-                            <img src={`/svgs/DestinyP2T.svg`} alt="IMG" className='w-full T2T2T object-cover object-center' />
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >Together</h1>
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >as</h1>
+                            <h1 className=' uppercase text-[8vw] leading-[8vw] Font_Q text-[#5F171D]' >one</h1>
                         </div>
 
                         {/* 2Img-COMT */}
