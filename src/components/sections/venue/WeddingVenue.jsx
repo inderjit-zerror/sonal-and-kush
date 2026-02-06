@@ -39,8 +39,8 @@ const WeddingVenue = () => {
         </p>
 
         {/* Main heading */}
-        <h5 className="Font_Q  leading-none text-[7vw] max-sm:text-[10vw] tracking-wide mb-10 WeddingText">
-          LA MAMOUNIA
+        <h5 className="Font_Q  leading-none text-[7vw] max-sm:text-[10vw] tracking-wide mb-10 WeddingText uppercase">
+          raffles udaipur
         </h5>
 
         {/* Dates */}
