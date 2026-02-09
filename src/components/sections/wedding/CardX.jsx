@@ -349,7 +349,7 @@ const CardX = () => {
           </div>
 
           {/* 4 After Party */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">Reception</h5>
             <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
               <span>
@@ -366,14 +366,14 @@ const CardX = () => {
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               Sleep is optional. Meet us after dark for a high-energy after party where the music doesn’t stop and neither do we.
-            </p>
+            </p> */}
             {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
 
              {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white & gold )</span> */}
 
-          </div>
+          {/* </div> */}
 
 
 
