@@ -1,36 +1,56 @@
-'use client'
+"use client";
+import React, { useEffect, useRef } from "react";
+import Lenis from "lenis";
+import { usePathname } from "next/navigation";
 
-import { useEffect } from 'react'
-import Lenis from '@studio-freight/lenis'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+export default function LenisScroll({ children }) {
+  const lenis = useRef(null);
+  const pathname = usePathname();
 
-gsap.registerPlugin(ScrollTrigger)
-
-export default function LenisProvider({ children }) {
   useEffect(() => {
-    const lenis = new Lenis({
-      smooth: true,
-      lerp: 0.08,          // smoothness (0.05–0.1 sweet spot)
-      wheelMultiplier: 1,
+    if (lenis.current) lenis.current.scrollTo(0, { immediate: true });
+  }, [pathname]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    if (window.innerWidth < 1024) return
+
+    const instance = new Lenis({
+      duration: 1.8,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      smoothTouch: true,
+      direction: "vertical",
+      gestureDirection: "vertical",
+      wheelMultiplier: 0.8,
       touchMultiplier: 1.2,
-      smoothTouch: false,
-    })
+      infinite: false,
+    });
 
-    // 🔗 Sync Lenis with GSAP
-    lenis.on('scroll', ScrollTrigger.update)
+    lenis.current = instance;
+    window.lenis = instance;
 
-    gsap.ticker.add((time) => {
-      lenis.raf(time * 1000)
-    })
+    let frame;
+    const raf = (time) => {
+      instance.raf(time);
+      frame = requestAnimationFrame(raf);
+    };
+    frame = requestAnimationFrame(raf);
 
-    gsap.ticker.lagSmoothing(0)
+    const handleResize = () => {
+      instance.resize();
+    };
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      lenis.destroy()
-      gsap.ticker.remove(lenis.raf)
-    }
-  }, [])
+      cancelAnimationFrame(frame);
+      window.removeEventListener("resize", handleResize);
+      instance.destroy();
+      lenis.current = null;
+      window.lenis = null;
+    };
+  }, []);
 
-  return children
+  return <>{children}</>;
 }

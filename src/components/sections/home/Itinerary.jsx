@@ -280,7 +280,7 @@ const Itinerary = () => {
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 1</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Sangeet</h5>
-            
+
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
                 <span className="font-semibold">DATE:</span> 25 March 2006
@@ -292,7 +292,7 @@ const Itinerary = () => {
                 <span className="font-semibold">VENUE:</span> La
                 Mamounia,Marrakech
               </span>
-             
+
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
@@ -300,12 +300,73 @@ const Itinerary = () => {
             </p>
 
             <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
-            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
-            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
-            </div>
-            
+                {/* --------------------------------------------- */}
+              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
 
-             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                Explore Venue
+              </button></Link>
+
+              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                See More
+              </button></Link> 
+
+              {/* --------------------------------------------- */}</div>
+
+
+            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
           </div>
 
           {/* right */}
@@ -334,7 +395,7 @@ const Itinerary = () => {
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 2</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Haldi, Barat & Wedding</h5>
-            
+
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
                 <span className="font-semibold">DATE:</span> 26 March 2006
@@ -346,18 +407,79 @@ const Itinerary = () => {
                 <span className="font-semibold">VENUE:</span> La
                 Mamounia,Marrakech
               </span>
-             
+
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
-             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
-              <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
-            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
-            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
-            </div>
+            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+            <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
+              {/* --------------------------------------------- */}
+              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                Explore Venue
+              </button></Link>
+
+              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                See More
+              </button></Link> 
+
+              {/* --------------------------------------------- */}</div>
           </div>
 
           {/* right */}
@@ -380,13 +502,13 @@ const Itinerary = () => {
           </div>
         </div>
 
-         {/* div-3 */}
+        {/* div-3 */}
         <div className="w-full min-h-screen flex max-sm:flex-col">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 3</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Pool Party & Reception</h5>
-            
+
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
                 <span className="font-semibold">DATE:</span> 27 March 2006
@@ -398,17 +520,82 @@ const Itinerary = () => {
                 <span className="font-semibold">VENUE:</span> La
                 Mamounia,Marrakech
               </span>
-             
+
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
-             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
-              <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
-            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
-            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
+            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+            <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
+
+              {/* --------------------------------------------- */}
+              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                Explore Venue
+              </button></Link>
+
+              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+                <span className="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="button__icon-svg button__icon-svg--copy "
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                See More
+              </button></Link> 
+
+              {/* --------------------------------------------- */}
+             
+              {/* <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> */}
             </div>
           </div>
 
@@ -432,7 +619,7 @@ const Itinerary = () => {
           </div>
         </div>
 
-    
+
       </div>
 
     </>

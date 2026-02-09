@@ -31,13 +31,13 @@ const Explore = () => {
             y: 20,
         })
 
-        gsap.from('.HiIMG',{
-            xPercent:20,
-            opacity:0,
-            duration:0.8,
-            ease:'none'
+        gsap.from('.HiIMG', {
+            xPercent: 20,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'none'
         })
-        
+
         gsap.to('.PLA', {
             autoAlpha: 1,
             y: 0,
@@ -348,7 +348,7 @@ const Explore = () => {
 
                 {/* Part-2 Image -----------------------------------------------*/}
                 <div className='w-[60vw] h-screen overflow-hidden HiIMG '>
-            
+
                     <Image src={`/imgs/venue/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.1]' width={1000} height={1000} alt='Img' />
                 </div>
 
@@ -396,7 +396,7 @@ const Explore = () => {
                         </div>
                     </div>
 
-                   
+
 
                 </div>
 
@@ -467,9 +467,36 @@ const Explore = () => {
                         <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
                             <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
                             {/* BTN */}
-                            <div className='w-[114px] h-[46px] contA6 flex justify-center items-center px-[17px] py-[6px] text-[18px] text-[#D9B18D] bg-[#5F171D] cursor-pointer  hover:bg-[#3d171a]'>
-                                MAP
-                            </div>
+                            <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                <span className="button__icon-wrapper">
+                                    <svg
+                                        viewBox="0 0 14 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="button__icon-svg"
+                                        width="10"
+                                    >
+                                        <path
+                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+
+                                    <svg
+                                        viewBox="0 0 14 15"
+                                        fill="none"
+                                        width="10"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="button__icon-svg button__icon-svg--copy "
+                                    >
+                                        <path
+                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </span>
+                                Map
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -480,7 +507,7 @@ const Explore = () => {
                     <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
                         {/* Img-cont */}
                         {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
-                            <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
+                        <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
                         {/* </div> */}
                     </div>
                 </div>
