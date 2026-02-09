@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { RiMenu4Fill } from "react-icons/ri";
 import { RiMenu3Line } from "react-icons/ri";
+import { usePathname } from 'next/navigation'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -94,13 +95,16 @@ const NavBar = () => {
     }
   }
 
+   const pathname = usePathname()
+   console.log(pathname)
+
   return (
     <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px] text-white '>
-        <Link href={`/`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> The wedding</div></Link>
-        <Link href={`/wedding`}><div className='w-fit h-fit flex flex-col group COLOR_TEXT_ORANGE  relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Itinerary</div></Link>
-        <Link href={`/venue`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Wedding VENUE</div></Link>
+        <Link href={`/`}><div className={`w-fit ${pathname === '/' && (' border-b border-[#B97241]') } h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> The wedding</div></Link>
+        <Link href={`/wedding`}><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#B97241]') }  flex flex-col group COLOR_TEXT_ORANGE  relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Itinerary</div></Link>
+        <Link href={`/venue`}><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#B97241]') }  flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Wedding VENUE</div></Link>
       </div>
 
       {/* Logo */}
@@ -110,13 +114,13 @@ const NavBar = () => {
 
       {/* Right */}
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px]  text-white'>
-        <Link href={`/explore`}><div className='w-fit h-fit flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore Udaipur</div></Link>
-        <Link href={`/itinerary`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Services</div></Link>
-        <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div>
+        <Link href={`/explore`}><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#B97241]') }  flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore Udaipur</div></Link>
+        <Link href={`/itinerary`}><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#B97241]') }  flex flex-col group relative COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Services</div></Link>
+        <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div></Link>
         {/* BTN */}
-        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE opacity-80 hover:opacity-100 '>
+        <Link href={`/#RSVP`} ><div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE opacity-80 hover:opacity-100 '>
           RSVP
-        </div>
+        </div></Link>
 
 
       </div>

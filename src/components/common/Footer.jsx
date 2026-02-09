@@ -19,7 +19,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className=" text-gray-400 text-[13px]">
-          © 2026 by Zerror Studio
+          © 2026 by  <a href="https://www.zerrorstudios.com/"><span> Zerror Studios</span></a>
         </div>
       </div>
     </footer>

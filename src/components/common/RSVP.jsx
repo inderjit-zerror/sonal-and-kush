@@ -1,6 +1,6 @@
 export default function RSVP() {
   return (
-    <div className="min-h-screen flex items-center justify-center COLOR_BG_CREAM px-4">
+    <div  id="RSVP" className="min-h-screen flex items-center justify-center COLOR_BG_CREAM px-4">
       <div className="w-full max-w-2xl text-center">
         
         {/* Title */}
@@ -15,36 +15,39 @@ export default function RSVP() {
         <form className="mt-16 space-y-10 text-left">
           
           {/* Full Name */}
-          <div>
-            <label className="block text-xs Font_YV font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED mb-2">
+          <div className=" relative group ">
+            <label className="block text-xs Font_YV  font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED ">
               1. Full Name
             </label>
             <input
               type="text"
-              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black py-2"
+              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black pb-2"
             />
+             <div className="w-[0px] h-px bg-white group-hover:w-full absolute left-0 bottom-0 transition-all duration-500 ease-in-out"></div>
           </div>
 
           {/* Email */}
-          <div>
-            <label className="block text-xs Font_YV font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED mb-2">
+          <div className=" relative  group">
+            <label className="block text-xs Font_YV font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED ">
               2. Email Address
             </label>
             <input
               type="email"
-              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black py-2"
+              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black pb-2"
             />
+             <div className="w-[0px] h-px bg-white group-hover:w-full absolute left-0 bottom-0 transition-all duration-500 ease-in-out"></div>
           </div>
 
           {/* Phone */}
-          <div>
-            <label className="block text-xs Font_YV font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED mb-2">
+          <div className=" relative  group">
+            <label className="block text-xs Font_YV font-semibold text-[1rem] uppercase tracking-wider COLOR_TEXT_RED ">
               3. Phone Number
             </label>
             <input
               type="tel"
-              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black py-2"
+              className="w-full bg-transparent border-b border-[#B97241] focus:outline-none focus:border-black pb-2"
             />
+            <div className="w-[0px] h-px bg-white group-hover:w-full absolute left-0 bottom-0 transition-all duration-500 ease-in-out"></div>
           </div>
 
           {/* Button */}

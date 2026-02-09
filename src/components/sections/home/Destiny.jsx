@@ -162,7 +162,7 @@ const Destiny = () => {
         <div className='w-full h-fit Destiny_cont relative p-10 max-sm:px-[10px] '>
 
             {/* Bg */}
-            <img src={`/imgs/home/imgH2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
+            <img src={`/imgs/home/img1Destiny2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
 
             <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] max-sm:pt-[10vh] '>
                 <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] flex flex-col gap-[2rem]  '>
@@ -231,7 +231,7 @@ const Destiny = () => {
                         <div className='w-1/2 h-fit max-sm:w-full'>
 
                             <div className='w-[280px] fit uppercase Font_YV'>
-                                <p className='mt-8'>to know him and his family, her family felt confident and happy about the match. </p>
+                                <p className='mt-8 COLOR_TEXT_RED'>to know him and his family, her family felt confident and happy about the match. </p>
                             </div>
                         </div>
                     </div>
@@ -239,9 +239,15 @@ const Destiny = () => {
                     {/* Right */}
                     <div className='w-1/2 h-fit max-sm:w-full flex justify-end DCD6 max-sm:justify-center '>
 
-                        <div className='w-1/2 h-fit flex flex-col max-sm:w-full max-sm:mt-[2vw]'>
+                        <div className='w-1/2 h-fit flex flex-col max-sm:w-full max-sm:mt-[2vw] uppercase'>
 
-                            <img src={`/svgs/LastimgDestiny2.svg`} className='w-full max-sm:w-2/3 max-sm:mt-[5vw] max-sm:ml-auto mt-[2.5vw] object-center object-cover' alt="IMG" />
+                            {/* <img src={`/svgs/LastimgDestiny2.svg`} className='w-full max-sm:w-2/3 max-sm:mt-[5vw] max-sm:ml-auto mt-[2.5vw] object-center object-cover' alt="IMG" /> */}
+
+                            <h1 className='Font_Q text-[5vw] ml-auto COLOR_TEXT_RED'>ACCORD</h1>
+                            <p className='COLOR_TEXT_RED Font_YV ml-auto'>After meeting and getting to know him and</p>
+                            <p className='COLOR_TEXT_RED Font_YV ml-auto'>his family, her family felt confident and</p>
+                            <p className='COLOR_TEXT_RED Font_YV ml-auto'>happy about the match. </p>
+                            
 
                         </div>
 

@@ -317,7 +317,7 @@ const Explore = () => {
         if (!el) return
         gsap.to(el, {
             x: 50,
-            color: '#75171E',
+            color: '#B97241',
             duration: 1,
             ease: 'power3.out'
         })

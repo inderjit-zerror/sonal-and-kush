@@ -299,6 +299,12 @@ const Itinerary = () => {
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
+            <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
+            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
+            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
+            </div>
+            
+
              {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
           </div>
 
@@ -348,6 +354,10 @@ const Itinerary = () => {
             </p>
 
              {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+              <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
+            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
+            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
+            </div>
           </div>
 
           {/* right */}
@@ -396,6 +406,10 @@ const Itinerary = () => {
             </p>
 
              {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+              <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
+            <Link href="/venue"> <button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>Explore Venue</button></Link> 
+            <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> 
+            </div>
           </div>
 
           {/* right */}
