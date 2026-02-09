@@ -9,87 +9,87 @@ gsap.registerPlugin(ScrollTrigger)
 const VenueGallery = () => {
 
 
-    // Scroll Image Animation
-    useGSAP(() => {
-        gsap.from('.L1ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.L1Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-        gsap.from('.L2ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.L2Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-        gsap.from('.L3ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.L3Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-        gsap.from('.R4ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.R4Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-        gsap.from('.R5ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.R5Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-        gsap.from('.R6ImgCont', {
-            scale: 0.5,
-            yPercent: 20,
-            duration:1,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.R6Cont',
-                start: 'top bottom',
-                end: 'top 50%',
-                scrub: true,
-                // markers: true
-            },
-        })
-    }, [])
+    // // Scroll Image Animation
+    // useGSAP(() => {
+    //     gsap.from('.L1ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.L1Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    //     gsap.from('.L2ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.L2Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    //     gsap.from('.L3ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.L3Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    //     gsap.from('.R4ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.R4Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    //     gsap.from('.R5ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.R5Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    //     gsap.from('.R6ImgCont', {
+    //         scale: 0.5,
+    //         yPercent: 20,
+    //         duration:1,
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.R6Cont',
+    //             start: 'top bottom',
+    //             end: 'top 50%',
+    //             scrub: true,
+    //             // markers: true
+    //         },
+    //     })
+    // }, [])
 
 
 

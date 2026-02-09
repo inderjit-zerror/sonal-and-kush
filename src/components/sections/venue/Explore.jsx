@@ -341,7 +341,7 @@ const Explore = () => {
                 {/* Marrakech ------------------------------------------------  */}
                 <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
                     <div className='w-fit h-fit flex flex-col gap-8'>
-                        <p className=' uppercase Font_YV text-[#75171E] PLA opacity-0'>Explore Marrakech</p>
+                        <p className=' uppercase Font_YV COLOR_TEXT_RED PLA opacity-0'>Explore Marrakech</p>
                         <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" className=' PLA opacity-0' />
                     </div>
                 </div>
@@ -353,7 +353,7 @@ const Explore = () => {
                 </div>
 
                 {/* 3Image-Container ------------------------------------------- */}
-                <div className='w-fit h-screen relative flex items-center pl-[15vw] pr-[10vw] bg-[#395238] justify-center gap-[12vw]'>
+                <div className='w-fit h-screen relative flex items-center pl-[15vw] pr-[10vw] COLOR_BG_RED justify-center gap-[12vw]'>
 
                     {/* 1Cont-Image */}
                     <div className='w-fit h-fit flex gap-4 img1C img1 will-change-transform '>
@@ -396,23 +396,7 @@ const Explore = () => {
                         </div>
                     </div>
 
-                    {/* Page Border */}
-                    {/* Top-Left */}
-                    <div className='w-fit h-fit absolute top-1 left-1'>
-                        <img src={`/svgs/PageBorder.svg`} alt="SVG" />
-                    </div>
-                    {/* botom-Left */}
-                    <div className='w-fit h-fit absolute bottom-1 left-1'>
-                        <img src={`/svgs/PageBorder.svg`} alt="SVG" className='-rotate-90' />
-                    </div>
-                    {/* Top-Right */}
-                    <div className='w-fit h-fit absolute top-1 right-1'>
-                        <img src={`/svgs/PageBorder.svg`} alt="SVG" className='rotate-90' />
-                    </div>
-                    {/* botom-Right */}
-                    <div className='w-fit h-fit absolute bottom-1 right-1'>
-                        <img src={`/svgs/PageBorder.svg`} alt="SVG" className='-rotate-180' />
-                    </div>
+                   
 
                 </div>
 
@@ -478,12 +462,12 @@ const Explore = () => {
                 {/* 6-Cont */}
                 <div className='w-[50vw] h-screen  flex justify-center items-center  '>
                     <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
-                        <p className=' uppercase Font_YV text-[#75171E] contA6'>Explore Marrakech</p>
-                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6 uppercase '>raffles udaipur</h4>
+                        <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore Marrakech</p>
+                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
                         <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
-                            <div className='text-[#395238] text-[18px] contA6 Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                            <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
                             {/* BTN */}
-                            <div className='w-[114px] h-[46px] contA6 flex justify-center items-center px-[17px] py-[6px] text-[18px] text-[#D9B18D] bg-[#5F171D]'>
+                            <div className='w-[114px] h-[46px] contA6 flex justify-center items-center px-[17px] py-[6px] text-[18px] text-[#D9B18D] bg-[#5F171D] cursor-pointer  hover:bg-[#3d171a]'>
                                 MAP
                             </div>
                         </div>

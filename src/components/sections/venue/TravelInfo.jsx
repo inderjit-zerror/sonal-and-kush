@@ -96,31 +96,31 @@ const TravelInfo = () => {
       {/* Content */}
       <div className="relative max-w-3xl mx-auto text-center flex flex-col justify-center items-center">
 
-        <p className=" uppercase mb-6 COLOR_TEXT_CREAM">
+        <span className=" uppercase mb-6 COLOR_TEXT_CREAM">
           Travel Information
-        </p>
+        </span>
 
         <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
-          <h2> The Way To</h2>  <h2>Travel</h2>
+          <h2> The Way To Travel</h2>
         </div>
 
-        <div className="space-y-6 max-sm:space-y-4 ">
+        <div className="space-y-3 max-sm:space-y-4 ">
           <p className="uppercase Font_YV COLOR_TEXT_CREAM">
             Nearest Airport :
           </p>
 
           <p className="  Font_YV  text-white">
-            Marrakech Menara Airport <br />
-            <span className=" opacity-80 Font_YV">(20 Mins)</span>
-          </p>
+            Marrakech Menara Airport 
+            <span className=" opacity-80 Font_YV"> (20 Mins)</span>
+          </p> 
 
-          <p className=" opacity-90 mt-8 Font_YV text-white">
+          <span className=" opacity-90 mt-4 Font_YV text-white">
             Note: Airport transfers will be arranged <br />
             for all guests. Coordinator details to <br />
             follow.
-          </p>
+          </span>
         </div>
-         <div className='w-fit h-[46px] select-none mt-5 cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] bg-[#5F171D] hover:bg-[#632127]'>
+         <div className='w-fit h-[46px] select-none mt-5 cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] bg-[#ddb98e] hover:bg-[#e3ad6b]'>
             View Location
           </div>
       </div>

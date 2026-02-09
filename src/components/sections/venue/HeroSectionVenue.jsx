@@ -44,8 +44,8 @@ const HeroSectionVenue = () => {
     <div ref={containerRef} className='w-full h-screen flex overflow-hidden WEDMAIMTT relative'>
       <Image
         ref={imageRef}
-        src={`/imgs/venue/heroImage.webp`}
-        className='w-full h-full object-cover object-center scale-[1.1] WEDMAIMTT'
+        src={`/imgs/RafflesUdaipur.webp`}
+        className='w-full h-full object-cover object-center  WEDMAIMTT'
         width={1000}
         height={1000}
         alt='IMG'
@@ -53,8 +53,8 @@ const HeroSectionVenue = () => {
 
       {/* <img src={`/name.png`} alt="IMG" className='w-1/3 max-sm:w-2/3 object-cover object-center absolute bottom-[15%] left-1/2 -translate-x-1/2' /> */}
 
-      <div className='w-1/2 absolute bottom-[15%] left-1/2  justify-center items-center -translate-x-1/2 flex flex-col gap-5'>
-        <h1 className=' uppercase Font_Q COLOR_TEXT_CREAM text-[6rem] leading-[6rem]' >OFFICIAL Hotel </h1>
+      <div className='w-1/2 absolute top-[12%] left-1/2  justify-center items-center -translate-x-1/2 flex flex-col gap-5'>
+        <h1 className=' uppercase Font_Q COLOR_TEXT_CREAM text-[6rem] leading-[6rem]' >THE Venue</h1>
         <h1 className=' uppercase Font_Q COLOR_TEXT_CREAM text-[6rem] leading-[6rem]' >raffles udaipur</h1>
       </div>
     </div>

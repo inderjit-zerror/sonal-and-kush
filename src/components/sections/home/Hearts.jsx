@@ -29,6 +29,12 @@ const Hearts = () => {
             scale:1,
             ease:'none'
         },'b1')
+        TLH.to('.tlr', {
+            opacity:0.1,
+            // scale:1,
+            ease:'none'
+        },'b1')
+
     }, [])
     
     // SM
@@ -57,18 +63,18 @@ const Hearts = () => {
         <div className='w-full h-[250vh] relative heart_cont '>
             <div className='w-full h-screen overflow-hidden sticky flex flex-col max-sm:hidden justify-center top-0 left-0 COLOR_BG_RED COLOR_TEXT_CREAM uppercase'>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont  h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[10vw] justify-center'>
+                <div className=' w-full innderHerartCont tlr  h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[10vw] justify-center'>
                     <h1>Two</h1>
                     <h1>hearts</h1>
                     <h1> met</h1>
                 </div>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont2   whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
+                <div className=' w-full innderHerartCont2 tlr   whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
                     <h1>love grew</h1>
                     <h1> quietly,</h1>
                 </div>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont  h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
+                <div className=' w-full innderHerartCont tlr  h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
                     <h1>and </h1>
                     <h1>forever </h1>
                     <h1> began.</h1>

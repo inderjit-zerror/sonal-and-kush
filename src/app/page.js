@@ -1,3 +1,4 @@
+import RSVP from "@/components/common/RSVP";
 import Countdown from "@/components/sections/home/Countdown";
 import Destiny from "@/components/sections/home/Destiny";
 import FAQ from "@/components/sections/home/FAQ";
@@ -19,6 +20,7 @@ export default function Home() {
       <Destiny />
       <Itinerary/>
       <FAQ/>
+      <RSVP/>
     </>
   );
 }

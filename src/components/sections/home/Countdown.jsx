@@ -115,24 +115,24 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Countdown = () => {
 
-    useGSAP(() => {
-        gsap.from('.CDD1', {
-            yPercent: 20,
-            opacity: 0,
-            stagger:{
-                each:1,
-                ease:'none'
-            },
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.CDD1',
-                start: 'top 60%',
-                end: 'top 35%',
-                scrub: true,
-            }
-        })
+    // useGSAP(() => {
+    //     gsap.from('.CDD1', {
+    //         yPercent: 20,
+    //         opacity: 0,
+    //         stagger:{
+    //             each:1,
+    //             ease:'none'
+    //         },
+    //         ease: 'none',
+    //         scrollTrigger: {
+    //             trigger: '.CDD1',
+    //             start: 'top 60%',
+    //             end: 'top 35%',
+    //             scrub: true,
+    //         }
+    //     })
 
-    }, [])
+    // }, [])
 
     const targetDate = new Date('2026-03-25T00:00:00')
 
@@ -172,7 +172,7 @@ const Countdown = () => {
     }, [])
 
     return (
-        <section className="pb-[30vh] pt-10 max-sm:pt-5 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
+        <section className="pb-[30vh] pt-42 max-sm:pt-5 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
             <h3 className="Font_Q tracking-widest uppercase COLOR_TEXT_RED mb-20 max-sm:mb-10 CDD1">
                 Until the wedding
             </h3>

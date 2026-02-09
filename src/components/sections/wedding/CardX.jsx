@@ -52,8 +52,8 @@ const CardX = () => {
       <div className="w-full min-h-screen flex max-sm:flex-col">
         {/* Left */}
         <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
-          <h2 className="Font_Q">Day 1</h2>
-          <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-6 uppercase ">Sangeet</h5>
+           <h2 className="Font_Q COLOR_TEXT_RED">Day 1</h2>
+          <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-10 uppercase ">Sangeet</h5>
           <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
@@ -71,14 +71,14 @@ const CardX = () => {
             Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
           </p>
 
-           <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
+           {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
         </div>
 
         {/* right */}
         <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex flex-col COLOR_BG_RED px-12 justify-center items-center">
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h2>
-            <p className="Font_YV COLOR_TEXT_CREAM mt-4">
+            <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
+            <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
             </p>
             <p className="Font_YV COLOR_TEXT_CREAM">
@@ -100,7 +100,7 @@ const CardX = () => {
         <div className='w-1/2 h-screen sticky top-0 left-0 flex justify-center items-center COLOR_BG_RED'>
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
             <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
-            <p className="Font_YV COLOR_TEXT_CREAM mt-4">
+            <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
             </p>
             <p className="Font_YV COLOR_TEXT_CREAM">
@@ -145,7 +145,7 @@ const CardX = () => {
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p>
 
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(Yellow )</span>
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(Yellow )</span> */}
 
           </div>
 
@@ -173,7 +173,7 @@ const CardX = () => {
               with close family and friends.
             </p> */}
 
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>( No White Red )</span>
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>( No White Red )</span> */}
 
           </div>
 
@@ -290,7 +290,7 @@ const CardX = () => {
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
 
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white )</span>
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white )</span> */}
 
           </div>
 
@@ -316,7 +316,7 @@ const CardX = () => {
             {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span>
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span> */}
 
 
           </div>
@@ -344,7 +344,7 @@ const CardX = () => {
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
 
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span>
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white red & gold )</span> */}
 
           </div>
 
@@ -370,7 +370,8 @@ const CardX = () => {
             {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
-             <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white & gold )</span>
+
+             {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize'>( no white & gold )</span> */}
 
           </div>
 
@@ -382,9 +383,11 @@ const CardX = () => {
         <div className='w-1/2 h-screen sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED'>
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
             <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
+
             <p className="Font_YV COLOR_TEXT_CREAM mt-4">
               Light-coloured Indian or fusion wear
             </p>
+
             <p className="Font_YV COLOR_TEXT_CREAM">
               (Comfortable, breezy fabrics recommended)
             </p>
@@ -397,6 +400,7 @@ const CardX = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

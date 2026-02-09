@@ -100,7 +100,7 @@ const NavBar = () => {
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px] text-white '>
         <Link href={`/`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> The wedding</div></Link>
         <Link href={`/wedding`}><div className='w-fit h-fit flex flex-col group COLOR_TEXT_ORANGE  relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Itinerary</div></Link>
-        <Link href={`/venue`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> VENUE</div></Link>
+        <Link href={`/venue`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Wedding VENUE</div></Link>
       </div>
 
       {/* Logo */}
@@ -110,11 +110,11 @@ const NavBar = () => {
 
       {/* Right */}
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px]  text-white'>
+        <Link href={`/explore`}><div className='w-fit h-fit flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore Udaipur</div></Link>
         <Link href={`/itinerary`}><div className='w-fit h-fit flex flex-col group relative COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Services</div></Link>
-        <Link href={`/explore`}><div className='w-fit h-fit flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore</div></Link>
         <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div>
         {/* BTN */}
-        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE hover:COLOR_BG_ORANGE'>
+        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE opacity-80 hover:opacity-100 '>
           RSVP
         </div>
 
@@ -134,7 +134,7 @@ const NavBar = () => {
         <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore</div></Link>
         {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div> */}
         {/* BTN */}
-        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE hover:bg-[#632127]'>
+        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE'>
           RSVP
         </div>
       </div>

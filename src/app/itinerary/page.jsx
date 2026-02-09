@@ -71,7 +71,7 @@ const itinerary = () => {
                 <div className='w-full h-[50vh] flex flex-col px-8 max-sm:pt-20 max-sm:justify-center justify-end items-center pb-[2.5vh] '>
                     <span className='mb-[2vh] Font_YV COLOR_TEXT_RED font-bold'>Make-Up Services</span>
                     <h1 className='Font_Q text-[8vw] max-sm:text-center max-sm:text-[10vw] max-sm:leading-[10vw] leading-[8vw] uppercase mb-[3vh] COLOR_TEXT_RED'>Wellness Services</h1>
-                    <p className='Font_YV max-w-[500px] text-justify'>For guests who would like professional make-up and hairstyling during the wedding celebrations, make-up services will be available at the venue</p>
+                    <p className='Font_YV COLOR_TEXT_RED max-w-[500px] text-justify'>For guests who would like professional make-up and hairstyling during the wedding celebrations, make-up services will be available at the venue</p>
                 </div>
                 {/* Bottom */}
                 <div className='w-full h-[100vh]  relative px-8 py-8 max-sm:p-0'>

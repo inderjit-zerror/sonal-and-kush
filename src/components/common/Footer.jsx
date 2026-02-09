@@ -14,12 +14,12 @@ const Footer = () => {
         <div
           className="text-sm text-gray-500 text-[13px] hover:text-black transition-colors"
         >
-          HBconcierge@cocoon-events.com
+         sonalandkush@gmail.com
         </div>
 
         {/* Copyright */}
         <div className=" text-gray-400 text-[13px]">
-          © 2025 by Henna & Ben
+          © 2026 by Zerror Studio
         </div>
       </div>
     </footer>

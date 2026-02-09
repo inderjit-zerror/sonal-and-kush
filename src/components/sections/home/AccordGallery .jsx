@@ -7,7 +7,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img1Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -16,7 +16,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img2Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -28,7 +28,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img1Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -37,7 +37,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img2Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -49,7 +49,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img1Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -58,7 +58,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img2Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -70,7 +70,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img1Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -79,7 +79,7 @@ export default function AccordGallery() {
                     <img
                         src="/imgs/home/img2Destiny2.webp"
                         alt="img"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>

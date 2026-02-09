@@ -176,7 +176,7 @@ const Destiny = () => {
                     </div>
                 </div>
 
-                <div className='w-full h-fit flex mt-[5vw] TT2T'>
+                <div className='w-full h-fit flex mt-[5vw] TT2T COLOR_TEXT_RED'>
                     <div className='w-1/2 pr-[5vw] max-sm:w-full text-justify max-sm:text-justify max-sm:pr-0'>
                         <p className='Font_YV'> It all began at a graduation party, where Sonal was busy charming the room when Kush walked in, caught one glimpse of her, and instantly knew he had to meet her. What followed was an unforgettable night filled with poker, laughter, and undeniable chemistry. They played their cards right (literally), won a little money, and unknowingly placed the biggest bet of all - on each other.
                             <br></br>
@@ -192,11 +192,11 @@ const Destiny = () => {
 
 
 
-                <div className='w-full h-fit flex max-sm:flex-col mt-[5vw] mb-[50vh] max-sm:mb-[20vh] gap-[5vw] relative TT3T will-change-transform '>
+                <div className='w-full h-fit flex max-sm:flex-col mt-[5vw] mb-[4vh] max-sm:mb-[20vh] gap-[5vw] relative  will-change-transform '>
 
                     <div className='w-2/4 relative z-20 DCD1 max-sm:w-full '>
                         <div className='w-full h-auto'>
-                            <img src={`/imgs/home/imgH3.webp`} className='w-full aspect-[2/3] object-cover object-center z-20 ' alt="IMG" />
+                            <img src={`/imgs/home/img2Destiny2.webp`} className='w-full aspect-[2/3] object-cover object-center z-20 ' alt="IMG" />
                         </div>
                     </div>
 
@@ -208,9 +208,9 @@ const Destiny = () => {
                     </div>
 
 
-                    <div className='w-full h-full absolute bottom-0  left-0 uppercase COLOR_TEXT_RED flex flex-wrap text-wrap z-10 '>
+                    {/* <div className='w-full h-full absolute bottom-0  left-0 uppercase COLOR_TEXT_RED flex flex-wrap text-wrap z-10 '>
                         <img src={`/svgs/BGTxtDestiny.svg`} alt="IMG" className='w-full h-full object-cover object-center ' />
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* ------------------------------------------------------------------------------------------------------------ */}

@@ -38,9 +38,9 @@ const WeddingHero = () => {
         </h1>
 
         {/* And */}
-        <p className="italic Font_YIV COLOR_TEXT_RED my-4 text-sm WHD1">
+        <span className="italic Font_YIV COLOR_TEXT_RED text-[50px] my-4 WHD1">
           and
-        </p>
+        </span>
 
         {/* Groom Name */}
         <h2 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
