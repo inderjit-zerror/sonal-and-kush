@@ -1,3 +1,4 @@
+import RSVP from "@/components/common/RSVP";
 import Explore from "@/components/sections/venue/Explore";
 import HeroSectionVenue from "@/components/sections/venue/HeroSectionVenue";
 import TravelInfo from "@/components/sections/venue/TravelInfo";
@@ -11,6 +12,7 @@ const venue = () => {
             <WeddingVenue />
             <VenueGallery />
             <TravelInfo />
+            <RSVP/>
         </>
     )
 }

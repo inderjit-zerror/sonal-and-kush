@@ -6,6 +6,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import { RiMenu4Fill } from "react-icons/ri";
 import { RiMenu3Line } from "react-icons/ri";
 import { usePathname } from 'next/navigation'
+import { navigate } from 'next/dist/client/components/segment-cache/navigation'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -59,17 +60,17 @@ const NavBar = () => {
         duration: 0.2,
         ease: 'none',
         // onComplete: () => SetIsNavOpen(true)
-      },'a11')
+      }, 'a11')
       NT.to('.smNavItem', {
-         opacity:1,
-        stagger:{
-          each:0.09,
-          ease:'none'
+        opacity: 1,
+        stagger: {
+          each: 0.09,
+          ease: 'none'
         },
         duration: 0.2,
         ease: 'none',
         // onComplete: () => SetIsNavOpen(true)
-      },'a11')
+      }, 'a11')
       SetIsNavOpen(true)
     }
     else {
@@ -80,31 +81,41 @@ const NavBar = () => {
         duration: 0.2,
         ease: 'none',
         // onComplete: () => SetIsNavOpen(false)
-      },'a1a')
+      }, 'a1a')
       NTB.to('.smNavItem', {
-        opacity:0,
-        stagger:{
-          each:0.09,
-          ease:'none'
+        opacity: 0,
+        stagger: {
+          each: 0.09,
+          ease: 'none'
         },
         duration: 0.2,
         ease: 'none',
         // onComplete: () => 
-      },'a1a')
+      }, 'a1a')
       SetIsNavOpen(false)
     }
   }
 
-   const pathname = usePathname()
-   console.log(pathname)
+  const pathname = usePathname()
+  console.log(pathname)
+
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id)
+    if (el) {
+      el.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }
+  }
 
   return (
     <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px] text-white '>
-        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#B97241]') } h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> The wedding</div></Link>
-        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#B97241]') }  flex flex-col group COLOR_TEXT_ORANGE  relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Itinerary</div></Link>
-        <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#B97241]') }  flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Wedding VENUE</div></Link>
+        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#B97241]')} h-fit flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> The wedding</div></Link>
+        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#B97241]')}  flex flex-col group COLOR_TEXT_ORANGE  relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Itinerary</div></Link>
+        <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#B97241]')}  flex flex-col group relative COLOR_TEXT_ORANGE   select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Wedding VENUE</div></Link>
       </div>
 
       {/* Logo */}
@@ -114,19 +125,19 @@ const NavBar = () => {
 
       {/* Right */}
       <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px]  text-white'>
-        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#B97241]') }  flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore Udaipur</div></Link>
-        <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#B97241]') }  flex flex-col group relative COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Services</div></Link>
-        <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div></Link>
+        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#B97241]')}  flex flex-col group relative  COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div>Explore Udaipur</div></Link>
+        <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#B97241]')}  flex flex-col group relative COLOR_TEXT_ORANGE  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> Services</div></Link>
+        {/* <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_ORANGE cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_ORANGE'></div> FAQ</div></Link> */}
         {/* BTN */}
-        <Link href={`/#RSVP`} ><div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE opacity-80 hover:opacity-100 '>
+        <div  onClick={() => scrollToSection('RSVP')} className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_ORANGE opacity-80 hover:opacity-100 '>
           RSVP
-        </div></Link>
+        </div>
 
 
       </div>
 
       <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 sm:hidden'>
-        {isNavOpen == false? (<><RiMenu4Fill className='text-[2rem] COLOR_TEXT_ORANGE'  /></>):(<><RiMenu3Line className='text-[2rem] COLOR_TEXT_ORANGE' /></>)}
+        {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem] COLOR_TEXT_ORANGE' /></>) : (<><RiMenu3Line className='text-[2rem] COLOR_TEXT_ORANGE' /></>)}
       </div>
 
       {/* MOBILENAV */}

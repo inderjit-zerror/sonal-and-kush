@@ -360,7 +360,7 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                See More
+                Know More
               </button></Link> 
 
               {/* --------------------------------------------- */}</div>
@@ -476,7 +476,7 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                See More
+                Know More
               </button></Link> 
 
               {/* --------------------------------------------- */}</div>
@@ -590,7 +590,7 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                See More
+                Know More
               </button></Link> 
 
               {/* --------------------------------------------- */}

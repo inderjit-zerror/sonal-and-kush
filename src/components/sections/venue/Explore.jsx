@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Image from 'next/image'
 import { useGSAP } from '@gsap/react'
+import RSVP from '@/components/common/RSVP'
 gsap.registerPlugin(ScrollTrigger)
 
 const Explore = () => {
@@ -335,6 +336,9 @@ const Explore = () => {
 
 
     return (
+
+        <>
+        
         <div ref={mainContainer} className='w-full h-screen overflow-x-hidden flex relative'>
             <div ref={scrollContainer} className='w-fit h-screen flex fixed top-0 left-0'>
 
@@ -514,6 +518,8 @@ const Explore = () => {
 
             </div>
         </div>
+        <RSVP/>
+        </>
     )
 }
 
