@@ -87,7 +87,7 @@ const Hearts = () => {
 
 
                 <div className=' TOPUPTEXT absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
-                    <img src={`/imgs/SonalKush3.webp`} className='w-full h-full object-center object-cover' alt="img" />
+                    <img src={`/imgs/SonalKush1.webp`} className='w-full h-full object-center object-cover' alt="img" />
                 </div>
             </div>
 

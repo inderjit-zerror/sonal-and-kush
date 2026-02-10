@@ -162,7 +162,7 @@ const Destiny = () => {
         <div className='w-full h-fit Destiny_cont relative p-10 max-sm:px-[10px] '>
 
             {/* Bg */}
-            <img src={`/imgs/SonalKush3.webp`} className='w-full h-full object-cover object-bottom fixed top-0 left-0  z-[-1]' alt="BG-IMG" />
+            <img src={`/imgs/SonalKush2.webp`} className='w-full h-full object-cover object-bottom fixed top-0 left-0  z-[-1]' alt="BG-IMG" />
 
             <div className='w-full h-fit COLOR_BG_CREAM flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] max-sm:pt-[10vh] max-sm:pt-0 '>
                 <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] max-sm:pb-[10vw] flex flex-col gap-[0.2rem]  '>
