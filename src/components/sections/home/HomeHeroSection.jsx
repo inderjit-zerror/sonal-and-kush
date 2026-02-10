@@ -51,10 +51,8 @@ const HomeHeroSection = () => {
             <div ref={containerRefHome} className='w-full h-screen flex overflow-hidden'>
                 <Image
                     ref={imageRefHome}
-                    src={`/imgs/home/imgH2.webp`}
-                    // src={`/imgs/Same2img.webp`}
-                    // className='w-full h-full object-cover object-center scale-[1.1]'
-                    className='w-full h-full scale-[1] opacity-0 object-cover object-center'
+                    src={`/imgs/SonalKush2.webp`}
+                    className='w-full h-full scale-[1] opacity-0 object-cover object-center max-sm:object-[72%]'
                     width={1000}
                     height={1000}
                     alt='IMG'

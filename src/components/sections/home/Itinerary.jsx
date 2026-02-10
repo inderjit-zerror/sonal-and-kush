@@ -109,9 +109,9 @@ const Itinerary = () => {
         <div className='w-full h-fit  max-sm:h-fit flex justify-center  items-center mt-[10vh] max-sm:mt-[10vh] mb-[1vh] max-sm:mb-[10vh] ImgTDcont'>
           {/* <img src={`/svgs/WeddingTitle.svg`} alt="IMG" className=' sm:h-full max-sm:w-full object-cover object-center  ' /> */}
           <div className='w-fit flex flex-col COLOR_TEXT_RED' >
-            <h1 className='Font_YIV text-[7rem] translate-y-10 leading-[7rem]'>The</h1>
-            <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>Wedding</h1>
-            <h1 className='Font_Q text-[7rem] leading-[7rem] uppercase'>ITINERARY.</h1>
+            <h1 className='Font_YIV text-[7rem] translate-y-10 max-sm:translate-y-5 leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw]'>The</h1>
+            <h1 className='Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase'>Wedding</h1>
+            <h1 className='Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase'>ITINERARY.</h1>
             <div className='Font_YV mt-5 w-full flex flex-col text-center'>
               <p>A series of sacred ceremonies and joyful </p>
               <p>celebrations as we begin our new journey together</p>
@@ -275,7 +275,7 @@ const Itinerary = () => {
 
       <div className="w-full h-fit flex flex-col z-20 bg-[white]  ">
         {/* div-1 Sangeet */}
-        <div className="w-full min-h-screen flex max-sm:flex-col">
+        <div className="w-full min-h-screen max-sm:h-fit flex max-sm:flex-col">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 1</p>
@@ -289,8 +289,8 @@ const Itinerary = () => {
                 <span className="font-semibold">TIME:</span> 7:30 PM
               </span>
               <span>
-                <span className="font-semibold">VENUE:</span> La
-                Mamounia,Marrakech
+                <span className="font-semibold">VENUE:</span> Raffles Udaipur
+
               </span>
 
             </div>
@@ -370,7 +370,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-10">
@@ -390,7 +390,7 @@ const Itinerary = () => {
         </div>
 
         {/* div-2  */}
-        <div className="w-full min-h-screen flex max-sm:flex-col flex-row-reverse">
+        <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col flex-row-reverse">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 2</p>
@@ -404,8 +404,7 @@ const Itinerary = () => {
                 <span className="font-semibold">TIME:</span> 7:30 PM
               </span>
               <span>
-                <span className="font-semibold">VENUE:</span> La
-                Mamounia,Marrakech
+                <span className="font-semibold">VENUE:</span> Raffles Udaipur
               </span>
 
             </div>
@@ -483,7 +482,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-10">
@@ -503,7 +502,7 @@ const Itinerary = () => {
         </div>
 
         {/* div-3 */}
-        <div className="w-full min-h-screen flex max-sm:flex-col">
+        <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold ">Day 3</p>
@@ -517,8 +516,7 @@ const Itinerary = () => {
                 <span className="font-semibold">TIME:</span> 7:30 PM
               </span>
               <span>
-                <span className="font-semibold">VENUE:</span> La
-                Mamounia,Marrakech
+                <span className="font-semibold">VENUE:</span> Raffles Udaipur
               </span>
 
             </div>
@@ -600,7 +598,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
               <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-10">

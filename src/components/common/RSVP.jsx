@@ -1,6 +1,6 @@
 export default function RSVP() {
   return (
-    <div  id="RSVP" className="min-h-screen flex items-center justify-center COLOR_BG_CREAM px-4">
+    <div  id="RSVP" className="min-h-screen flex items-center justify-center COLOR_BG_CREAM px-[20px]">
       <div className="w-full max-w-2xl text-center">
         
         {/* Title */}

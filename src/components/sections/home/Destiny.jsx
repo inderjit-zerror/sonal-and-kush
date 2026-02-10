@@ -162,17 +162,17 @@ const Destiny = () => {
         <div className='w-full h-fit Destiny_cont relative p-10 max-sm:px-[10px] '>
 
             {/* Bg */}
-            <img src={`/imgs/home/img1Destiny2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
+            <img src={`/imgs/SonalKush3.webp`} className='w-full h-full object-cover object-bottom fixed top-0 left-0  z-[-1]' alt="BG-IMG" />
 
             <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] max-sm:pt-[10vh] '>
-                <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] flex flex-col gap-[2rem]  '>
+                <div className='w-full h-full px-[10vw] max-sm:px-3 pt-[10vw] max-sm:pb-[10vw] flex flex-col gap-[2rem]  '>
                     <div className='w-full h-fit flex justify-center T2T2T items-center'> <span className='Font_YV uppercase text-[1rem] COLOR_TEXT_RED font-semibold '>Kush and Sonal Story:</span></div>
                     {/* <img src={`/svgs/Title1Destiny.svg`} className='w-full T2T2T object-cover' alt="SVG" /> */}
 
                     <div className='w-full h-fit flex justify-center gap-[2vw] items-center COLOR_TEXT_RED'>
-                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>United</h1>
+                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] max-sm:text-[10vw]'>United</h1>
                         <h1 className='Font_YIV  text-[8vw] leading-[8vw]'>by</h1>
-                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw]'>Destiny</h1>
+                        <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] max-sm:text-[10vw]'>Destiny</h1>
                     </div>
                 </div>
 
@@ -192,7 +192,7 @@ const Destiny = () => {
 
 
 
-                <div className='w-full h-fit flex max-sm:flex-col mt-[5vw] mb-[4vh] max-sm:mb-[20vh] gap-[5vw] relative  will-change-transform '>
+                <div className='w-full h-fit flex max-sm:flex-col mt-[5vw] mb-[4vh] max-sm:mb-[8vh] gap-[5vw] relative  will-change-transform '>
 
                     <div className='w-2/4 relative z-20 DCD1 max-sm:w-full '>
                         <div className='w-full h-auto'>
@@ -220,18 +220,18 @@ const Destiny = () => {
 
 
                 <div className='w-fit h-fit flex flex-col justify-center m-auto gap-[2vw]  items-start'>
-                    <h1 className='Font_YIV  text-[8vw] leading-[8vw] translate-y-20 COLOR_TEXT_RED'>by</h1>
-                    <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] COLOR_TEXT_RED'>MATCHMAKER</h1>
+                    <h1 className='Font_YIV  text-[8vw] leading-[8vw] translate-y-20 max-sm:translate-y-2 COLOR_TEXT_RED max-sm:text-[10vw]'>by</h1>
+                    <h1 className='Font_Q uppercase text-[8vw] leading-[8vw] COLOR_TEXT_RED max-sm:text-[10vw]'>MATCHMAKER</h1>
                 </div>
 
                 <AccordGallery />
-                <div className='w-full h-fit flex max-sm:flex-col  justify-start items-end max-sm:justify-center mb-[20vh] '>
+                <div className='w-full h-fit flex max-sm:flex-col  justify-start items-end max-sm:justify-center mb-[20vh] max-sm:mb-[10vh] '>
                     {/* Left */}
                     <div className='w-1/2 h-full DCD5 max-sm:w-full '>
                         <div className='w-1/2 h-fit max-sm:w-full'>
 
                             <div className='w-[280px] fit uppercase Font_YV'>
-                                <p className='mt-8 COLOR_TEXT_RED'>to know him and his family, her family felt confident and happy about the match. </p>
+                                <p className='mt-8 max-sm:mt-0 COLOR_TEXT_RED'>to know him and his family, her family felt confident and happy about the match. </p>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ const Destiny = () => {
 
                             {/* <img src={`/svgs/LastimgDestiny2.svg`} className='w-full max-sm:w-2/3 max-sm:mt-[5vw] max-sm:ml-auto mt-[2.5vw] object-center object-cover' alt="IMG" /> */}
 
-                            <h1 className='Font_Q text-[5vw] ml-auto COLOR_TEXT_RED'>ACCORD</h1>
+                            <h1 className='Font_Q text-[5vw] max-sm:text-[10vw] max-sm:mt-5 ml-auto COLOR_TEXT_RED'>ACCORD</h1>
                             <p className='COLOR_TEXT_RED Font_YV ml-auto'>After meeting and getting to know him and</p>
                             <p className='COLOR_TEXT_RED Font_YV ml-auto'>his family, her family felt confident and</p>
                             <p className='COLOR_TEXT_RED Font_YV ml-auto'>happy about the match. </p>
