@@ -30,7 +30,7 @@ const WeddingHero = () => {
 
 
   return (
-    <section className="h-fit flex items-center justify-center bg-white px-4 pt-[20vh] max-sm:px-[20px] pb-[4vh]">
+    <section className="h-fit flex items-center justify-center COLOR_BG_CREAM px-4 pt-[20vh] max-sm:px-[20px] pb-[4vh]">
       <div className="text-center max-w-3xl  ">
         {/* Bride Name */}
         <h1 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
@@ -55,15 +55,15 @@ const WeddingHero = () => {
 
         {/* Date */}
         <div className="mt-6 flex items-center justify-center gap-4 COLOR_TEXT_RED WHD1">
-          <span className="text-xs tracking-widest uppercase">
+          <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
             March
           </span>
 
-          <span className="text-2xl md:text-[40px] font-serif">
-            25<sup className="text-sm">th</sup> – 27<sup className="text-sm">th</sup>
+          <span className="text-2xl md:text-[40px] Font_Q">
+            25<sup className="text-sm Font_YV ">th</sup> – 27<sup className="text-sm">th</sup>
           </span>
 
-          <span className="text-xs tracking-widest uppercase">
+          <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
             2026
           </span>
         </div>

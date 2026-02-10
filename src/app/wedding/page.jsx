@@ -8,7 +8,7 @@ const page = () => {
     <div className='w-full min-h-screen flex flex-col'>
      <WeddingHome/>
      <CardX/>
-     <RSVP/>
+     {/* <RSVP/> */}
     </div>
   )
 }

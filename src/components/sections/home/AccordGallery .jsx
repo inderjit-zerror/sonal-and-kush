@@ -5,7 +5,7 @@ export default function AccordGallery() {
             <div className="flex flex-col justify-between gap-20 lg:w-1/4">
                 <div className="w-full aspect-square overflow-hidden">
                     <img
-                        src="/imgs/home/img1Destiny2.webp"
+                        src="/imgs/SonalKush2.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -14,7 +14,7 @@ export default function AccordGallery() {
 
                 <div className="w-full aspect-2/3 overflow-hidden">
                     <img
-                        src="/imgs/home/img2Destiny2.webp"
+                        src="/imgs/SonalKush1.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -26,7 +26,7 @@ export default function AccordGallery() {
             <div className="flex flex-col-reverse justify-between gap-20 lg:w-1/4">
                 <div className="w-full aspect-square overflow-hidden">
                     <img
-                        src="/imgs/home/img1Destiny2.webp"
+                        src="/imgs/SonalKush3.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -35,7 +35,7 @@ export default function AccordGallery() {
 
                 <div className="w-full aspect-2/3 overflow-hidden">
                     <img
-                        src="/imgs/home/img2Destiny2.webp"
+                        src="/imgs/SonalKush1.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -47,7 +47,7 @@ export default function AccordGallery() {
             <div className="flex flex-col justify-between gap-20 lg:w-1/4">
                 <div className="w-full aspect-square overflow-hidden">
                     <img
-                        src="/imgs/home/img1Destiny2.webp"
+                        src="/imgs/SonalKush3.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -56,9 +56,9 @@ export default function AccordGallery() {
 
                 <div className="w-full aspect-2/3 overflow-hidden">
                     <img
-                        src="/imgs/home/img2Destiny2.webp"
+                        src="/imgs/SonalKush2.webp"
                         alt="img"
-                        className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
+                        className="w-full h-full object-cover object-[70%] hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
                     <p className="mt-4 text-red-950 Font_YV">Timmy</p>
                 </div>
@@ -68,7 +68,7 @@ export default function AccordGallery() {
             <div className="flex flex-col-reverse justify-between gap-20 lg:w-1/4">
                 <div className="w-full aspect-square overflow-hidden">
                     <img
-                        src="/imgs/home/img1Destiny2.webp"
+                        src="/imgs/SonalKush2.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />
@@ -77,7 +77,7 @@ export default function AccordGallery() {
 
                 <div className="w-full aspect-2/3 overflow-hidden">
                     <img
-                        src="/imgs/home/img2Destiny2.webp"
+                        src="/imgs/SonalKush3.webp"
                         alt="img"
                         className="w-full h-full object-cover hover:scale-[1.05] transition-all duration-200 ease-in cursor-pointer"
                     />

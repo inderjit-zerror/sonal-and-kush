@@ -12,7 +12,7 @@ const venue = () => {
             <WeddingVenue />
             <VenueGallery />
             <TravelInfo />
-            <RSVP/>
+            {/* <RSVP/> */}
         </>
     )
 }

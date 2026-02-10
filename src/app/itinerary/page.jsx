@@ -68,8 +68,8 @@ const itinerary = () => {
         <>
 
 
-            <div className='w-full h-[300vh] flex flex-col relative iTCONT mb-[10vh]'>
-                <div className='w-full h-fit bg-white sticky SCDCONT top-0 left-0 flex flex-col ITINERARYMAIM'>
+            <div className='w-full h-[300vh] flex flex-col relative iTCONT mb-[10vh] COLOR_BG_CREAM'>
+                <div className='w-full h-fit COLOR_BG_CREAM sticky SCDCONT top-0 left-0 flex flex-col ITINERARYMAIM'>
                     {/* Top */}
                     <div className='w-full h-[50vh] flex flex-col px-8 max-sm:pt-20 max-sm:justify-center justify-end items-center pb-[2.5vh] '>
                         <span className='mb-[2vh] Font_YV COLOR_TEXT_RED font-bold'>Make-Up Services</span>
@@ -107,7 +107,7 @@ const itinerary = () => {
 
                         {/* 2-DIV */}
                         <div className='px-8 py-8 max-sm:p-0 w-full h-[88vh] cardDiv1 absolute top-[100%] left-0'>
-                            <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
+                            <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center COLOR_BG_CREAM gap-12  py-10 px-10">
 
                                 {/* Left Content */}
                                 <div className="text-[#202020] h-full flex flex-col justify-start">
@@ -165,7 +165,7 @@ const itinerary = () => {
 
                         {/* 4-DIV */}
                         <div className='px-8 py-8 max-sm:p-0 w-full h-[68vh] cardDiv3 absolute top-[100%] left-0'>
-                            <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
+                            <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center COLOR_BG_CREAM gap-12  py-10 px-10">
 
                                 {/* Left Content */}
                                 <div className="text-[#202020] h-full flex flex-col justify-start">
@@ -195,7 +195,7 @@ const itinerary = () => {
                 </div>
             </div>
 
-            <RSVP/>
+            {/* <RSVP/> */}
 
         </>
     )

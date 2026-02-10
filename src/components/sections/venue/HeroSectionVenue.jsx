@@ -41,7 +41,7 @@ const HeroSectionVenue = () => {
 
 
   return (
-    <div ref={containerRef} className='w-full h-screen flex overflow-hidden WEDMAIMTT relative'>
+    <div ref={containerRef} className='w-full h-screen flex overflow-hidden WEDMAIMTT relative COLOR_BG_CREAM'>
       <Image
         ref={imageRef}
         src={`/imgs/RafflesUdaipur.webp`}

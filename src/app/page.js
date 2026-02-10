@@ -24,7 +24,7 @@ export default function Home() {
       <Destiny />
       <Itinerary/>
       <FAQ/>
-      <RSVP/>
+      {/* <RSVP/> */}
     </>
   );
 }

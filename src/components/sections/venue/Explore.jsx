@@ -14,14 +14,14 @@ const Explore = () => {
     const textRefs = useRef([])
 
     const data = [
-        { id: 1, title: "JEMAA EL-FNAA", image: "/imgs/venue/horizontal_section/img1.webp" },
-        { id: 2, title: "BAHIA PALACE", image: "/imgs/venue/horizontal_section/img2.webp" },
-        { id: 3, title: "KOUTOUBIA MOSQUE", image: "/imgs/venue/horizontal_section/img3.webp" },
-        { id: 4, title: "MAJORELLE GARDEN", image: "/imgs/venue/horizontal_section/img4.webp" },
-        { id: 5, title: "SAADIAN TOMBS", image: "/imgs/venue/horizontal_section/img5.webp" },
-        { id: 6, title: "MEDINA SOUKS", image: "/imgs/venue/horizontal_section/img6.webp" },
-        { id: 7, title: "PALMERAIE", image: "/imgs/venue/horizontal_section/img1.webp" },
-        { id: 8, title: "MENARA GARDENS", image: "/imgs/venue/horizontal_section/img2.webp" }
+        { id: 1, title: "JEMAA EL-FNAA", image: "/imgs/h1.webp" },
+        { id: 2, title: "BAHIA PALACE", image: "/imgs/h2.webp" },
+        { id: 3, title: "KOUTOUBIA MOSQUE", image: "/imgs/h3.webp" },
+        { id: 4, title: "MAJORELLE GARDEN", image: "/imgs/h4.webp" },
+        { id: 5, title: "SAADIAN TOMBS", image: "/imgs/h5.webp" },
+        // { id: 6, title: "MEDINA SOUKS", image: "/imgs/venue/horizontal_section/img6.webp" },
+        // { id: 7, title: "PALMERAIE", image: "/imgs/venue/horizontal_section/img1.webp" },
+        // { id: 8, title: "MENARA GARDENS", image: "/imgs/venue/horizontal_section/img2.webp" }
     ]
 
 
@@ -338,187 +338,453 @@ const Explore = () => {
     return (
 
         <>
-        
-        <div ref={mainContainer} className='w-full h-screen overflow-x-hidden flex relative'>
-            <div ref={scrollContainer} className='w-fit h-screen flex fixed top-0 left-0'>
 
-                {/* Marrakech ------------------------------------------------  */}
-                <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
-                    <div className='w-fit h-fit flex flex-col gap-8'>
-                        <p className=' uppercase Font_YV COLOR_TEXT_RED PLA opacity-0'>Explore Marrakech</p>
-                        <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" className=' PLA opacity-0' />
-                    </div>
-                </div>
+            <div ref={mainContainer} className='w-full h-screen overflow-x-hidden flex relative COLOR_BG_CREAM'>
+                <div ref={scrollContainer} className='w-fit h-screen flex fixed overflow-hidden top-0 left-0'>
 
-                {/* Part-2 Image -----------------------------------------------*/}
-                <div className='w-[60vw] h-screen overflow-hidden HiIMG '>
-
-                    <Image src={`/imgs/venue/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.1]' width={1000} height={1000} alt='Img' />
-                </div>
-
-                {/* 3Image-Container ------------------------------------------- */}
-                <div className='w-fit h-screen relative flex items-center pl-[15vw] pr-[10vw] COLOR_BG_RED justify-center gap-[12vw]'>
-
-                    {/* 1Cont-Image */}
-                    <div className='w-fit h-fit flex gap-4 img1C img1 will-change-transform '>
-                        {/* Img-cont */}
-                        <div className='w-[413px] aspect-[4/5]  overflow-hidden '>
-                            <Image src={`/imgs/venue/horizontal_section/img5.webp`} className='w-full   h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                    {/* Marrakech ------------------------------------------------  */}
+                    <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
+                        <div className='w-fit h-fit flex flex-col gap-8'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED PLA opacity-0'>Explore udaipur</p>
+                            <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" className=' PLA opacity-0' />
                         </div>
-                        {/* Text-Cont */}
-                        <div className='w-fit full  flex flex-col justify-between Font_Q font-normal text-[#E4BD95]'>
-                            <h2 className=' tracking-tighter'>01</h2>
-                            <div className='w-full h-fit flex flex-col uppercase'>
-                                <h3 className=' tracking-tighter'>Resort</h3>
-                                <h3 className=' tracking-tighter'>exterior</h3>
+                    </div>
+
+                    {/* Part-2 Image -----------------------------------------------*/}
+                    <div className='w-[60vw] h-screen overflow-hidden HiIMG '>
+
+                        <Image src={`/imgs/h4.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.1]' width={2000} height={2000} alt='Img' />
+                    </div>
+
+                    {/* 3Image-Container ------------------------------------------- */}
+                    <div className='w-fit h-screen relative flex items-center pl-[15vw] pr-[10vw] COLOR_BG_RED justify-center gap-[12vw]'>
+
+                        {/* 1Cont-Image */}
+                        <div className='w-fit h-fit flex gap-4 img1C img1 will-change-transform '>
+                            {/* Img-cont */}
+                            <div className='w-[413px] aspect-[4/5]  overflow-hidden '>
+                                <Image src={`/imgs/h2.webp`} className='w-full   h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            </div>
+                            {/* Text-Cont */}
+                            <div className='w-fit full  flex flex-col justify-between Font_Q font-normal text-[#E4BD95]'>
+                                <h2 className=' tracking-tighter'>01</h2>
+                                <div className='w-full h-fit flex flex-col uppercase'>
+                                    <h3 className=' tracking-tighter'>Resort</h3>
+                                    <h3 className=' tracking-tighter'>exterior</h3>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    {/* 2Cont-Image */}
-                    <div className='w-fit h-fit flex img2C img2 will-change-transform '>
-                        {/* Img-cont */}
-                        <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
-                            <Image src={`/imgs/venue/horizontal_section/img2.webp`} className='w-full  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
-                        </div>
-                    </div>
-
-
-                    {/* 3Cont-Image */}
-                    <div className='w-fit h-fit flex gap-4 img3C img3 will-change-transform '>
-                        {/* Text-Cont */}
-                        <div className='w-fit full  flex flex-col justify-between items-end Font_Q font-normal text-[#E4BD95]'>
-                            <h2 className=' tracking-tighter'>02</h2>
-                            <div className='w-full h-fit flex flex-col uppercase text-end'>
-                                <h3 className=' tracking-tighter'>Ceremony </h3>
-                                <h3 className=' tracking-tighter'>lawn</h3>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex img2C img2 will-change-transform '>
+                            {/* Img-cont */}
+                            <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
+                                <Image src={`/imgs/h1.webp`} className='w-full  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                             </div>
                         </div>
-                        {/* Img-cont */}
-                        <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
-                            <Image src={`/imgs/venue/horizontal_section/img3.webp`} className='w-full   h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+
+
+                        {/* 3Cont-Image */}
+                        <div className='w-fit h-fit flex gap-4 img3C img3 will-change-transform '>
+                            {/* Text-Cont */}
+                            <div className='w-fit full  flex flex-col justify-between items-end Font_Q font-normal text-[#E4BD95]'>
+                                <h2 className=' tracking-tighter'>02</h2>
+                                <div className='w-full h-fit flex flex-col uppercase text-end'>
+                                    <h3 className=' tracking-tighter'>Ceremony </h3>
+                                    <h3 className=' tracking-tighter'>lawn</h3>
+                                </div>
+                            </div>
+                            {/* Img-cont */}
+                            <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
+                                <Image src={`/imgs/h3.webp`} className='w-full   h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    {/* Marrakech 2 ------------------------------------------------  */}
+                    <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
+                        <div className='w-fit h-fit Marrakech2 flex flex-col gap-8'>
+                            <p className=' uppercase Font_YV text-[#75171E]'>Explore Marrakech</p>
+                            <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" />
                         </div>
                     </div>
 
+                    {/* 4-Hover Part */}
+                    <div className='w-[60vw] h-screen  overflow-hidden flex justify-center items-center mr-[15vw]'>
 
 
-                </div>
+                        <div ref={MouseMoveHoverCont} className='w-full PHover4 h-fit flex flex-col relative'>
+                            {
+                                data.map((item, index) => {
+                                    return (
+                                        <div key={index} className='w-full  group h-fit flex  text-[#1A1A1A] pb-4 pt-8 select-none cursor-pointer relative'>
+                                            {/* Num-cont */}
+                                            <div className='text-nowrap whitespace-nowrap'>
+                                                <p className='Font_Y'>0{item.id}</p>
+                                            </div>
+                                            {/* Text-Cont */}
+                                            <div
 
-                {/* Marrakech 2 ------------------------------------------------  */}
-                <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
-                    <div className='w-fit h-fit Marrakech2 flex flex-col gap-8'>
-                        <p className=' uppercase Font_YV text-[#75171E]'>Explore Marrakech</p>
-                        <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" />
-                    </div>
-                </div>
+                                                className='w-full h-fit flex uppercase Font_Q pl-4 pt-3 pb-4  relative text-nowrap whitespace-nowrap'>
+                                                <img src={`/svgs/Arrow.svg`} alt="SVG " />
+                                                <div onMouseEnter={() => hoverShiftActivate(textRefs.current[index])}
+                                                    onMouseLeave={() => hoverShiftDeactivate(textRefs.current[index])} ref={(el) => (textRefs.current[index] = el)} className={`w-fit THover${index} h-full  absolute top-1/2 -translate-y-1/2 z-10 flex justify-center items-center COLOR_BG_CREAM`}>
+                                                    <h2>{item.title}</h2>
+                                                </div>
+                                            </div>
+                                            {/* HoverImage */}
+                                            <div className='hover-img w-[195px] h-[127px] overflow-hidden  pr-4 absolute top-0 left-[80%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
+                                                <img src={item.image} alt="Img" className='w-full h-full object-cover object-center' />
+                                            </div>
 
-                {/* 4-Hover Part */}
-                <div className='w-[60vw] h-screen  overflow-hidden flex justify-center items-center mr-[15vw]'>
-
-
-                    <div ref={MouseMoveHoverCont} className='w-full PHover4 h-fit flex flex-col relative'>
-                        {
-                            data.map((item, index) => {
-                                return (
-                                    <div key={index} className='w-full  group h-fit flex  text-[#1A1A1A] pb-4 pt-8 select-none cursor-pointer relative'>
-                                        {/* Num-cont */}
-                                        <div className='text-nowrap whitespace-nowrap'>
-                                            <p className='Font_Y'>0{item.id}</p>
-                                        </div>
-                                        {/* Text-Cont */}
-                                        <div
-
-                                            className='w-full h-fit flex uppercase Font_Q pl-4 pt-3 pb-4  relative text-nowrap whitespace-nowrap'>
-                                            <img src={`/svgs/Arrow.svg`} alt="SVG " />
-                                            <div onMouseEnter={() => hoverShiftActivate(textRefs.current[index])}
-                                                onMouseLeave={() => hoverShiftDeactivate(textRefs.current[index])} ref={(el) => (textRefs.current[index] = el)} className={`w-fit THover${index} h-full  absolute top-1/2 -translate-y-1/2 z-10 flex justify-center items-center bg-white`}>
-                                                <h2>{item.title}</h2>
+                                            {/* LineXfull */}
+                                            <div className='h-[1px] LineXfull w-0 absolute bottom-0 left-0 bg-[#33333386]'>
                                             </div>
                                         </div>
-                                        {/* HoverImage */}
-                                        <div className='hover-img w-[195px] h-[127px] overflow-hidden  pr-4 absolute top-0 left-[80%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
-                                            <img src={item.image} alt="Img" className='w-full h-full object-cover object-center' />
-                                        </div>
+                                    )
+                                })
+                            }
 
-                                        {/* LineXfull */}
-                                        <div className='h-[1px] LineXfull w-0 absolute bottom-0 left-0 bg-[#33333386]'>
-                                        </div>
-                                    </div>
-                                )
-                            })
-                        }
+                        </div>
 
                     </div>
 
-                </div>
-
-                {/* 5-Cont */}
-                <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
-                    {/* 2Cont-Image */}
-                    <div className='w-fit h-fit flex  '>
-                        {/* Img-cont */}
-                        <div className='w-[413px] aspect-[4/5]  overflow-hidden img5'>
-                            <Image src={`/imgs/venue/horizontal_section/img2.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                    {/* 5-Cont */}
+                    <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex  '>
+                            {/* Img-cont */}
+                            <div className='w-[413px] aspect-[4/5]  overflow-hidden img5'>
+                                <Image src={`/imgs/h1.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                {/* 6-Cont */}
-                <div className='w-[50vw] h-screen  flex justify-center items-center  '>
-                    <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
-                        <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore Marrakech</p>
-                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
-                        <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
-                            <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
-                            {/* BTN */}
-                            <button className="button " style={{ backgroundColor: '#B97241' }}>
-                                <span className="button__icon-wrapper">
-                                    <svg
-                                        viewBox="0 0 14 15"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="button__icon-svg"
-                                        width="10"
-                                    >
-                                        <path
-                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
+                    {/* 6-Cont */}
+                    <div className='w-[50vw] h-screen  flex justify-center items-center  '>
+                        <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore udaipur</p>
+                            <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
+                            <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                                <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                                {/* BTN */}
+                                <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                    <span className="button__icon-wrapper">
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg"
+                                            width="10"
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
 
-                                    <svg
-                                        viewBox="0 0 14 15"
-                                        fill="none"
-                                        width="10"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="button__icon-svg button__icon-svg--copy "
-                                    >
-                                        <path
-                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
-                                </span>
-                                Map
-                            </button>
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg button__icon-svg--copy "
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+                                    </span>
+                                    Map
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                {/* 7-Cont */}
-                <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
-                    {/* 2Cont-Image */}
-                    <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
-                        {/* Img-cont */}
-                        {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
-                        <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
-                        {/* </div> */}
+                    {/* 7-Cont */}
+                    <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
+                            {/* Img-cont */}
+                            {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/h2.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
+                            {/* </div> */}
+                        </div>
                     </div>
-                </div>
 
+                    {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 2 */}
+
+                    {/* 5-Cont */}
+                    <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex  '>
+                            {/* Img-cont */}
+                            <div className='w-[50vw] h-screen  overflow-hidden img5'>
+                                <Image src={`/imgs/h3.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={2000} height={2000} alt='Img' />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 6-Cont */}
+                    <div className='w-[50vw] h-screen  flex justify-center items-center  '>
+                        <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore udaipur</p>
+                            <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
+                            <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                                <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                                {/* BTN */}
+                                <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                    <span className="button__icon-wrapper">
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg"
+                                            width="10"
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg button__icon-svg--copy "
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+                                    </span>
+                                    Map
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 7-Cont */}
+                    <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
+                            {/* Img-cont */}
+                            {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/h4.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
+                            {/* </div> */}
+                        </div>
+                    </div>
+
+                    
+                    {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 3 */}
+
+                    {/* 5-Cont */}
+                    <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex  '>
+                            {/* Img-cont */}
+                            <div className='w-[50vw] h-fit  overflow-hidden img5'>
+                                <Image src={`/imgs/h5.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={2000} height={2000} alt='Img' />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 6-Cont */}
+                    <div className='w-[50vw] h-screen  flex justify-center items-center  '>
+                        <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore udaipur</p>
+                            <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
+                            <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                                <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                                {/* BTN */}
+                                <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                    <span className="button__icon-wrapper">
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg"
+                                            width="10"
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg button__icon-svg--copy "
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+                                    </span>
+                                    Map
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 7-Cont */}
+                    <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-[70vw] h-screen flex overflow-hidden '>
+                            {/* Img-cont */}
+                            {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/h6.webp`} className='w-full h-full object-cover  object-center' width={2000} height={2000} alt='Img' />
+                            {/* </div> */}
+                        </div>
+                    </div>
+
+                      {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 4 */}
+
+                    {/* 5-Cont */}
+                    <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex  '>
+                            {/* Img-cont */}
+                            <div className='w-[50vw] h-screen  overflow-hidden img5'>
+                                <Image src={`/imgs/h7.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={2000} height={2000} alt='Img' />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 6-Cont */}
+                    <div className='w-[50vw] h-screen  flex justify-center items-center  '>
+                        <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore udaipur</p>
+                            <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
+                            <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                                <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                                {/* BTN */}
+                                <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                    <span className="button__icon-wrapper">
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg"
+                                            width="10"
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg button__icon-svg--copy "
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+                                    </span>
+                                    Map
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 7-Cont */}
+                    <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
+                            {/* Img-cont */}
+                            {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/h1.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
+                            {/* </div> */}
+                        </div>
+                    </div>
+
+                    
+                    {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 5 */}
+
+                    {/* 5-Cont */}
+                    <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-fit h-fit flex  '>
+                            {/* Img-cont */}
+                            <div className='w-[50vw] h-fit  overflow-hidden img5'>
+                                <Image src={`/imgs/h4.webp`} className='w-full h-full  object-cover object-center scale-[1.2]' width={2000} height={2000} alt='Img' />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 6-Cont */}
+                    <div className='w-[50vw] h-screen  flex justify-center items-center  '>
+                        <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
+                            <p className=' uppercase Font_YV COLOR_TEXT_RED contA6'>Explore udaipur</p>
+                            <h4 className=' text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase '>raffles udaipur</h4>
+                            <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                                <div className='text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                                {/* BTN */}
+                                <button className="button " style={{ backgroundColor: '#B97241' }}>
+                                    <span className="button__icon-wrapper">
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg"
+                                            width="10"
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+
+                                        <svg
+                                            viewBox="0 0 14 15"
+                                            fill="none"
+                                            width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="button__icon-svg button__icon-svg--copy "
+                                        >
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"
+                                            ></path>
+                                        </svg>
+                                    </span>
+                                    Map
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 7-Cont */}
+                    <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
+                        {/* 2Cont-Image */}
+                        <div className='w-[70vw] h-screen flex overflow-hidden '>
+                            {/* Img-cont */}
+                            {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/h2.webp`} className='w-full h-full object-cover  object-center' width={2000} height={2000} alt='Img' />
+                            {/* </div> */}
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-        <RSVP/>
+            {/* <RSVP /> */}
         </>
     )
 }

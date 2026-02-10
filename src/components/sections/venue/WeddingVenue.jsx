@@ -30,7 +30,7 @@ const WeddingVenue = () => {
 
 
   return (
-    <section className="h-screen max-sm:h-fit  WeddingTextCont my-[10vh] flex items-center justify-center bg-white px-6">
+    <section className="h-screen max-sm:h-fit  WeddingTextCont py-[10vh] flex items-center justify-center COLOR_BG_CREAM px-6">
       <div className=" text-center COLOR_TEXT_RED  ">
 
         {/* Top label */}

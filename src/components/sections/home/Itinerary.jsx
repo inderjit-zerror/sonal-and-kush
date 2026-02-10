@@ -100,7 +100,7 @@ const Itinerary = () => {
 
   return (
     <>
-      <div className='w-full -h-fit bg-white flex flex-col relative px-10 overflow-hidden'>
+      <div className='w-full -h-fit COLOR_BG_CREAM flex flex-col relative px-10 overflow-hidden'>
         {/* 
       <img src={`/svgs/WeddingDesign.svg`} className=' absolute object-cover object-center top-0 left-0 w-1/4' alt="IMG" />
       <img src={`/svgs/WeddingDesign.svg`} className=' absolute object-cover object-center top-0 right-0 w-1/4 rotate-[90deg]' alt="IMG" /> */}
@@ -273,23 +273,23 @@ const Itinerary = () => {
 
       {/* ================================ */}
 
-      <div className="w-full h-fit flex flex-col z-20 bg-[white]  ">
+      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM  ">
         {/* div-1 Sangeet */}
         <div className="w-full min-h-screen max-sm:h-fit flex max-sm:flex-col">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
-            <p className="Font_YV font-semibold ">Day 1</p>
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+            <p className="Font_YV font-semibold uppercase ">Day 1</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Sangeet</h5>
 
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
-              <span>
-                <span className="font-semibold">DATE:</span> 25 March 2006
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> 25 March 2006
               </span>
-              <span>
-                <span className="font-semibold">TIME:</span> 7:30 PM
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> 7:30 PM
               </span>
-              <span>
-                <span className="font-semibold">VENUE:</span> Raffles Udaipur
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> Raffles Udaipur
 
               </span>
 
@@ -299,9 +299,9 @@ const Itinerary = () => {
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
-            <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
-                {/* --------------------------------------------- */}
-              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+            <div className='w-full h-fit flex flex-col gap-5 justify-center items-center mt-5'>
+              {/* --------------------------------------------- */}
+              {/* <Link href="/venue"> <button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -330,9 +330,11 @@ const Itinerary = () => {
                   </svg>
                 </span>
                 Explore Venue
-              </button></Link>
+              </button></Link> */}
 
-              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+              <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
+
+              <Link href="#"><button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -360,25 +362,24 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                Know More
-              </button></Link> 
+                RSVP
+              </button></Link>
 
               {/* --------------------------------------------- */}</div>
 
 
-            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
           </div>
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-              <h3 className="Font_Q  uppercase">OutFit</h3>
-              <p className="Font_YV  mt-10">
+              {/* <h3 className="Font_Q  uppercase">OutFit</h3> */}
+              {/* <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
               </p>
               <p className="Font_YV ">
                 (Comfortable, breezy fabrics recommended)
-              </p>
+              </p> */}
 
               <img
                 src={`/demo.png`}
@@ -392,19 +393,19 @@ const Itinerary = () => {
         {/* div-2  */}
         <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col flex-row-reverse">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
-            <p className="Font_YV font-semibold ">Day 2</p>
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+            <p className="Font_YV font-semibold uppercase ">Day 2</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Haldi, Barat & Wedding</h5>
 
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
-              <span>
-                <span className="font-semibold">DATE:</span> 26 March 2006
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> 26 March 2006
               </span>
-              <span>
-                <span className="font-semibold">TIME:</span> 7:30 PM
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> 7:30 PM
               </span>
-              <span>
-                <span className="font-semibold">VENUE:</span> Raffles Udaipur
+              <span className=' uppercase'>
+                <span className="font-semibold"></span> Raffles Udaipur
               </span>
 
             </div>
@@ -413,10 +414,10 @@ const Itinerary = () => {
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
-            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+            <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
             <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
               {/* --------------------------------------------- */}
-              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+              {/* <Link href="/venue"> <button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -445,9 +446,9 @@ const Itinerary = () => {
                   </svg>
                 </span>
                 Explore Venue
-              </button></Link>
+              </button></Link> */}
 
-              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -475,8 +476,8 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                Know More
-              </button></Link> 
+                RSVP
+              </button></Link>
 
               {/* --------------------------------------------- */}</div>
           </div>
@@ -484,13 +485,13 @@ const Itinerary = () => {
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-              <h3 className="Font_Q  uppercase">OutFit</h3>
+              {/* <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
               </p>
               <p className="Font_YV ">
                 (Comfortable, breezy fabrics recommended)
-              </p>
+              </p> */}
 
               <img
                 src={`/demo.png`}
@@ -504,19 +505,19 @@ const Itinerary = () => {
         {/* div-3 */}
         <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative bg-white flex-col COLOR_TEXT_RED justify-center items-center">
-            <p className="Font_YV font-semibold ">Day 3</p>
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+            <p className="Font_YV font-semibold uppercase ">Day 3</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Pool Party & Reception</h5>
 
             <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
-                <span className="font-semibold">DATE:</span> 27 March 2006
+                <span className="font-semibold"></span> 27 March 2006
               </span>
               <span>
-                <span className="font-semibold">TIME:</span> 7:30 PM
+                <span className="font-semibold"></span> 7:30 PM
               </span>
               <span>
-                <span className="font-semibold">VENUE:</span> Raffles Udaipur
+                <span className="font-semibold"></span> Raffles Udaipur
               </span>
 
             </div>
@@ -525,11 +526,11 @@ const Itinerary = () => {
               Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
-            {/* <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span> */}
+            <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
             <div className='w-full h-fit flex gap-5 justify-center items-center mt-5'>
 
               {/* --------------------------------------------- */}
-              <Link href="/venue"> <button className="button" style={{ backgroundColor: '#B97241' }}>
+              {/* <Link href="/venue"> <button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -558,9 +559,9 @@ const Itinerary = () => {
                   </svg>
                 </span>
                 Explore Venue
-              </button></Link>
+              </button></Link> */}
 
-              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#B97241' }}>
+              <Link href="/wedding"><button className="button" style={{ backgroundColor: '#551301' }}>
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -588,25 +589,25 @@ const Itinerary = () => {
                     ></path>
                   </svg>
                 </span>
-                Know More
-              </button></Link> 
+                RSVP
+              </button></Link>
 
               {/* --------------------------------------------- */}
-             
-              {/* <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#B97241] hover:text-white select-none cursor-pointer'>See More</button></Link> */}
+
+              {/* <Link href="/wedding"><button className=' uppercase w-fit h-fit  px-[20px] py-[10px] border rounded-full text-[14px] hover:bg-[#551301] hover:text-white select-none cursor-pointer'>See More</button></Link> */}
             </div>
           </div>
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-              <h3 className="Font_Q  uppercase">OutFit</h3>
+              {/* <h3 className="Font_Q  uppercase">OutFit</h3>
               <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
               </p>
               <p className="Font_YV ">
                 (Comfortable, breezy fabrics recommended)
-              </p>
+              </p> */}
 
               <img
                 src={`/demo.png`}

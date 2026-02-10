@@ -25,6 +25,7 @@ body {
   position: relative;
   font-family: Helvetica;
   scroll-behavior: smooth;
+  background-color: #EFDFCB;
 }
 
 .Font_MLD {
@@ -73,20 +74,20 @@ p {
 }
 
 
-.COLOR_BG_RED{
+/* .COLOR_BG_RED{
   background-color: #B97241;
 }
 .COLOR_TEXT_RED{
   color: #B97241;
-}
+} */
 
 /* OLD color ----------------------------- */
-/* .COLOR_BG_RED{
+.COLOR_BG_RED{
   background-color: #551301;
 }
 .COLOR_TEXT_RED{
   color: #551301;
-} */
+}
 
 
 
@@ -193,18 +194,18 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   color: var(--clr);
   background-color: #fff;
   border-radius: 50%;
-  color: #B97241;
+  color: #551301;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
 .button:hover {
-  background-color: #9c5b30;
+  background-color: #551301;
 }
 
 .button:hover .button__icon-wrapper {
-  color: #B97241;
+  color: #551301;
 }
 
 .button__icon-svg--copy {

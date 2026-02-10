@@ -12,51 +12,51 @@ const TravelInfo = () => {
   const row2 = useRef(null)
   const row3 = useRef(null)
 
-  useGSAP(() => {
-    const createMarquee = (el, direction = 1) => {
-      const tl = gsap.timeline({
-        repeat: -1,
-        defaults: { ease: "none" }
-      })
+  // useGSAP(() => {
+  //   const createMarquee = (el, direction = 1) => {
+  //     const tl = gsap.timeline({
+  //       repeat: -1,
+  //       defaults: { ease: "none" }
+  //     })
 
-      tl.fromTo(
-        el,
-        { xPercent: 0 },
-        {
-          xPercent: direction === 1 ? -50 : 50,
-          duration: 20,
-        }
-      )
+  //     tl.fromTo(
+  //       el,
+  //       { xPercent: 0 },
+  //       {
+  //         xPercent: direction === 1 ? -50 : 50,
+  //         duration: 20,
+  //       }
+  //     )
 
-      return tl
-    }
+  //     return tl
+  //   }
 
 
-    const tl1 = createMarquee(row1.current, 1)   // right
-    const tl2 = createMarquee(row2.current, -1)  // left
-    const tl3 = createMarquee(row3.current, 1)   // right
+  //   const tl1 = createMarquee(row1.current, 1)   // right
+  //   const tl2 = createMarquee(row2.current, -1)  // left
+  //   const tl3 = createMarquee(row3.current, 1)   // right
 
-    ScrollTrigger.create({
-      trigger: document.body,
-      start: "top top",
-      end: "bottom bottom",
-      onUpdate: (self) => {
-        const velocity = self.getVelocity()
-        const speed = gsap.utils.clamp(0.5, 4, Math.abs(velocity) / 300)
+  //   ScrollTrigger.create({
+  //     trigger: document.body,
+  //     start: "top top",
+  //     end: "bottom bottom",
+  //     onUpdate: (self) => {
+  //       const velocity = self.getVelocity()
+  //       const speed = gsap.utils.clamp(0.5, 4, Math.abs(velocity) / 300)
 
-        tl1.timeScale(speed)
-        tl2.timeScale(speed)
-        tl3.timeScale(speed)
-      },
-      onStop: () => {
-        gsap.to([tl1, tl2, tl3], {
-          timeScale: 1,
-          duration: 0.6,
-          ease: "power3.out",
-        })
-      },
-    })
-  }, [])
+  //       tl1.timeScale(speed)
+  //       tl2.timeScale(speed)
+  //       tl3.timeScale(speed)
+  //     },
+  //     onStop: () => {
+  //       gsap.to([tl1, tl2, tl3], {
+  //         timeScale: 1,
+  //         duration: 0.6,
+  //         ease: "power3.out",
+  //       })
+  //     },
+  //   })
+  // }, [])
 
   return (
     <section className="relative COLOR_BG_RED py-32 px-6 overflow-hidden">
@@ -100,7 +100,7 @@ const TravelInfo = () => {
           Travel Information
         </span>
 
-        <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
+        <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 uppercase COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
           <h2> The Way To Travel</h2>
         </div>
 
