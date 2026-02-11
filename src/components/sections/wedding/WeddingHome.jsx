@@ -56,8 +56,8 @@ const WeddingHome = () => {
       <div   className="w-full NN h-[85vh] overflow-hidden flex relative WEDMAIM ">
         <img
         
-          src={`/imgs/SonalKush2.webp`}
-          className="w-full h-full object-cover object-center"
+          src={`/imgs/save3.webp`}
+          className="w-full h-full object-cover object-[50%_18%]"
           alt="Img"
         />
 
