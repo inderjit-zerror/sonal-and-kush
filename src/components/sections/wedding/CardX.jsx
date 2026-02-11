@@ -67,7 +67,7 @@ const CardX = () => {
           </div>
 
           <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-            Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
+             This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
           </p>
 
           <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>

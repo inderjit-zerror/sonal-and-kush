@@ -34,6 +34,16 @@ const Hearts = () => {
             opacity: 1,
             ease: 'none'
         })
+        TLH.to('.TOPUPTEXT', {
+            opacity: 0,
+            duration:0.0001,
+            ease: 'none'
+        })
+        TLH.to('.cclt', {
+            opacity: 0,
+            duration:0.0001,
+            ease: 'none'
+        })
 
     }, [])
 
@@ -60,7 +70,7 @@ const Hearts = () => {
 
 
     return (
-        <div className='w-full h-[250vh] relative heart_cont '>
+        <div className='w-full h-[250vh] relative heart_cont cclt'>
             <div className='w-full h-screen overflow-hidden sticky flex flex-col max-sm:hidden justify-center top-0 left-0 COLOR_BG_RED COLOR_TEXT_CREAM uppercase'>
                 {/* 1 */}
                 <div className=' w-full innderHerartCont tlr  h-fit text-[8vw] leading-[8vw] Font_Q flex  gap-[10vw] justify-center'>
@@ -87,7 +97,7 @@ const Hearts = () => {
 
 
                 <div className=' TOPUPTEXT absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
-                    <img src={`/imgs/SonalKush1.webp`} className='w-full h-full object-center object-cover' alt="img" />
+                    <img src={`/imgs/save2.webp`} className='w-full h-full object-bottom object-cover' alt="img" />
                 </div>
             </div>
 
@@ -111,9 +121,8 @@ const Hearts = () => {
                     <h1> began.</h1>
                 </div>
 
-                <div className=' TOPUPTEXTSM absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 COLOR_TEXT_CREAM flex flex-col justify-center items-center'>
-                    <h5 className='text-[40px] Font_Q font-light'>Gracefully</h5>
-                    <p className='Font_YV font-semibold'>United</p>
+                <div className=' TOPUPTEXTSM absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
+                    <img src={`/imgs/save2.webp`} className='w-full h-full object-bottom object-cover' alt="img" />
                 </div>
             </div>
         </div>

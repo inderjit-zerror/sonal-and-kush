@@ -54,8 +54,8 @@ const HeroSectionVenue = () => {
       {/* <img src={`/name.png`} alt="IMG" className='w-1/3 max-sm:w-2/3 object-cover object-center absolute bottom-[15%] left-1/2 -translate-x-1/2' /> */}
 
       <div className='w-1/2 absolute top-[12%] left-1/2  justify-center items-center -translate-x-1/2 flex flex-col gap-4'>
-        <p className=' uppercase Font_YV  COLOR_TEXT_CREAM text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] ' >THE wedding Venue</p>
-        <h1 className=' uppercase Font_Q COLOR_TEXT_CREAM text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] ' >raffles udaipur</h1>
+        <p className=' uppercase Font_YV  COLOR_TEXT_RED text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] ' >THE wedding Venue</p>
+        <h1 className=' uppercase Font_Q COLOR_TEXT_RED text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] ' >raffles udaipur</h1>
       </div>
     </div>
   )

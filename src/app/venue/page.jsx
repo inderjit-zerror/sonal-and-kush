@@ -1,4 +1,5 @@
 import RSVP from "@/components/common/RSVP";
+import FAQ from "@/components/sections/home/FAQ";
 import Explore from "@/components/sections/venue/Explore";
 import HeroSectionVenue from "@/components/sections/venue/HeroSectionVenue";
 import TravelInfo from "@/components/sections/venue/TravelInfo";
@@ -12,7 +13,7 @@ const venue = () => {
             <WeddingVenue />
             <VenueGallery />
             <TravelInfo />
-            {/* <RSVP/> */}
+            <FAQ/>
         </>
     )
 }

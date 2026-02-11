@@ -296,7 +296,7 @@ const Itinerary = () => {
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
+               This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
             <div className='w-full h-fit flex flex-col gap-5 justify-center items-center mt-5'>
@@ -372,7 +372,7 @@ const Itinerary = () => {
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
-            <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
+            <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
               {/* <h3 className="Font_Q  uppercase">OutFit</h3> */}
               {/* <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
@@ -382,7 +382,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/demo.png`}
+                src={`/imgs/icon1.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -411,7 +411,7 @@ const Itinerary = () => {
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
+               This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
@@ -484,9 +484,9 @@ const Itinerary = () => {
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
-            <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-              {/* <h3 className="Font_Q  uppercase">OutFit</h3>
-              <p className="Font_YV  mt-10">
+             <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+              {/* <h3 className="Font_Q  uppercase">OutFit</h3> */}
+              {/* <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
               </p>
               <p className="Font_YV ">
@@ -494,7 +494,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/demo.png`}
+                src={`/imgs/icon2.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -523,7 +523,7 @@ const Itinerary = () => {
             </div>
 
             <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Short description for wedding e-vite- This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
+               This love story was never meant to be subtle. Join us for a sangeet packed with rhythm, energy, and main-character moments.
             </p>
 
             <span className='Text_YV font-semibold py-4 text-[14px] capitalize '>(No white red or gold )</span>
@@ -600,9 +600,9 @@ const Itinerary = () => {
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
-            <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-              {/* <h3 className="Font_Q  uppercase">OutFit</h3>
-              <p className="Font_YV  mt-10">
+            <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+              {/* <h3 className="Font_Q  uppercase">OutFit</h3> */}
+              {/* <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
               </p>
               <p className="Font_YV ">
@@ -610,7 +610,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/demo.png`}
+                src={`/imgs/icon3.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />

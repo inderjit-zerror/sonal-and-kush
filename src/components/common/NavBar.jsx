@@ -130,8 +130,11 @@ const NavBar = () => {
         {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Services</div></Link> */}
         {/* <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div></Link> */}
         {/* BTN */}
-        <div   className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 hover:opacity-100 '>
-          RSVP
+        <div   className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 group '>
+          <div className='w-fit'>
+            RSVP
+          <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-white'></div>
+          </div>
         </div>
 
 
@@ -150,8 +153,9 @@ const NavBar = () => {
         {/* <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore</div></Link> */}
         {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
         {/* BTN */}
-        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_TEXT_RED'>
+        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_TEXT_RED'>
           RSVP
+          
         </div>
       </div>
     </div>
