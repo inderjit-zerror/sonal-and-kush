@@ -1,10 +1,13 @@
 'use client'
-import React from "react";
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { useGSAP } from '@gsap/react'
 
-gsap.registerPlugin(ScrollTrigger)
+
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { Draggable } from "gsap/Draggable";
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(Draggable);
+
+
 
 const VenueGallery = () => {
 
@@ -92,112 +95,190 @@ const VenueGallery = () => {
     // }, [])
 
 
+    //  <>
+    //     {/* // <div className="w-full min-h-screen flex px-15 max-sm:px-[20px] pb-[15vw] max-sm:flex-col gap-10 COLOR_BG_CREAM">
+
+    //     //     <div className="w-1/2 h-fit flex flex-col max-sm:w-full ">
+
+    //     //         <div className="w-full flex h-fit L1Cont max-sm:flex-col  max-sm:gap-2 ">
+    //     //             <div className="w-1/2 h-auto flex sm:flex-col justify-between max-sm:gap-5 max-sm:items-center COLOR_TEXT_RED max-sm:w-full">
+    //     //                 <h2 className="Font_Q ">01</h2>
+
+    //     //                 <div className="w-full h-fit flex sm:flex-col uppercase">
+    //     //                     <p className="Font_YV">Outdoor</p>
+    //     //                     <p className="Font_YV">Ceremony Area</p>
+    //     //                 </div>
+    //     //             </div>
+    //     //             <div className="w-[80%] h-fit L1ImgCont overflow-hidden group">
+    //     //                 <img src={`/imgs/h1.webp`} alt="IMG" className="w-full max-sm:object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-center max-sm:aspect-3/3 sm:aspect-3/2" />
+    //     //             </div>
+    //     //         </div>
+
+
+    //     //         <div className="w-full flex flex-col h-fit gap-3 mt-[27vh] max-sm:mt-[5vh] L2Cont ">
+    //     //             <div className="w-full h-fit flex justify-between items-end  COLOR_TEXT_RED">
+    //     //                 <h2 className="Font_Q">02</h2>
+
+    //     //                 <div className="w-fit h-fit flex justify-end items-end uppercase ">
+    //     //                     <p className="Font_YV">Grand Entrance / Facade</p>
+    //     //                 </div>
+    //     //             </div>
+    //     //             <div className="w-full h-fit L2ImgCont overflow-hidden group">
+    //     //                 <img src={`/imgs/h2.webp`} alt="IMG" className="w-full object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-center max-sm:object-center max-sm:object-cover max-sm:aspect-4/5 sm:" />
+    //     //             </div>
+    //     //         </div>
+
+
+
+    //     //         <div className="w-full flex max-sm:flex-col max-sm:flex-col-reverse h-fit mt-[15vh] max-sm:mt-[5vh] gap-2  L3Cont">
+    //     //             <div className="w-1/2 h-fit L3ImgCont max-sm:w-[80%] max-sm:ml-auto overflow-hidden group">
+    //     //                 <img src={`/imgs/h3.webp`} alt="IMG" className="w-full object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-center max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:object-cover sm:object-center sm:aspect-2/2" />
+    //     //             </div>
+    //     //             <div className="w-1/2 h-auto flex max-sm:w-[80%] max-sm:gap-[2vw] max-sm:items-center max-sm:ml-auto sm:flex-col justify-between COLOR_TEXT_RED">
+    //     //                 <h2 className="Font_Q">03</h2>
+
+    //     //                 <div className="w-full h-fit flex sm:flex-col uppercase">
+    //     //                     <p className="Font_YV">Outdoor</p>
+    //     //                     <p className="Font_YV">Ceremony Area</p>
+    //     //                 </div>
+    //     //             </div>
+
+    //     //         </div>
+
+    //     //     </div>
+
+
+
+
+    //     //     <div className="w-1/2 h-fit flex flex-col max-sm:w-full max-sm:mt-[5vw]">
+
+    //     //         <div className="w-full flex h-fit gap-2 R4Cont max-sm:flex-col max-sm:flex-col-reverse ">
+    //     //             <div className="w-[70%] h-fit R4ImgCont max-sm:w-full overflow-hidden group ">
+    //     //                 <img src={`/imgs/h4.webp`} alt="IMG" className="w-full transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:aspect-2/2" />
+    //     //             </div>
+    //     //             <div className="w-[30%] max-sm:w-full h-auto flex sm:flex-col max-sm:items-center max-sm:gap-[2vw] justify-between COLOR_TEXT_RED">
+    //     //                 <h2 className="Font_Q">04</h2>
+
+    //     //                 <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
+    //     //                     <p className="Font_YV">Outdoor</p>
+    //     //                     <p className="Font_YV">Ceremony Area</p>
+    //     //                 </div>
+    //     //             </div>
+
+    //     //         </div>
+
+
+
+    //     //         <div className="w-full flex h-fit mt-[15vh] max-sm:mt-[5vh] max-sm:flex-col gap-2 R5Cont ">
+    //     //             <div className="w-1/2 max-sm:w-[80%] h-auto flex max-sm:items-center  sm:flex-col justify-between COLOR_TEXT_RED pl-20 max-sm:pl-0">
+    //     //                 <h2 className="Font_Q">05</h2>
+
+    //     //                 <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
+    //     //                     {/* <p className="Font_YV">Courtyard / </p> */}
+    //     //                     <p className="Font_YV">Heritage</p>
+    //     //                     <p className="Font_YV">Architecture</p>
+    //     //                 </div>
+    //     //             </div>
+    //     //             <div className="w-1/2 max-sm:w-[80%] h-fit R5ImgCont overflow-hidden group">
+    //     //                 <img src={`/imgs/h5.webp`} alt="IMG" className="w-full max-sm:object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-center max-sm:aspect-3/4 sm:aspect-3/4" />
+    //     //             </div>
+    //     //         </div>
+
+    //     //         <div className="w-full flex flex-col h-fit gap-3 mt-[15vh] max-sm:mt-[5vh] R6Cont ">
+    //     //             <div className="w-full h-fit flex justify-between items-end max-sm:items-center  COLOR_TEXT_RED">
+    //     //                 <h2 className="Font_Q">06</h2>
+
+    //     //                 <div className="w-fit h-fit flex justify-end items-end uppercase ">
+    //     //                     <p className="Font_YV">Grand Entrance / Facade</p>
+    //     //                 </div>
+    //     //             </div>
+    //     //             <div className="w-full h-fit R6ImgCont overflow-hidden group">
+    //     //                 <img src={`/imgs/h6.webp`} alt="IMG" className="w-full transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center aspect-4/2 max-sm:aspect-2/2" />
+    //     //             </div>
+    //     //         </div>
+
+    //     //     </div>
+
+    //     // </div> */}
+    //     </>
+
+    const sliderRef = useRef(null);
+
+    const slideImg = [
+        "/imgs/h1.webp",
+        "/imgs/h2.webp",
+        "/imgs/h3.webp",
+        "/imgs/h4.webp",
+        "/imgs/h5.webp",
+        "/imgs/h6.webp",
+    ];
+
+    const images = [...slideImg, ...slideImg]; // duplicate
+
+    useEffect(() => {
+        const slider = sliderRef.current;
+        const totalWidth = slider.scrollWidth / 2;
+
+        let x = 0;
+
+        // Wrap function for infinite effect
+        const wrap = gsap.utils.wrap(-totalWidth, 0);
+
+        // Auto animation (ticker)
+        const autoSlide = () => {
+            x -= 1; // speed (increase for faster)
+            x = wrap(x);
+            gsap.set(slider, { x });
+        };
+
+        gsap.ticker.add(autoSlide);
+
+        // Draggable
+        const draggable = Draggable.create(slider, {
+            type: "x",
+            inertia: true,
+            onPress() {
+                gsap.ticker.remove(autoSlide);
+            },
+            onDrag() {
+                x = this.x;
+            },
+            onThrowUpdate() {
+                x = this.x;
+            },
+            onRelease() {
+                gsap.ticker.add(autoSlide);
+            },
+        })[0];
+
+        return () => {
+            gsap.ticker.remove(autoSlide);
+            draggable.kill();
+        };
+    }, []);
+
+
+
 
     return (
-        <div className="w-full min-h-screen flex px-15 max-sm:px-[20px] pb-[15vw] max-sm:flex-col gap-10 COLOR_BG_CREAM">
-            {/* Left */}
-            <div className="w-1/2 h-fit flex flex-col max-sm:w-full ">
-                {/* 1 */}
-                <div className="w-full flex h-fit L1Cont max-sm:flex-col  max-sm:gap-2 ">
-                    <div className="w-1/2 h-auto flex sm:flex-col justify-between max-sm:gap-5 max-sm:items-center COLOR_TEXT_RED max-sm:w-full">
-                        <h2 className="Font_Q ">01</h2>
-
-                        <div className="w-full h-fit flex sm:flex-col uppercase">
-                            <p className="Font_YV">Outdoor</p>
-                            <p className="Font_YV">Ceremony Area</p>
-                        </div>
+        <div className="w-full h-[60vh] overflow-hidden mb-[10vh] ">
+            <div
+                ref={sliderRef}
+                className="flex gap-6 h-full cursor-grab active:cursor-grabbing"
+            >
+                {images.map((img, index) => (
+                    <div
+                        key={index}
+                        className="min-w-[250px] sm:min-w-[300px] md:min-w-[350px] lg:min-w-[400px] h-full flex-shrink-0"
+                    >
+                        <img
+                            src={img}
+                            alt="slide"
+                            className="w-full h-full object-cover pointer-events-none"
+                        />
                     </div>
-                    <div className="w-[80%] h-fit L1ImgCont overflow-hidden group">
-                        <img src={`/imgs/h1.webp`} alt="IMG" className="w-full max-sm:object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-center max-sm:aspect-3/3 sm:aspect-3/2" />
-                    </div>
-                </div>
-
-                {/* 2 */}
-                <div className="w-full flex flex-col h-fit gap-3 mt-[27vh] max-sm:mt-[5vh] L2Cont ">
-                    <div className="w-full h-fit flex justify-between items-end  COLOR_TEXT_RED">
-                        <h2 className="Font_Q">02</h2>
-
-                        <div className="w-fit h-fit flex justify-end items-end uppercase ">
-                            <p className="Font_YV">Grand Entrance / Facade</p>
-                        </div>
-                    </div>
-                    <div className="w-full h-fit L2ImgCont overflow-hidden group">
-                        <img src={`/imgs/h2.webp`} alt="IMG" className="w-full object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-center max-sm:object-center max-sm:object-cover max-sm:aspect-4/5 sm:" />
-                    </div>
-                </div>
-
-
-                {/* 3 */}
-                <div className="w-full flex max-sm:flex-col max-sm:flex-col-reverse h-fit mt-[15vh] max-sm:mt-[5vh] gap-2  L3Cont">
-                    <div className="w-1/2 h-fit L3ImgCont max-sm:w-[80%] max-sm:ml-auto overflow-hidden group">
-                        <img src={`/imgs/h3.webp`} alt="IMG" className="w-full object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-center max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:object-cover sm:object-center sm:aspect-2/2" />
-                    </div>
-                    <div className="w-1/2 h-auto flex max-sm:w-[80%] max-sm:gap-[2vw] max-sm:items-center max-sm:ml-auto sm:flex-col justify-between COLOR_TEXT_RED">
-                        <h2 className="Font_Q">03</h2>
-
-                        <div className="w-full h-fit flex sm:flex-col uppercase">
-                            <p className="Font_YV">Outdoor</p>
-                            <p className="Font_YV">Ceremony Area</p>
-                        </div>
-                    </div>
-
-                </div>
-
+                ))}
             </div>
-
-
-
-            {/* Right */}
-            <div className="w-1/2 h-fit flex flex-col max-sm:w-full max-sm:mt-[5vw]">
-                {/* 4 */}
-                <div className="w-full flex h-fit gap-2 R4Cont max-sm:flex-col max-sm:flex-col-reverse ">
-                    <div className="w-[70%] h-fit R4ImgCont max-sm:w-full overflow-hidden group ">
-                        <img src={`/imgs/h4.webp`} alt="IMG" className="w-full transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:aspect-2/2" />
-                    </div>
-                    <div className="w-[30%] max-sm:w-full h-auto flex sm:flex-col max-sm:items-center max-sm:gap-[2vw] justify-between COLOR_TEXT_RED">
-                        <h2 className="Font_Q">04</h2>
-
-                        <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
-                            <p className="Font_YV">Outdoor</p>
-                            <p className="Font_YV">Ceremony Area</p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                {/* 5 */}
-                <div className="w-full flex h-fit mt-[15vh] max-sm:mt-[5vh] max-sm:flex-col gap-2 R5Cont ">
-                    <div className="w-1/2 max-sm:w-[80%] h-auto flex max-sm:items-center  sm:flex-col justify-between COLOR_TEXT_RED pl-20 max-sm:pl-0">
-                        <h2 className="Font_Q">05</h2>
-
-                        <div className="w-full max-sm:w-fit h-fit flex sm:flex-col uppercase">
-                            {/* <p className="Font_YV">Courtyard / </p> */}
-                            <p className="Font_YV">Heritage</p>
-                            <p className="Font_YV">Architecture</p>
-                        </div>
-                    </div>
-                    <div className="w-1/2 max-sm:w-[80%] h-fit R5ImgCont overflow-hidden group">
-                        <img src={`/imgs/h5.webp`} alt="IMG" className="w-full max-sm:object-cover transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center max-sm:object-center max-sm:aspect-3/4 sm:aspect-3/4" />
-                    </div>
-                </div>
-
-                {/* 6 */}
-                <div className="w-full flex flex-col h-fit gap-3 mt-[15vh] max-sm:mt-[5vh] R6Cont ">
-                    <div className="w-full h-fit flex justify-between items-end max-sm:items-center  COLOR_TEXT_RED">
-                        <h2 className="Font_Q">06</h2>
-
-                        <div className="w-fit h-fit flex justify-end items-end uppercase ">
-                            <p className="Font_YV">Grand Entrance / Facade</p>
-                        </div>
-                    </div>
-                    <div className="w-full h-fit R6ImgCont overflow-hidden group">
-                        <img src={`/imgs/h6.webp`} alt="IMG" className="w-full transition-all duration-200 ease-in group-hover:scale-[1.1] object-cover object-center aspect-4/2 max-sm:aspect-2/2" />
-                    </div>
-                </div>
-
-            </div>
-
         </div>
     );
 };

@@ -30,12 +30,12 @@ const WeddingVenue = () => {
 
 
   return (
-    <section className="h-screen max-sm:h-fit  WeddingTextCont py-[10vh] flex items-center justify-center COLOR_BG_CREAM px-6">
+    <section className="h-fit max-sm:h-fit  WeddingTextCont py-[10vh] flex items-center justify-center COLOR_BG_CREAM px-6">
       <div className=" text-center COLOR_TEXT_RED  ">
 
         {/* Top label */}
         <p className="tracking-tight uppercase mb-6 Font_YV WeddingText max-sm:font-semibold">
-          Wedding Venue
+          Official Wedding Hotel
         </p>
 
         {/* Main heading */}
@@ -46,14 +46,14 @@ const WeddingVenue = () => {
         {/* Dates */}
         <div className="flex items-center justify-center gap-6 max-sm:gap-2 text-sm max-sm:text-[12px] tracking-wide mb-10 WeddingText">
           <span className="uppercase max-sm:text-[10px]  ">Check in</span>
-          <span className="font-serif text-4xl max-sm:text-[20px]">25<sup className="text-xs">th</sup></span>
-          <span className="uppercase max-sm:text-[10px] ">March</span>
+          <span className="font-serif text-4xl max-sm:text-[20px]">21<sup className="text-xs">th</sup></span>
+          <span className="uppercase max-sm:text-[10px] ">Septembe</span>
 
           <span className="opacity-50 max-sm:text-[10px] ">–</span>
 
           <span className="uppercase max-sm:text-[10px] ">Check out</span>
-          <span className="font-serif text-4xl max-sm:text-[20px]">28<sup className="text-xs">th</sup></span>
-          <span className="uppercase max-sm:text-[10px] ">March</span>
+          <span className="font-serif text-4xl max-sm:text-[20px]">23<sup className="text-xs">th</sup></span>
+          <span className="uppercase max-sm:text-[10px] ">Septembe</span>
         </div>
 
         {/* Description */}

@@ -75,7 +75,7 @@ const CardX = () => {
 
         {/* right */}
         <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex flex-col COLOR_BG_RED px-12 justify-center items-center">
-          <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
@@ -85,7 +85,7 @@ const CardX = () => {
             </p> */}
 
             <img
-              src={`/demo.png`}
+              src={`/imgs/icon3.png`}
               alt="Img"
               className="w-full imgQ1 object-cover object-center mt-4"
             />
@@ -97,7 +97,7 @@ const CardX = () => {
       <div className='w-full min-h-screen relative flex max-sm:flex-col '>
         {/* Left */}
         <div className='w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[10vh] h-screen sticky top-0 left-0 flex justify-center items-center COLOR_BG_RED'>
-          <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
@@ -107,7 +107,7 @@ const CardX = () => {
             </p> */}
 
             <img
-              src={`/demo.png`}
+              src={`/imgs/icon1.png`}
               alt="Img"
               className="w-full object-cover imgQ2 object-center mt-4"
             />
@@ -369,7 +369,7 @@ const CardX = () => {
 
         {/* right */}
         <div className='w-1/2 h-screen max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED'>
-          <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
 
             <p className="Font_YV COLOR_TEXT_CREAM mt-4">
@@ -381,7 +381,7 @@ const CardX = () => {
             </p> */}
 
             <img
-              src={`/demo.png`}
+              src={`/imgs/icon4.png`}
               alt="Img"
               className="w-full object-cover imgQ2 object-center mt-4"
             />

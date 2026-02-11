@@ -382,7 +382,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/imgs/icon1.png`}
+                src={`/imgs/icon3.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -484,7 +484,7 @@ const Itinerary = () => {
 
           {/* right */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
-             <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+             <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center">
               {/* <h3 className="Font_Q  uppercase">OutFit</h3> */}
               {/* <p className="Font_YV  mt-10">
                 Light-coloured Indian or fusion wear
@@ -494,7 +494,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/imgs/icon2.png`}
+                src={`/imgs/icon1.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -610,7 +610,7 @@ const Itinerary = () => {
               </p> */}
 
               <img
-                src={`/imgs/icon3.png`}
+                src={`/imgs/icon4.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />

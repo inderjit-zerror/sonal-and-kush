@@ -61,7 +61,7 @@ const HomeHeroSection = () => {
                 {/* <video ref={imageRefHome} muted autoPlay loop src={`/file.mp4`} className='w-full h-screen scale-[1.4] opacity-0 object-cover object-center'></video> */}
             </div>
             <div className='w-full h-screen absolute top-0 left-0 z-20 flex max-sm:pb-8 justify-center items-end HOMEMAIM px-[20px]'>
-                <h1 className=' uppercase  text-[8vw] max-sm:text-[14vw] max-sm:leading-[14vw] max-sm:text-center Font_Q opacity-0 COLOR_TEXT_CREAM HOMEMAIM'>Sonal Jauhar & Kush Patel</h1>
+                <h1 className=' uppercase  text-[9vw] max-sm:text-[14vw] max-sm:leading-[14vw] max-sm:text-center Font_Q opacity-0 COLOR_TEXT_CREAM HOMEMAIM'>Sonal & Kush</h1>
             </div>
         </div>
     )
