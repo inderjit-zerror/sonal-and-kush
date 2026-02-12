@@ -28,24 +28,25 @@ const HeroSectionVenue = () => {
 
    // PRE-PRE-ANIMATION
     useGSAP(()=>{
-        gsap.from('.WEDMAIMTT',{
-         y:50,
-         duration:0.3,
-         stagger:{
-            each:'0.2',
-            ease:'none'
-         },
-         ease:'none'
+        gsap.to('.WEDMAIMTT2',{
+          delay:0.1,
+         y:0,
+         duration:0.5,
+        //  stagger:{
+        //     each:'0.2',
+        //     ease:'none'
+        //  },
+         ease:'power-in'
         })
     },[])
 
 
   return (
-    <div ref={containerRef} className='w-full h-screen flex overflow-hidden WEDMAIMTT relative COLOR_BG_CREAM'>
+    <div ref={containerRef} className='w-full h-screen flex overflow-hidden  relative COLOR_BG_CREAM'>
       <Image
         ref={imageRef}
         src={`/imgs/RafflesUdaipur.webp`}
-        className='w-full h-full object-cover object-center  WEDMAIMTT'
+        className='w-full h-full object-cover object-center  '
         width={1000}
         height={1000}
         alt='IMG'
@@ -55,7 +56,7 @@ const HeroSectionVenue = () => {
 
       <div className='w-1/2 absolute top-[12%] left-1/2  justify-center items-center -translate-x-1/2 flex flex-col gap-4'>
         {/* <p className=' uppercase Font_YV  COLOR_TEXT_RED text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] ' >THE wedding Venue</p> */}
-        <h1 className=' uppercase Font_Q COLOR_TEXT_RED text-[6rem] leading-[6rem] max-sm:text-[15vw] max-sm:leading-[16vw] mt-[2vh] ' >raffles udaipur</h1>
+        <h1 className=' uppercase Font_Q COLOR_TEXT_RED text-[6rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] mt-[2vh] overflow-hidden ' ><span className='flex WEDMAIMTT2 translate-y-[100%]'> raffles udaipur </span></h1>
       </div>
     </div>
   )

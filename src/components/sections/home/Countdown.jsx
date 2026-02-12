@@ -115,24 +115,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Countdown = () => {
 
-    // useGSAP(() => {
-    //     gsap.from('.CDD1', {
-    //         yPercent: 20,
-    //         opacity: 0,
-    //         stagger:{
-    //             each:1,
-    //             ease:'none'
-    //         },
-    //         ease: 'none',
-    //         scrollTrigger: {
-    //             trigger: '.CDD1',
-    //             start: 'top 60%',
-    //             end: 'top 35%',
-    //             scrub: true,
-    //         }
-    //     })
-
-    // }, [])
 
     const targetDate = new Date('2026-03-25T00:00:00')
 

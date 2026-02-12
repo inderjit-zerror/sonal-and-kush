@@ -34,16 +34,14 @@ const Hearts = () => {
             opacity: 1,
             ease: 'none'
         })
-        TLH.to('.TOPUPTEXT', {
-            opacity: 0,
-            duration:0.0001,
-            ease: 'none'
-        })
+        // TLH.to('.TOPUPTEXT', {
+        //     opacity: 0,
+        //     ease: 'none'
+        // },'obs')
         TLH.to('.cclt', {
             opacity: 0,
-            duration:0.0001,
             ease: 'none'
-        })
+        },'obs')
 
     }, [])
 
@@ -90,16 +88,14 @@ const Hearts = () => {
                     <h1> began.</h1>
                 </div>
 
-                {/* <div className=' TOPUPTEXT absolute opacity-0 scale-[0.5] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 COLOR_TEXT_CREAM flex flex-col justify-center items-center'>
-                    <h5 className='text-[40px] Font_Q font-light'>Gracefully</h5>
-                    <p className='Font_YV font-semibold'>United</p>
-                </div> */}
 
 
                 <div className=' TOPUPTEXT absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
                     <img src={`/imgs/save2.webp`} className='w-full h-full object-bottom object-cover' alt="img" />
                 </div>
             </div>
+
+
 
             {/* SM */}
             <div className='w-full h-screen overflow-hidden sticky flex flex-col px-[20px] text-[3rem] leading-[3rem] sm:hidden justify-center top-0 left-0 COLOR_BG_RED COLOR_TEXT_CREAM uppercase'>

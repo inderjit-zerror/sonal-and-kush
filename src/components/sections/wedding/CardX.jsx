@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import React, { useRef } from 'react'
+import React, {useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
@@ -8,6 +8,57 @@ import { useGSAP } from '@gsap/react'
 gsap.registerPlugin(ScrollTrigger)
 
 const CardX = () => {
+useEffect(() => {
+  const images = document.querySelectorAll('.imgQ1')
+
+  images.forEach(img => {
+    const strength = 20 // magnetic move
+    const rotateStrength = 10 // 3D tilt
+
+    const moveImage = (e) => {
+      const rect = img.getBoundingClientRect()
+      const x = e.clientX - rect.left
+      const y = e.clientY - rect.top
+
+      const centerX = rect.width / 2
+      const centerY = rect.height / 2
+
+      const percentX = (x - centerX) / centerX
+      const percentY = (y - centerY) / centerY
+
+      const moveX = percentX * strength
+      const moveY = percentY * strength
+
+      const rotateY = percentX * rotateStrength
+      const rotateX = -percentY * rotateStrength
+
+      gsap.to(img, {
+        x: moveX,
+        y: moveY,
+        rotateX: rotateX,
+        rotateY: rotateY,
+        duration: 0.3,
+        ease: "power3.out",
+        transformPerspective: 800,
+        transformOrigin: "center"
+      })
+    }
+
+    const resetImage = () => {
+      gsap.to(img, {
+        x: 0,
+        y: 0,
+        rotateX: 0,
+        rotateY: 0,
+        duration: 0.5,
+        ease: "power3.out"
+      })
+    }
+
+    img.addEventListener('mousemove', moveImage)
+    img.addEventListener('mouseleave', resetImage)
+  })
+}, [])
 
 
   useGSAP(() => {
@@ -75,7 +126,7 @@ const CardX = () => {
 
         {/* right */}
         <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex flex-col COLOR_BG_RED px-12 justify-center items-center">
-          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
@@ -97,7 +148,7 @@ const CardX = () => {
       <div className='w-full min-h-screen relative flex max-sm:flex-col '>
         {/* Left */}
         <div className='w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[10vh] h-screen sticky top-0 left-0 flex justify-center items-center COLOR_BG_RED'>
-          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
               Light-coloured Indian or fusion wear
@@ -109,7 +160,7 @@ const CardX = () => {
             <img
               src={`/imgs/icon1.png`}
               alt="Img"
-              className="w-full object-cover imgQ2 object-center mt-4"
+              className="w-full object-cover imgQ1 imgQ2 object-center mt-4"
             />
           </div>
         </div>
@@ -369,7 +420,7 @@ const CardX = () => {
 
         {/* right */}
         <div className='w-1/2 h-screen max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED'>
-          <div className="w-1/2 h-fit  flex flex-col justify-center items-center">
+          <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
 
             <p className="Font_YV COLOR_TEXT_CREAM mt-4">
@@ -383,7 +434,7 @@ const CardX = () => {
             <img
               src={`/imgs/icon4.png`}
               alt="Img"
-              className="w-full object-cover imgQ2 object-center mt-4"
+              className="w-full object-cover imgQ1 imgQ2 object-center mt-4"
             />
           </div>
         </div>
