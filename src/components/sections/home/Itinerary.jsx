@@ -85,9 +85,9 @@ useEffect(() => {
 
       <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM  ">
         {/* div-1 Sangeet */}
-        <div className="w-full min-h-screen max-sm:h-fit flex max-sm:flex-col">
+        <div className="w-full min-h-screen max-sm:min-h-fit flex max-sm:flex-col max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Sangeet</h5>
 
@@ -164,9 +164,9 @@ useEffect(() => {
         </div>
 
         {/* div-2  */}
-        <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col flex-row-reverse">
+        <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col flex-row-reverse max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Haldi, Barat & Wedding</h5>
 
@@ -240,9 +240,9 @@ useEffect(() => {
         </div>
 
         {/* div-3 */}
-        <div className="w-full min-h-screen  max-sm:h-fit  flex max-sm:flex-col">
+        <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>
             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase ">Pool Party & Reception</h5>
 

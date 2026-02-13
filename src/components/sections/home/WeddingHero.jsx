@@ -7,7 +7,7 @@ import { useGSAP } from '@gsap/react'
 gsap.registerPlugin(ScrollTrigger)
 import Line from "@/components/sections/home/Line";
 
-const WeddingHero = () => {
+const  WeddingHero = () => {
 
    useGSAP(() => {
         gsap.from('.WHD1', {
@@ -34,7 +34,7 @@ const WeddingHero = () => {
       <div className="text-center max-w-3xl  ">
         {/* Bride Name */}
         <h1 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
-          Henna Lakhia
+          Sonal Jauhar
         </h1>
 
         {/* And */}
@@ -44,7 +44,7 @@ const WeddingHero = () => {
 
         {/* Groom Name */}
         <h2 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
-          Benjamin Melnich
+          Kush Patel
         </h2>
 
         {/* Description */}
@@ -56,11 +56,11 @@ const WeddingHero = () => {
         {/* Date */}
         <div className="mt-6 flex items-center justify-center gap-4 COLOR_TEXT_RED WHD1">
           <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
-            March
+            September
           </span>
 
           <span className="text-2xl md:text-[40px] Font_Q">
-            25<sup className="text-sm Font_YV ">th</sup> – 27<sup className="text-sm">th</sup>
+            21<sup className="text-sm Font_YV ">th</sup> – 23<sup className="text-sm">th</sup>
           </span>
 
           <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
