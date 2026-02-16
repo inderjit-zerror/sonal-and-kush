@@ -20,9 +20,13 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className=" COLOR_TEXT_RED text-[13px]  group w-fit m-auto select-none cursor-pointer ">
-          © 2026 by  <a href="https://www.zerrorstudios.com/"><span className="w-fit  "> Zerror Studios
-            <div className="w-[0%] group-hover:w-[55%] transition-all duration-150 ease-in ml-auto h-px bg-[#551301] whitespace-nowrap border-b "></div>
+        <div className=" COLOR_TEXT_RED text-[13px]   w-fit m-auto select-none flex cursor-pointer ">
+          © 2026 by  <a href="https://www.bombaylettering.com/"  target="_blank" rel="noopener noreferrer"><span className="w-fit group ml-2 "> Bombay Lettering
+            <div className="w-[0%] group-hover:w-[100%] transition-all duration-150 ease-in ml-auto h-px bg-[#551301] whitespace-nowrap border-b "></div>
+            </span></a>
+            <span className="mx-2">&</span> 
+          <a href="https://www.zerrorstudios.com/"  target="_blank" rel="noopener noreferrer"><span className="w-fit group "> Zerror Studios
+            <div className="w-[0%] group-hover:w-[100%] transition-all duration-150 ease-in ml-auto h-px bg-[#551301] whitespace-nowrap border-b "></div>
             </span></a>
         </div>
       </div>
