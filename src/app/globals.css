@@ -7,17 +7,17 @@
 
 @font-face {
   font-family: Font_Q;
-  src: url('/fonts/final/Norman.otf');
+  src: url('/fonts/final/Norman.woff2');
 }
 
 @font-face {
   font-family: Font_YIV;
-  src: url('/fonts/final/Parfumerie-Script-Regular.otf');
+  src: url('/fonts/final/Parfumerie-Script-Regular.woff2');
 }
 
 @font-face {
   font-family: Font_YV;
-  src: url('/fonts/final/Open-Sans-Condensed.ttf');
+  src: url('/fonts/final/Open-Sans-Condensed.woff2');
 }
 
 
