@@ -101,16 +101,16 @@ const TravelInfo = () => {
         </span>
 
         <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 uppercase COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
-          <h2> The Way To Travel</h2>
+          <h2> Way To Get To Udaipur</h2>
         </div>
 
         <div className="space-y-3 max-sm:space-y-4 ">
           <p className="uppercase Font_YV COLOR_TEXT_CREAM">
-            Nearest Airport :
+            Nearest Airport is
           </p>
 
           <p className="  Font_YV  text-white">
-            Marrakech Menara Airport 
+            Udaipur Airport
             <span className=" opacity-80 Font_YV"> (20 Mins)</span>
           </p> 
 

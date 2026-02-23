@@ -116,7 +116,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Countdown = () => {
 
 
-    const targetDate = new Date('2026-03-25T00:00:00')
+    const targetDate = new Date('2026-09-21T00:00:00')
 
     const calculateTimeLeft = () => {
         const now = new Date()
