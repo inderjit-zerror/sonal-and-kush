@@ -46,13 +46,13 @@ const WeddingVenue = () => {
         {/* Dates */}
         <div className="flex items-center justify-center gap-6 max-sm:gap-2 text-sm max-sm:text-[12px] tracking-wide mb-10 WeddingText">
           <span className="uppercase max-sm:text-[10px]  ">Check in</span>
-          <span className="font-serif text-4xl max-sm:text-[20px]">21<sup className="text-xs">th</sup></span>
+          <span className="font-serif text-4xl max-sm:text-[20px]">21<sup className="text-xs">st</sup></span>
           <span className="uppercase max-sm:text-[10px] ">September</span>
 
           <span className="opacity-50 max-sm:text-[10px] ">–</span>
 
           <span className="uppercase max-sm:text-[10px] ">Check out</span>
-          <span className="font-serif text-4xl max-sm:text-[20px]">23<sup className="text-xs">th</sup></span>
+          <span className="font-serif text-4xl max-sm:text-[20px]">23<sup className="text-xs">rd</sup></span>
           <span className="uppercase max-sm:text-[10px] ">September</span>
         </div>
 
