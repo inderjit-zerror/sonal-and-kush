@@ -60,7 +60,7 @@ const  WeddingHero = () => {
           </span>
 
           <span className="text-2xl md:text-[40px] Font_Q">
-            21<sup className="text-sm Font_YV ">th</sup> – 23<sup className="text-sm">th</sup>
+            21<sup className="text-sm Font_YV ">st</sup> – 23 <sup className="text-sm">rd</sup>
           </span>
 
           <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
