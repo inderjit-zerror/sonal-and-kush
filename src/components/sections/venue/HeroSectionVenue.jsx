@@ -28,7 +28,18 @@ const HeroSectionVenue = () => {
 
    // PRE-PRE-ANIMATION
     useGSAP(()=>{
-        gsap.to('.WEDMAIMTT2',{
+      const tt = gsap.timeline()
+       
+        tt.to('.Igm',{
+          opacity:1,
+         duration:1,
+        //  stagger:{
+        //     each:'0.2',
+        //     ease:'none'
+        //  },
+         ease:'power-in'
+        })
+         tt.to('.WEDMAIMTT2',{
           delay:0.1,
          y:0,
          duration:0.5,
@@ -46,7 +57,7 @@ const HeroSectionVenue = () => {
       <Image
         ref={imageRef}
         src={`/imgs/RafflesUdaipur.webp`}
-        className='w-full h-full object-cover object-center  '
+        className='w-full h-full object-cover object-center Igm opacity-0 '
         width={1000}
         height={1000}
         alt='IMG'
