@@ -114,9 +114,9 @@ const Itinerary = () => {
               stay begins seamlessly
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
@@ -195,9 +195,9 @@ const Itinerary = () => {
               start of a beautiful new chapter.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
@@ -277,9 +277,9 @@ const Itinerary = () => {
               to soak in the final moments of the wedding festivities together.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
