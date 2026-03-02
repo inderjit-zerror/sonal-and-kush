@@ -52,7 +52,7 @@ const WeddingVenue = () => {
           <span className="opacity-50 max-sm:text-[10px] ">–</span>
 
           <span className="uppercase max-sm:text-[10px] ">Check out</span>
-          <span className="font-serif text-4xl max-sm:text-[20px]">23<sup className="text-xs">rd</sup></span>
+          <span className="font-serif text-4xl max-sm:text-[20px]">24<sup className="text-xs">th</sup></span>
           <span className="uppercase max-sm:text-[10px] ">September</span>
         </div>
 

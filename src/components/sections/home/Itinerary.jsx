@@ -86,33 +86,35 @@ const Itinerary = () => {
       {/* ================================ */}
 
       <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM  ">
-        {/* div-3 */}
+        {/* div-1 */}
         <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col max-sm:py-[5vh]">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
-            <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase px-[10%] text-center">
-              Checkins, Vidhi, Sangeet
-            </h5>
+           
 
-            <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
+            <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
-                <span className="font-semibold"></span> 21/09/26
+                <span className="font-semibold"></span> 09/21/2026
               </span>
-              <span>
+              {/* <span>
                 <span className="font-semibold"></span> 11:00 AM - 7:30 PM
               </span>
               <span>
                 <span className="font-semibold"></span> Raffles Udaipur
-              </span>
+              </span> */}
             </div>
 
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  my-6 uppercase px-[10%] text-center">
+              Checkins, Vidhi, Sangeet
+            </h5>
+
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               Welcome to our wedding getaway! Arrive, unwind, and settle into a
               weekend filled with love, laughter, and unforgettable
               celebrations. Our hospitality team will be there to ensure your
               stay begins seamlessly
-            </p>
+            </p> */}
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
@@ -173,27 +175,24 @@ const Itinerary = () => {
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
-            <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase px-[10%] text-center ">
+            
+
+            <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
+              <span className=" uppercase">
+                <span className="font-semibold"></span> 09/22/2026
+              </span>
+             
+            </div>
+
+            <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase px-[10%] text-center ">
               Chooda, Haldi, Safa Bandhi, Baraat, Varmala, Phere
             </h5>
 
-            <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 22/09/26
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 8:30 AM - 11:30 PM
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> Raffles Udaipur
-              </span>
-            </div>
-
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               An intimate ceremony woven with emotion and tradition. The bride
               is adorned with her chooda, symbolising love, prosperity, and the
               start of a beautiful new chapter.
-            </p>
+            </p> */}
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
@@ -256,26 +255,23 @@ const Itinerary = () => {
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>
-            <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  mt-4 uppercase  px-[10%] text-center">
+            
+
+            <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
+              <span>
+                <span className="font-semibold"></span> 09/23/2026
+              </span>
+              
+            </div>
+
+            <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase  px-[10%] text-center">
               Pool Party, Cocktail Hour, Reception, After Party
             </h5>
 
-            <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
-              <span>
-                <span className="font-semibold"></span> 23/09/26
-              </span>
-              <span>
-                <span className="font-semibold"></span> 11:30 AM - 11:30 PM
-              </span>
-              <span>
-                <span className="font-semibold"></span> Raffles Udaipur
-              </span>
-            </div>
-
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
               Sun, splashes, and effortless fun. A relaxed poolside celebration
               to soak in the final moments of the wedding festivities together.
-            </p>
+            </p> */}
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
