@@ -112,7 +112,7 @@ const NavBar = () => {
   return (
     <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
-      <div className='w-1/3 h-full items-center max-sm:hidden flex justify-between uppercase text-[16px] COLOR_TEXT_RED '>
+      <div className='w-1/3 h-full items-center max-md:hidden flex justify-between uppercase text-[16px] COLOR_TEXT_RED '>
         <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#551301]')} h-fit flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> The wedding</div></Link>
         <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#551301]')}  flex flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
       </div>
@@ -123,14 +123,14 @@ const NavBar = () => {
       </div>
 
       {/* Right */}
-      <div className='w-1/3  h-full items-center max-sm:hidden flex justify-between uppercase text-[16px]   COLOR_TEXT_RED'>
+      <div className='w-1/3  h-full items-center max-md:hidden flex justify-between uppercase text-[16px]   COLOR_TEXT_RED'>
         <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Wedding Hotel</div></Link>
 
         {/* <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore Udaipur</div></Link> */}
         {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Services</div></Link> */}
         {/* <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div></Link> */}
         {/* BTN */}
-        <div   className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 group '>
+        <div   className='w-[114px] h-[46px] max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 group '>
           <div className='w-fit'>
             RSVP
           <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-white'></div>
@@ -140,12 +140,12 @@ const NavBar = () => {
 
       </div>
 
-      <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 sm:hidden'>
+      <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 md:hidden'>
         {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem] COLOR_TEXT_ORANGE' /></>) : (<><RiMenu3Line className='text-[2rem] COLOR_TEXT_ORANGE' /></>)}
       </div>
 
       {/* MOBILENAV */}
-      <div className='w-full flex flex-col sm:hidden justify-center text-[1.5rem] leading-[1.5rem] uppercase gap-4 items-center MOBILENAV h-screen COLOR_BG_CREAM absolute -top-10 left-[150%] z-[-1]'>
+      <div className='w-full flex flex-col md:hidden justify-center text-[1.5rem] leading-[1.5rem] uppercase gap-4 items-center MOBILENAV h-screen COLOR_BG_CREAM absolute -top-10 left-[150%] z-[-1]'>
         <Link href={`/`}><div onClick={clickCheck} className='w-fit h-fit flex flex-col smNavItem opacity-0 group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>wedding</div></Link>
         <Link href={`/wedding`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
         <Link href={`/venue`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Wedding Hotel</div></Link>
@@ -153,7 +153,7 @@ const NavBar = () => {
         {/* <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore</div></Link> */}
         {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
         {/* BTN */}
-        <div className='w-[114px] h-[46px] max-sm:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_TEXT_RED'>
+        <div className='w-[114px] h-[46px] max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_TEXT_RED'>
           RSVP
           
         </div>

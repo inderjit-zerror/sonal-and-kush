@@ -152,7 +152,7 @@ export default function FAQ() {
                 </span>
               </div>
 
-              <div className='w-0 h-px bg-white group-hover:w-full absolute bottom-[-50%] left-0  transition-all duration-200 ease-in'></div>
+              <div className={`w-0 h-px bg-white  ${activeIndex !== index ? 'group-hover:w-full' : ''} absolute bottom-[-50%] left-0  transition-all duration-200 ease-in`}></div>
             </div>
           ))}
 

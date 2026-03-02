@@ -91,7 +91,7 @@ const Hearts = () => {
 
 
                 <div className=' TOPUPTEXT absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
-                    <img src={`/imgs/save2.webp`} className='w-full h-full object-bottom object-cover' alt="img" />
+                    <img src={`/newimg/SonalKush1Img.webp`} className='w-full h-full object-center object-cover' alt="img" />
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ const Hearts = () => {
                 </div>
 
                 <div className=' TOPUPTEXTSM absolute w-full h-screen overflow-hidden opacity-0  top-0 left-0 flex flex-col justify-center items-center'>
-                    <img src={`/imgs/save2.webp`} className='w-full h-full object-bottom object-cover' alt="img" />
+                    <img src={`/newimg/SonalKush1Img.webp`} className='w-full h-full object-center object-cover' alt="img" />
                 </div>
             </div>
         </div>
