@@ -91,7 +91,6 @@ const Itinerary = () => {
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
-           
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
@@ -105,16 +104,16 @@ const Itinerary = () => {
               </span> */}
             </div>
 
-             <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  my-6 uppercase px-[10%] text-center">
+            <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  my-6 uppercase px-[10%] text-center">
               Checkins, Vidhi, Sangeet
             </h5>
 
-            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Welcome to our wedding getaway! Arrive, unwind, and settle into a
-              weekend filled with love, laughter, and unforgettable
-              celebrations. Our hospitality team will be there to ensure your
-              stay begins seamlessly
-            </p> */}
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              The celebrations begin as we gather, reconnect, and ease into a
+              weekend of love and joy. From sacred rituals to a night of music
+              and dancing, Day 1 sets the perfect tone for the festivities
+              ahead.
+            </p>
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
@@ -152,7 +151,7 @@ const Itinerary = () => {
                       ></path>
                     </svg>
                   </span>
-                  Know More
+                  Explore Day 1
                 </button>
               </Link>
             </div>
@@ -175,24 +174,20 @@ const Itinerary = () => {
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
-            
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span className=" uppercase">
                 <span className="font-semibold"></span> 09/22/2026
               </span>
-             
             </div>
 
             <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase px-[10%] text-center ">
               Chooda, Haldi, Safa Bandhi, Baraat, Varmala, Phere
             </h5>
 
-            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              An intimate ceremony woven with emotion and tradition. The bride
-              is adorned with her chooda, symbolising love, prosperity, and the
-              start of a beautiful new chapter.
-            </p> */}
+            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+              A day rooted in tradition and bursting with celebration. From heartfelt rituals and vibrant ceremonies to the sacred vows and an electrifying after-party, this is where our forever truly begins.
+            </p>
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
@@ -255,13 +250,11 @@ const Itinerary = () => {
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>
-            
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span>
                 <span className="font-semibold"></span> 09/23/2026
               </span>
-              
             </div>
 
             <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase  px-[10%] text-center">
