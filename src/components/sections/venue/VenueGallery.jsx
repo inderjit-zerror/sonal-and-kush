@@ -81,12 +81,12 @@ const VenueGallery = () => {
                 {images.map((img, index) => (
                     <div
                         key={index}
-                        className="min-w-[250px] sm:min-w-[300px] md:min-w-[350px] lg:min-w-[400px] h-full flex-shrink-0"
+                        className="min-w-[250px] max-sm:w-full max-sm:overflow-hidden sm:min-w-[300px] md:min-w-[350px] lg:min-w-[400px] h-full flex-shrink-0"
                     >
                         <img
                             src={img}
                             alt="slide"
-                            className="w-full h-full object-cover pointer-events-none"
+                            className="w-full h-full object-cover object-center pointer-events-none"
                         />
                     </div>
                 ))}

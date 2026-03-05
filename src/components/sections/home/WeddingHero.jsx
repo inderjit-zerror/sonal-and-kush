@@ -43,18 +43,18 @@ const  WeddingHero = () => {
         </span>
 
         {/* Groom Name */}
-        <h2 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
+        <h1 className="Font_Q COLOR_TEXT_RED text-5xl md:text-6xl tracking-wide uppercase WHD1">
           Kush Patel
-        </h2>
+        </h1>
 
         {/* Description */}
-        <p className="mt-10 Font_YV  tracking-widest uppercase COLOR_TEXT_RED leading-relaxed WHD1">
+        {/* <p className="mt-10 Font_YV  tracking-widest uppercase COLOR_TEXT_RED leading-relaxed WHD1">
           Request the pleasure of your company <br />
           to celebrate their wedding on
-        </p>
+        </p> */}
 
         {/* Date */}
-        <div className="mt-6 flex items-center justify-center gap-4 COLOR_TEXT_RED WHD1">
+        <div className="mt-6 flex items-center justify-center gap-4 mt-10 COLOR_TEXT_RED WHD1">
           <span className="text-[18px] font-medium Font_YV  tracking-widest uppercase">
             September
           </span>

@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import RSVP from "@/components/common/RSVP";
+import Shop from "@/components/common/Shop";
 gsap.registerPlugin(ScrollTrigger);
 
 const Explore = () => {
@@ -468,7 +469,7 @@ const Explore = () => {
               {/* Img-cont */}
               <div className="w-[413px] aspect-[4/5]  overflow-hidden img5">
                 <Image
-                  src={`/imgs/h1.webp`}
+                  src={`/imgs/explorNewImg/City_Palace_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={1000}
                   height={1000}
@@ -536,7 +537,7 @@ const Explore = () => {
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
               <Image
-                src={`/imgs/h2.webp`}
+                src={`/imgs/explorNewImg/City_Palace_2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -555,7 +556,7 @@ const Explore = () => {
               {/* Img-cont */}
               <div className="w-[50vw] h-screen  overflow-hidden img5">
                 <Image
-                  src={`/imgs/h3.webp`}
+                  src={`/imgs/explorNewImg/Lake_Pichola_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -623,7 +624,7 @@ const Explore = () => {
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
               <Image
-                src={`/imgs/h4.webp`}
+                src={`/imgs/explorNewImg/Lake_Pichola_2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -642,7 +643,7 @@ const Explore = () => {
               {/* Img-cont */}
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/imgs/h5.webp`}
+                  src={`/imgs/explorNewImg/Taj_Lake_Palace_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -710,7 +711,7 @@ const Explore = () => {
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
               <Image
-                src={`/imgs/h6.webp`}
+                src={`/imgs/explorNewImg/Taj_Lake_Palace_2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={2000}
                 height={2000}
@@ -729,7 +730,7 @@ const Explore = () => {
               {/* Img-cont */}
               <div className="w-[50vw] h-screen  overflow-hidden img5">
                 <Image
-                  src={`/imgs/h7.webp`}
+                  src={`/imgs/explorNewImg/The_Oberoi_Udaivilas_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -797,7 +798,7 @@ const Explore = () => {
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
               <Image
-                src={`/imgs/h1.webp`}
+                src={`/imgs/explorNewImg/The_Oberoi_Udaivilas_2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -816,7 +817,7 @@ const Explore = () => {
               {/* Img-cont */}
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/imgs/h4.webp`}
+                  src={`/imgs/explorNewImg/Bagore_Ki_Haveli_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -884,7 +885,7 @@ const Explore = () => {
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
               <Image
-                src={`/imgs/h2.webp`}
+                src={`/imgs/explorNewImg/Bagore_Ki_Haveli_1.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={2000}
                 height={2000}
@@ -895,6 +896,8 @@ const Explore = () => {
           </div>
         </div>
       </div>
+
+      <Shop/>
       
     </>
   );

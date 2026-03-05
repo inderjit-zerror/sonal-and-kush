@@ -105,8 +105,11 @@ const Itinerary = () => {
               </span> */}
             </div>
 
-            <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
+            {/* <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
               Checkins <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Vidhi  <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Sangeet
+            </h5> */}
+            <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
+              Sangeet
             </h5>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
@@ -116,9 +119,10 @@ const Itinerary = () => {
               ahead.
             </p>
 
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span> */}
+            </span>
+
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
@@ -171,9 +175,9 @@ const Itinerary = () => {
         </div>
 
         {/* div-2  */}
-        <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col flex-row-reverse max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col flex-row-reverse max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -182,17 +186,20 @@ const Itinerary = () => {
               </span>
             </div>
 
+            {/* <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
+              Chooda <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Haldi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Safa Bandhi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Baraat <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Varmala <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Phere
+            </h5> */}
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
-              Chooda <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Haldi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Safa Bandhi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Baraat <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Varmala <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Phere
-            </h5>
+              Haldi & Wedding
+               </h5>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               A day rooted in tradition and bursting with celebration. From heartfelt rituals and vibrant ceremonies to the sacred vows and an electrifying after-party, this is where our forever truly begins.
             </p>
 
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span> */}
+            </span>
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
@@ -235,7 +242,7 @@ const Itinerary = () => {
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center img3d-wrapper">
               <img
                 src={`/imgs/icon1.png`}
@@ -259,16 +266,16 @@ const Itinerary = () => {
             </div>
 
             <h5 className="Font_Q text-[40px] leading-[45px] flex flex-wrap justify-center items-center max-sm:text-center  my-6 uppercase  px-[10%] text-center">
-              Pool Party <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Cocktail Hour <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Reception <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> After Party
+              Pool Party, Reception & After Party
             </h5>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-             Sunlit moments give way to glamour and grandeur. A day of relaxed fun, heartfelt toasts, elegant celebrations, and dancing late into the night as we celebrate our new chapter together.
+              Sunlit moments give way to glamour and grandeur. A day of relaxed fun, heartfelt toasts, elegant celebrations, and dancing late into the night as we celebrate our new chapter together.
             </p>
 
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span> */}
+            </span>
             <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button

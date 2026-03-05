@@ -1,6 +1,7 @@
 
 
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 const faqs = [
@@ -98,6 +99,42 @@ Comfortable footwear is recommended due to outdoor venues.`,
 
 `,
   },
+   {
+    question: "Who can I contact if I have any questions?",
+    answer: `For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:
+Email: sonalskushie@gmail.com 
+Phone: __
+`,
+  }, {
+    question: "Are children welcome at the events?",
+    answer: `We love your little ones. Children are welcome at all events except the Cocktail Hour and Reception.
+
+For guests traveling with children under the age of 12, please contact the wedding planners at __ to inquire about available nanny services.
+`,
+  }, {
+    question: "Can I bring a plus one?",
+    answer: `If a plus one is not listed on your invitation and you would like to request one, please contact the wedding planners at __ for assistance.`,
+  }, {
+    question: "Can I book a room before or after the wedding dates?",
+    answer: `Yes. Additional nights can be booked directly through the Raffles Udaipur website, subject to availability.
+
+I have questions about airport transfers.
+
+Please refer to the Travel page on the website for detailed information regarding airport transportation.`,
+  }, {
+    question: `How will rooms be assigned between the Island and Lakeshore rooms?
+`,
+    answer: `Rooms will be allocated on a first-come, first-served basis based on when reservations are confirmed.
+`,
+  }, {
+    question: "What is the dress code?",
+    answer: `Please refer to the Event Schedule section of the website, where the dress code and attire guidelines for each event will be listed.
+`,
+  }, {
+    question: "What should I do if I need to cancel my reservation?",
+    answer: `Please contact the wedding planners at __ as soon as possible for assistance.
+`,
+  }, 
 ];
 
 const OPEN_TEXT =
@@ -165,7 +202,7 @@ export default function FAQ() {
                 `}
               >
                 <span className="Font_YV text-[18px] capitalize text-white/60">
-                  {faq.answer} <span className={`text-white ${index === 13 || index === 14 ? '' : 'hidden'} select-none cursor-pointer underline`}>Know More</span>
+                  {faq.answer} <Link href={`/explore`}><span className={`text-white ${index === 13 || index === 14 ? '' : 'hidden'} select-none cursor-pointer underline`}>Know More</span></Link>
                 </span>
               </div>
 

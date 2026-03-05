@@ -17,13 +17,11 @@ const MainExplorSection = () => {
     <>
       {isMobile == false ? (
         <>
-          {" "}
           <Explore />
         </>
       ) : (
         <>
-          {" "}
-          <SMExplor />{" "}
+          <SMExplor />
         </>
       )}
     </>

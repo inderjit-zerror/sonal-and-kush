@@ -2,7 +2,7 @@ import MainExplorSection from "@/components/sections/mainExplor/MainExplorSectio
 
 const explore = () => {
   return(
-    <MainExplorSection />
+    <MainExplorSection/>
   )
 }
 
