@@ -55,8 +55,8 @@ const WeddingHome = () => {
     <div className="w-full  h-screen relative   flex justify-center items-end   z-[-1] COLOR_BG_CREAM ">
       <div className="w-full NN h-screen overflow-hidden flex relative  ">
         <img
-          src={`/imgs/save3.webp`}
-          className="w-full h-full object-cover object-[50%_18%]"
+          src={`/newimg/SonalKush2Img.webp`}
+          className="w-full h-full object-cover object-right max-sm:object-[72%_18%]"
           alt="Img"
         />
       </div>

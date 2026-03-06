@@ -108,7 +108,7 @@ const CardX = () => {
           </div>
 
           {/* 1 Detail Pool Party & Lunch */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Checkins
             </h5>
@@ -137,7 +137,7 @@ const CardX = () => {
           </div>
 
           {/* 2 Detail Cocktail Hour */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Vidhi
             </h5>
@@ -169,7 +169,7 @@ const CardX = () => {
           </div>
 
           {/* 3 */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Sangeet
             </h5>
@@ -251,7 +251,7 @@ const CardX = () => {
           </div>
 
           {/* 1 Detail Haldi */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Chooda
             </h5>
@@ -279,7 +279,7 @@ const CardX = () => {
           </div>
 
           {/* 2 Detail */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Haldi
             </h5>
@@ -307,7 +307,7 @@ const CardX = () => {
           </div>
 
           {/* 3 Detail Standing Barat (girls side) */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Standing Barat (girls side)
             </h5>
@@ -330,7 +330,7 @@ const CardX = () => {
           </div>
 
           {/* 4 Wedding */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Baraat
             </h5>
@@ -354,7 +354,7 @@ const CardX = () => {
           </div>
 
           {/* 5 Wedding Dinner*/}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Baraat Swagat
             </h5>
@@ -377,7 +377,7 @@ const CardX = () => {
           </div>
 
           {/* 6 */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Varmala
             </h5>
@@ -402,7 +402,7 @@ const CardX = () => {
             </p>
           </div>
           {/* 7 */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Phere
             </h5>
@@ -428,7 +428,7 @@ const CardX = () => {
             </p>
           </div>
           {/* 8 */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               After Party
             </h5>
@@ -462,7 +462,7 @@ const CardX = () => {
           </div>
 
           {/* 1 Detail Pool Party & Lunch */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Pool Party
             </h5>
@@ -485,7 +485,7 @@ const CardX = () => {
           </div>
 
           {/* 2 Detail Cocktail Hour */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Cocktail Hour
             </h5>
@@ -509,7 +509,7 @@ const CardX = () => {
           </div>
 
           {/* 3 Reception */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Reception
             </h5>
@@ -538,7 +538,7 @@ const CardX = () => {
           </div>
 
           {/* 4 After Party */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               After Party
             </h5>
@@ -561,7 +561,7 @@ const CardX = () => {
             </p>
           </div>
           {/* CHECK OUT */}
-          <div className="w-full max-sm:w-full h-[100vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Checkouts
             </h5>

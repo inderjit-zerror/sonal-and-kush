@@ -15,6 +15,9 @@ const HomeHeroSection = () => {
     // PRE-PRE-ANIMATION
     useGSAP(() => {
         const hYL = gsap.timeline();
+         hYL.set('.RVSPBTN', {
+            opacity: 0,
+        },'sss')
         hYL.to('.HOMEMAIM', {
             opacity: 1,
             duration: 1,
@@ -23,12 +26,17 @@ const HomeHeroSection = () => {
                 ease: 'none'
             },
             ease: 'none'
-        })
+        },'sss')
+        hYL.to('.RVSPBTN', {
+            opacity: 1,
+            duration: 1,
+            ease: 'none'
+        },'ss1')
         hYL.to(imageRefHome.current, {
             opacity:1,
             duration:2,
             ease: 'power1.Out'
-        })
+        },'ss1')
     }, [])
 
     useGSAP(() => {

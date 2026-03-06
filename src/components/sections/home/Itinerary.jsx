@@ -76,7 +76,7 @@ const Itinerary = () => {
             <h1 className="Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase">
               ITINERARY.
             </h1>
-            <div className="Font_YV mt-5 w-full flex flex-col text-center">
+            <div className="Font_YV mt-10 w-full flex flex-col text-center">
               <p>A series of sacred ceremonies and joyful </p>
               <p>celebrations as we begin our new journey together</p>
             </div>
@@ -88,9 +88,9 @@ const Itinerary = () => {
 
       <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM  ">
         {/* div-1 */}
-        <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit py-[15vh] items-center flex max-sm:flex-col max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -123,7 +123,7 @@ const Itinerary = () => {
               (No white red or gold )
             </span>
 
-            <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
+            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
                   className="button"
@@ -159,11 +159,11 @@ const Itinerary = () => {
                   Explore Day 1
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
               <img
                 src={`/imgs/icon3.png`}
@@ -175,7 +175,7 @@ const Itinerary = () => {
         </div>
 
         {/* div-2  */}
-        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col flex-row-reverse max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse max-sm:py-[5vh]">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
@@ -200,7 +200,7 @@ const Itinerary = () => {
             <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span>
-            <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
+            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
                   className="button"
@@ -237,8 +237,8 @@ const Itinerary = () => {
                 </button>
               </Link>
 
-              {/* --------------------------------------------- */}
-            </div>
+              
+            </div> */}
           </div>
 
           {/* right */}
@@ -254,9 +254,9 @@ const Itinerary = () => {
         </div>
 
         {/* div-3 */}
-        <div className="w-full min-h-screen  max-sm:min-h-fit  flex max-sm:flex-col max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit py-[15vh]  flex items-center max-sm:flex-col max-sm:py-[5vh]">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -276,7 +276,7 @@ const Itinerary = () => {
             <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span>
-            <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
+            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
               <Link href="/wedding">
                 <button
                   className="button"
@@ -312,11 +312,11 @@ const Itinerary = () => {
                   View Day 3
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-screen max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
               <img
                 src={`/imgs/icon4.png`}

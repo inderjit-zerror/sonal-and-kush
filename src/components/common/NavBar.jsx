@@ -132,7 +132,7 @@ const NavBar = () => {
         {/* <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div></Link> */}
         {/* BTN */}
         <div   className='w-fit h-[46px] max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 group '>
-          <div className='w-fit'>
+           <div className='w-fit RVSPBTN'>
             RSVP HERE
           <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-white'></div>
           </div>
@@ -154,7 +154,7 @@ const NavBar = () => {
         <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore Udaipur</div></Link>
         {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
         {/* BTN */}
-        <div className='w-fit h-[46px] md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
+       <div className='w-fit h-[46px] md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
           RSVP HERE
           
         </div>
