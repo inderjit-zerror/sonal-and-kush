@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Itinerary = () => {
   useEffect(() => {
+    if(window.innerWidth < 750) return;
     const images = document.querySelectorAll(".imgQ1");
 
     images.forEach((img) => {
@@ -86,9 +87,9 @@ const Itinerary = () => {
 
       {/* ================================ */}
 
-      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM  ">
+      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10  ">
         {/* div-1 */}
-        <div className="w-full h-fit  max-sm:min-h-fit py-[15vh] items-center flex max-sm:flex-col max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit  items-center flex max-sm:flex-col ">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
@@ -175,7 +176,7 @@ const Itinerary = () => {
         </div>
 
         {/* div-2  */}
-        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse ">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
@@ -254,7 +255,7 @@ const Itinerary = () => {
         </div>
 
         {/* div-3 */}
-        <div className="w-full h-fit  max-sm:min-h-fit py-[15vh]  flex items-center max-sm:flex-col max-sm:py-[5vh]">
+        <div className="w-full h-fit  max-sm:min-h-fit   flex items-center max-sm:flex-col ">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>

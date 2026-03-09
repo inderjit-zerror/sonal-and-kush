@@ -97,18 +97,18 @@ const CardX = () => {
   }, []);
 
   return (
-    <div className="w-full h-fit flex flex-col z-20 ">
+    <div className="w-full h-fit flex flex-col z-20 overflow-hidden ">
       {/* div-1 Sangeet */}
-      <div className="w-full min-h-screen max-sm:min-h-fit relative flex max-sm:flex-col-reverse">
+      <div className="w-full md:min-h-screen relative flex max-sm:flex-col-reverse ">
         {/* left */}
-        <div className="w-1/2 min-h-screen max-sm:min-h-fit max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mr-auto">
-          {/* Day Sticky */}
-          <div className="w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
+        <div className="w-1/2 md:min-h-screen  max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mt-20 md:mt-0 mr-auto">
+          {/* Day md:sticky */}
+          <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center md:mt-[5vh] md:pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 1</h2>
           </div>
 
           {/* 1 */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Sangeet
             </h5>
@@ -140,8 +140,8 @@ const CardX = () => {
         </div>
 
         {/* right */}
-        <div className="w-1/2 h-screen  max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED">
-          <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
+        <div className="w-1/2 md:h-screen   max-sm:w-full max-md:mt-15  md:sticky md:top-0 md:right-0 flex justify-center items-center md:bg-[#551301]">
+          <div className="w-1/2 md:h-fit  justify-center img3d-wrapper  ">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
 
             <p className="Font_YV COLOR_TEXT_CREAM mt-4">
@@ -155,16 +155,16 @@ const CardX = () => {
             <img
               src={`/imgs/icon3.png`}
               alt="Img"
-              className="w-full object-cover imgQ1 imgQ2 object-center mt-4"
+              className="w-full h-full object-cover imgQ1 imgQ2 object-center md:mt-4"
             />
           </div>
         </div>
       </div>
 
       {/* Div - 2*/}
-      <div className="w-full min-h-screen relative flex max-sm:flex-col ">
+      <div className="w-full md:min-h-screen relative flex max-sm:flex-col ">
         {/* Left */}
-        <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[10vh] h-screen sticky top-0 left-0 flex justify-center items-center COLOR_BG_RED">
+        <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[0vh] bg-amber-300 max-md:m-10 h-screen md:sticky top-0 left-0 flex justify-center items-center md:bg-[#551301]">
           <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
@@ -183,9 +183,9 @@ const CardX = () => {
         </div>
 
         {/* Right */}
-        <div className="w-1/2 max-sm:w-full max-sm:h-fit min-h-screen COLOR_BG_CREAM relative top-0 ml-auto">
-          {/* Day Sticky */}
-          <div className="w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
+        <div className="w-1/2 max-sm:w-full max-sm:h-fit min-h-screen  COLOR_BG_CREAM relative top-0 md:ml-auto">
+          {/* Day md:sticky */}
+          <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 2</h2>
           </div>
 
@@ -215,7 +215,7 @@ const CardX = () => {
           </div> */}
 
           {/* 2 Detail */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit md:py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Haldi
             </h5>
@@ -266,7 +266,7 @@ const CardX = () => {
           </div> */}
 
           {/* 4 Wedding */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Baraat
             </h5>
@@ -389,16 +389,16 @@ const CardX = () => {
       </div>
 
       {/* Div - 3*/}
-      <div className="w-full min-h-screen relative flex max-sm:flex-col-reverse">
+      <div className="w-full md:min-h-screen relative flex max-sm:flex-col-reverse">
         {/* left */}
-        <div className="w-1/2 min-h-screen max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mr-auto">
-          {/* Day Sticky */}
-          <div className="w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
+        <div className="w-1/2 md:min-h-screen max-sm:w-full  COLOR_BG_CREAM relative z-50 max-md:mt-7 top-0 mr-auto">
+          {/* Day md:sticky */}
+          <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center max-sm:mt-[2vh] md:mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 3</h2>
           </div>
 
           {/* 1 Detail Pool Party & Lunch */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Pool Party
             </h5>
@@ -445,7 +445,7 @@ const CardX = () => {
           </div> */}
 
           {/* 3 Reception */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Reception
             </h5>
@@ -474,7 +474,7 @@ const CardX = () => {
           </div>
 
           {/* 4 After Party */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-full max-sm:w-full h-fit md:py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               After Party
             </h5>
@@ -523,7 +523,7 @@ const CardX = () => {
         </div>
 
         {/* right */}
-        <div className="w-1/2 h-screen max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED">
+        <div className="w-1/2 md:h-screen max-sm:w-full max-sm:h-fit md:sticky top-0 right-0  flex justify-center items-center md:bg-[#551301]">
           <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
 
@@ -538,7 +538,7 @@ const CardX = () => {
             <img
               src={`/imgs/icon4.png`}
               alt="Img"
-              className="w-full object-cover imgQ1 imgQ2 object-center mt-4"
+              className="w-full object-cover imgQ1 imgQ2 object-center md:mt-4"
             />
           </div>
         </div>
