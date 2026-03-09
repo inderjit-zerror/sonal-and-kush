@@ -33,7 +33,7 @@ const venue = () => {
       <WeddingVenue />
       <VenueGallery />
       <TravelInfo />
-      <FAQ />
+      {/* <FAQ /> */}
     </>
   );
 };

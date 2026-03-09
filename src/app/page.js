@@ -69,7 +69,7 @@ export default function Home() {
       <Hearts />
       <Destiny />
       <Itinerary />
-      <FAQ />
+      {/* <FAQ /> */}
     </>
   );
 }

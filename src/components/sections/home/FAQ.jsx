@@ -114,7 +114,7 @@ Comfortable footwear is recommended due to outdoor venues.`,
 
 `,
   },
-   {
+  {
     id: 16,
     question: "Who can I contact if I have any questions?",
     answer: `For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:
@@ -156,7 +156,7 @@ Please refer to the Travel page on the website for detailed information regardin
     question: "What should I do if I need to cancel my reservation?",
     answer: `Please contact the wedding planners at __ as soon as possible for assistance.
 `,
-  }, 
+  },
 ];
 
 const OPEN_TEXT =
@@ -257,7 +257,7 @@ export default function FAQ() {
   return (
     <section
       id="FAQ"
-      className="min-h-screen max-sm:min-h-fit COLOR_BG_RED text-white flex items-center justify-center max-sm:py-[20vw] py-[10vh]"
+      className="min-h-screen max-sm:min-h-fit COLOR_BG_RED text-white flex items-center justify-center max-sm:py-[20vw] py-[20vh]"
     >
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
         <h2 className="text-center Font_Q flex justify-center items-center">
@@ -281,9 +281,8 @@ export default function FAQ() {
 
                 {/* ICON */}
                 <span
-                  className={`relative w-5 h-5 transition-transform duration-500 ${
-                    openId === faq.id ? "rotate-45" : ""
-                  }`}
+                  className={`relative w-5 h-5 transition-transform duration-500 ${openId === faq.id ? "rotate-45" : ""
+                    }`}
                 >
                   <img
                     src="/svgs/IconPlus.svg"
@@ -308,7 +307,7 @@ export default function FAQ() {
                 <div className="mt-4 Font_YV text-[18px] text-white/60">
                   {faq.answer}
 
-                  {(faq.id === 13 || faq.id === 14) && (
+                  {(faq.id === 14 || faq.id === 15) && (
                     <Link
                       href="/explore"
                       className="text-white underline ml-2"

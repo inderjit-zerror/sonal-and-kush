@@ -107,68 +107,7 @@ const CardX = () => {
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 1</h2>
           </div>
 
-          {/* 1 Detail Pool Party & Lunch */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
-            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
-              Checkins
-            </h5>
-            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 21/09/26
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 11:00 AM
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> Raffles Udaipur
-              </span>
-            </div>
-
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Welcome to our wedding getaway! Arrive, unwind, and settle into a
-              weekend filled with love, laughter, and unforgettable
-              celebrations. Our hospitality team will be there to ensure your
-              stay begins seamlessly
-            </p>
-
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize">
-              ( no white )
-            </span> */}
-          </div>
-
-          {/* 2 Detail Cocktail Hour */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
-            <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
-              Vidhi
-            </h5>
-            <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 21/09/26
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> 1:00 PM
-              </span>
-              <span className=" uppercase">
-                <span className="font-semibold"></span> Raffles Udaipur
-              </span>
-            </div>
-
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              An intimate and sacred ceremony where the grooms side begin
-              wedding rituals in the presence of close family. Rooted in
-              tradition, this moment sets the spiritual tone for the
-              celebrations ahead
-            </p>
-            {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-              Steeped in tradition and splashed with sunshine. Come celebrate
-              our haldi with lively music, dancing, and happy moments.
-            </p> */}
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize">
-              ( no white red & gold )
-            </span> */}
-          </div>
-
-          {/* 3 */}
+          {/* 1 */}
           <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Sangeet
@@ -178,7 +117,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 21/09/26
               </span>
               <span className=" uppercase">
-                <span className="font-semibold"></span> 7:30 PM
+                <span className="font-semibold"></span> Evening
               </span>
               <span className=" uppercase">
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -251,7 +190,7 @@ const CardX = () => {
           </div>
 
           {/* 1 Detail Haldi */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Chooda
             </h5>
@@ -273,10 +212,7 @@ const CardX = () => {
               start of a beautiful new chapter.
             </p>
 
-            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (Yellow )
-            </span> */}
-          </div>
+          </div> */}
 
           {/* 2 Detail */}
           <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
@@ -288,7 +224,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 22/09/26
               </span>
               <span>
-                <span className="font-semibold"></span> 11:30 AM
+                <span className="font-semibold"></span> Morning
               </span>
               <span>
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -307,7 +243,7 @@ const CardX = () => {
           </div>
 
           {/* 3 Detail Standing Barat (girls side) */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Standing Barat (girls side)
             </h5>
@@ -327,7 +263,7 @@ const CardX = () => {
               A royal ritual filled with pride and festivity. Safas are tied and
               spirits rise, setting the tone for a grand and joyous procession.
             </p>
-          </div>
+          </div> */}
 
           {/* 4 Wedding */}
           <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
@@ -339,7 +275,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 22/09/26
               </span>
               <span>
-                <span className="font-semibold"></span> 4:30 PM
+                <span className="font-semibold"></span> Evening
               </span>
               <span>
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -354,7 +290,7 @@ const CardX = () => {
           </div>
 
           {/* 5 Wedding Dinner*/}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Baraat Swagat
             </h5>
@@ -374,10 +310,10 @@ const CardX = () => {
               A heartfelt welcome and a joyful union of two families. Traditions
               unfold as love and warmth bring e
             </p>
-          </div>
+          </div> */}
 
           {/* 6 */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Varmala
             </h5>
@@ -400,9 +336,9 @@ const CardX = () => {
               step toward marriage, as they choose one another in the presence
               of family and friends
             </p>
-          </div>
+          </div> */}
           {/* 7 */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Phere
             </h5>
@@ -426,9 +362,9 @@ const CardX = () => {
               steps, their bond is sealed — not just for this lifetime, but for
               all that follow.
             </p>
-          </div>
+          </div> */}
           {/* 8 */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               After Party
             </h5>
@@ -448,7 +384,7 @@ const CardX = () => {
               Because the night is still young. Music turns up, spirits rise,
               and the celebration continues into the early hours.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -471,7 +407,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 23/09/26
               </span>
               <span className=" uppercase">
-                <span className="font-semibold"></span> 11:30 AM
+                <span className="font-semibold"></span> Morning
               </span>
               <span className=" uppercase">
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -485,7 +421,7 @@ const CardX = () => {
           </div>
 
           {/* 2 Detail Cocktail Hour */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Cocktail Hour
             </h5>
@@ -506,7 +442,7 @@ const CardX = () => {
               toast to love and new beginnings before the evening celebrations
               unfold.
             </p>
-          </div>
+          </div> */}
 
           {/* 3 Reception */}
           <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
@@ -518,7 +454,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 23/09/26
               </span>
               <span>
-                <span className="font-semibold"></span> 8:00 PM
+                <span className="font-semibold"></span> Evening
               </span>
               <span>
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -547,7 +483,7 @@ const CardX = () => {
                 <span className="font-semibold"></span> 23/09/26
               </span>
               <span className=" uppercase">
-                <span className="font-semibold"></span> 11:30 PM
+                <span className="font-semibold"></span> Evening
               </span>
               <span className=" uppercase">
                 <span className="font-semibold"></span> Raffles Udaipur
@@ -561,7 +497,7 @@ const CardX = () => {
             </p>
           </div>
           {/* CHECK OUT */}
-          <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+          {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
               Checkouts
             </h5>
@@ -583,7 +519,7 @@ const CardX = () => {
               of these beautiful memories. Safe travels, and we hope you leave
               with full hearts and wonderful stories.
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* right */}

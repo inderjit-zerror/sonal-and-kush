@@ -138,7 +138,7 @@ const SMExplor = () => {
 
         {/* img2 */}
         <div className="w-full aspect-1/1 overflow-hidden ">
-           <img src={`/imgs/explorNewImg/Taj_Lake_Palace_2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
+           <img src={`/imgs/explorNewImg/pales.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
         </div>
 
         {/* 4 ---------------------------------------------------------------------------------- */}
@@ -194,7 +194,7 @@ const SMExplor = () => {
 
         {/* img2 */}
         <div className="w-full aspect-1/1 overflow-hidden ">
-          <img src={`/imgs/explorNewImg/Bagore_Ki_Haveli_1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
+          <img src={`/imgs/explorNewImg/bkh.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
         </div>
 
       </div>

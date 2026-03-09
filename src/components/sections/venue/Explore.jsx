@@ -349,7 +349,7 @@ const Explore = () => {
   //  Marrakech ------------------------------------------------
   //     <div className='w-[50vw] mr-[10vw] h-screen flex justify-center items-center'>
   //         <div className='w-fit h-fit flex flex-col gap-8'>
-  //             <p className=' uppercase Font_YV COLOR_TEXT_RED PLA opacity-0'>Explore udaipur</p>
+  //             <p className=' uppercase Font_YV COLOR_TEXT_RED PLA opacity-0'></p>
   //             <img src={`/svgs/Text-Horizontal.svg`} alt="SVG" className=' PLA opacity-0' />
   //         </div>
   //     </div>
@@ -483,9 +483,9 @@ const Explore = () => {
           <div className="w-[50vw] h-screen  flex justify-center items-center  ">
             <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center">
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
-                Explore udaipur
+                
               </p>
-              <h4 className=" text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase ">
+              <h4 className=" text-[80px]  leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase ">
                 City Palace
               </h4>
               <div className="w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6">
@@ -550,7 +550,7 @@ const Explore = () => {
           {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 2 */}
 
           {/* 5-Cont */}
-          <div className="w-fit ml-[15vw] h-screen flex  justify-center items-center">
+          <div className="w-fit mx-[5vw] h-screen flex  justify-center items-center">
             {/* 2Cont-Image */}
             <div className="w-fit h-fit flex  ">
               {/* Img-cont */}
@@ -570,9 +570,9 @@ const Explore = () => {
           <div className="w-[50vw] h-screen  flex justify-center items-center  ">
             <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center">
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
-                Explore udaipur
+                
               </p>
-              <h4 className=" text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase ">
+              <h4 className=" text-[80px]  leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase ">
                 Lake Pichola
               </h4>
               <div className="w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6">
@@ -637,7 +637,7 @@ const Explore = () => {
           {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 3 */}
 
           {/* 5-Cont */}
-          <div className="w-fit ml-[15vw] h-screen flex  justify-center items-center">
+          <div className="w-fit mx-[5vw] h-screen flex  justify-center items-center">
             {/* 2Cont-Image */}
             <div className="w-fit h-fit flex  ">
               {/* Img-cont */}
@@ -657,7 +657,7 @@ const Explore = () => {
           <div className="w-[50vw] h-screen  flex justify-center items-center  ">
             <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center">
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
-                Explore udaipur
+                
               </p>
               <h4 className=" text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase ">
                 Taj Lake Palace
@@ -710,11 +710,9 @@ const Explore = () => {
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
-              <Image
-                src={`/imgs/explorNewImg/Taj_Lake_Palace_2.webp`}
+              <img
+                src={`/imgs/explorNewImg/pales.jpg`}
                 className="w-full h-full object-cover  object-center"
-                width={2000}
-                height={2000}
                 alt="Img"
               />
               {/* </div> */}
@@ -724,11 +722,11 @@ const Explore = () => {
           {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 4 */}
 
           {/* 5-Cont */}
-          <div className="w-fit ml-[15vw] h-screen flex  justify-center items-center">
+          <div className="w-fit mx-[5vw] h-screen flex  justify-center items-center">
             {/* 2Cont-Image */}
             <div className="w-fit h-fit flex  ">
               {/* Img-cont */}
-              <div className="w-[50vw] h-screen  overflow-hidden img5">
+              <div className="w-[50vw]  aspect-[3/2]  overflow-hidden img5">
                 <Image
                   src={`/imgs/explorNewImg/The_Oberoi_Udaivilas_1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
@@ -744,7 +742,7 @@ const Explore = () => {
           <div className="w-[50vw] h-screen  flex justify-center items-center  ">
             <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center">
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
-                Explore udaipur
+                
               </p>
               <h4 className=" text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase text-center  ">
                 The Oberoi Udaivilas
@@ -811,7 +809,7 @@ const Explore = () => {
           {/* ///////////////////////////////////////////////////////////////////////////////////////// PART - 5 */}
 
           {/* 5-Cont */}
-          <div className="w-fit ml-[15vw] h-screen flex  justify-center items-center">
+          <div className="w-fit mx-[5vw] h-screen flex  justify-center items-center">
             {/* 2Cont-Image */}
             <div className="w-fit h-fit flex  ">
               {/* Img-cont */}
@@ -831,7 +829,7 @@ const Explore = () => {
           <div className="w-[50vw] h-screen  flex justify-center items-center  ">
             <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center">
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
-                Explore udaipur
+                
               </p>
               <h4 className=" text-[80px] leading-[80px] Font_Q contA6 COLOR_TEXT_RED uppercase text-center ">
                 Bagore Ki Haveli
@@ -884,11 +882,10 @@ const Explore = () => {
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               {/* Img-cont */}
               {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
-              <Image
-                src={`/imgs/explorNewImg/Bagore_Ki_Haveli_1.webp`}
+              <img
+                src={`/imgs/explorNewImg/bkh.jpg`}
                 className="w-full h-full object-cover  object-center"
-                width={2000}
-                height={2000}
+                
                 alt="Img"
               />
               {/* </div> */}

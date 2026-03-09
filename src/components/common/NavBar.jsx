@@ -110,54 +110,62 @@ const NavBar = () => {
   }
 
   return (
-    <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
+    <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0 md:mix-blend-difference md:invert-[-1]  items-center z-100 px-20'>
       {/* Left */}
-      <div className='w-1/3 h-full items-center max-md:hidden flex justify-between uppercase text-[16px] COLOR_TEXT_RED '>
-        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#551301]')} h-fit flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> The wedding</div></Link>
-        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#551301]')}  flex flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
-                <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Wedding Hotel</div></Link>
+      <div className='w-1/3 h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px] text-white '>
+        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[white]')} h-fit flex flex-col group relative text-white  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> The wedding</div></Link>
+        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[white]')}  flex flex-col group text-white relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Itinerary</div></Link>
+        <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[white]')}  flex flex-col group relative text-white  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Wedding Hotel</div></Link>
       </div>
 
       {/* Logo */}
-      <div className='w-fit h-[50px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+      <div className='w-fit h-[50px] RVSPBTN absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
         <Link href={`/`} ><img src={`/imgs/logo/logo.png`} alt="Logo" className='h-full object-cover object-center' /></Link>
       </div>
 
       {/* Right */}
-      <div className='w-1/3  h-full items-center max-md:hidden flex justify-between uppercase text-[16px]   COLOR_TEXT_RED'>
+      <div className='w-1/3  h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px]   text-white'>
 
 
-        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore Udaipur</div></Link>
-        {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Services</div></Link> */}
-        {/* <Link href={`/#FAQ`} ><div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div></Link> */}
+        <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[white]')}  flex flex-col group relative  text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>FAQ</div></Link>
+        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[white]')}  flex flex-col group relative  text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Explore Udaipur</div></Link>
+        {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[white]')}  flex flex-col group relative text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
+        {/*  */}
         {/* BTN */}
-        <div   className='w-fit h-[46px] max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] COLOR_BG_RED opacity-80 group '>
-           <div className='w-fit RVSPBTN'>
-            RSVP HERE
-          <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-white'></div>
+
+        <Link href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+          <div className='w-fit h-[46px] RVSPBTN max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[black] bg-white opacity-80 group '>
+            <div className='w-fit '>
+              RSVP HERE
+              <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-[black]'></div>
+            </div>
           </div>
-        </div>
+        </Link>
 
 
       </div>
 
-      <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 md:hidden'>
-        {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem]  text-[#551301]' /></>) : (<><RiMenu3Line className='text-[2rem] text-[#551301] ' /></>)}
+      <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 md:hidden  '>
+        {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem]  text-[#952607]' /></>) : (<><RiMenu3Line className='text-[2rem] text-[#952607] ' /></>)}
       </div>
 
       {/* MOBILENAV */}
       <div className='w-full flex flex-col md:hidden justify-center text-[1.5rem] leading-[1.5rem] uppercase gap-4 items-center MOBILENAV h-screen COLOR_BG_CREAM absolute -top-10 left-[150%] z-[-1]'>
-        <Link href={`/`}><div onClick={clickCheck} className='w-fit h-fit flex flex-col smNavItem opacity-0 group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>wedding</div></Link>
-        <Link href={`/wedding`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
-        <Link href={`/venue`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Wedding Hotel</div></Link>
-        {/* <Link href={`/itinerary`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Services</div></Link> */}
-        <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore Udaipur</div></Link>
-        {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
+        <Link href={`/`}><div onClick={clickCheck} className='w-fit h-fit flex flex-col smNavItem opacity-0 group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>wedding</div></Link>
+        <Link href={`/wedding`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Itinerary</div></Link>
+        <Link href={`/venue`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Wedding Hotel</div></Link>
+        {/* <Link href={`/itinerary`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative text-white select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
+        <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Explore Udaipur</div></Link>
+          <Link href={`/faq`} ><div onClick={clickCheck}  className={`w-fit h-fit  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out '></div>FAQ</div></Link>
+        
+        {/* <div className='w-fit h-fit flex flex-col group relative  select-none text-whitecursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out text-white'></div> FAQ</div> */}
         {/* BTN */}
-       <div className='w-fit h-[46px] md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
-          RSVP HERE
-          
-        </div>
+        <Link href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+          <div className='w-fit h-[46px] md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
+            RSVP HERE
+
+          </div>
+        </Link>
       </div>
     </div>
   )
