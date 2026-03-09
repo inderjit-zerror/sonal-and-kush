@@ -26,7 +26,7 @@ const page = () => {
         description="Explore the complete wedding itinerary of Sonal & Kush including Mehendi, Haldi, Sangeet, Wedding Ceremony, and Reception schedule with dates and timings."
         url={`${Const.ClientLink}/wedding`}
       />
-      <div className="w-full min-h-screen flex flex-col">
+      <div className="w-full h-fit flex flex-col">
         <WeddingHome />
         <CardX />
       </div> 

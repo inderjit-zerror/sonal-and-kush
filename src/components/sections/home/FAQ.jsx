@@ -260,7 +260,7 @@ export default function FAQ() {
       className="min-h-screen max-sm:min-h-fit COLOR_BG_CREAM  flex items-center justify-center max-sm:py-[20vw] py-[20vh]"
     >
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
-        <h2 className="text-center Font_Q flex justify-center items-center COLOR_TEXT_RED">
+        <h2 className="text-center Font_Q flex justify-center items-center max-sm:justify-start max-sm:mt-10 COLOR_TEXT_RED">
           FAQ
         </h2>
 

@@ -99,9 +99,9 @@ const CardX = () => {
   return (
     <div className="w-full h-fit flex flex-col z-20 ">
       {/* div-1 Sangeet */}
-      <div className="w-full min-h-screen relative flex max-sm:flex-col-reverse">
+      <div className="w-full min-h-screen max-sm:min-h-fit relative flex max-sm:flex-col-reverse">
         {/* left */}
-        <div className="w-1/2 min-h-screen max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mr-auto">
+        <div className="w-1/2 min-h-screen max-sm:min-h-fit max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mr-auto">
           {/* Day Sticky */}
           <div className="w-full h-fit sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 1</h2>
@@ -140,7 +140,7 @@ const CardX = () => {
         </div>
 
         {/* right */}
-        <div className="w-1/2 h-screen max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED">
+        <div className="w-1/2 h-screen  max-sm:w-full max-sm:h-[50vh] sticky top-0 right-0 flex justify-center items-center COLOR_BG_RED">
           <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
 

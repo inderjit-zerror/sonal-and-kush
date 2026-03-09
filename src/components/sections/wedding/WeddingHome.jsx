@@ -61,7 +61,7 @@ const WeddingHome = () => {
         />
       </div>
 
-      <div className="w-fit flex flex-col absolute bottom-0 max-sm:bottom-[0%]  left-[4%] max-sm:left-1/2 max-sm:-translate-x-1/2  -translate-y-1/2 COLOR_TEXT_CREAM">
+      <div className="w-fit flex flex-col absolute bottom-0 max-sm:bottom-[10%]  left-[4%] max-sm:left-1/2 max-sm:-translate-x-1/2  -translate-y-1/2 COLOR_TEXT_CREAM">
         <h1 className="Font_YIV text-[7rem] translate-y-10 leading-[8rem] max-sm:translate-y-5 max-sm:text-[15vw] max-sm:leading-[16vw] overflow-hidden">
           <span className=" flex translate-y-100 WEDMAIM">The</span>
         </h1>
