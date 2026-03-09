@@ -97,7 +97,7 @@ const CardX = () => {
   }, []);
 
   return (
-    <div className="w-full h-fit flex flex-col z-20 overflow-hidden ">
+    <div className="w-full h-fit flex flex-col z-20 max-md:overflow-hidden ">
       {/* div-1 Sangeet */}
       <div className="w-full md:min-h-screen relative flex max-sm:flex-col-reverse ">
         {/* left */}
@@ -162,9 +162,9 @@ const CardX = () => {
       </div>
 
       {/* Div - 2*/}
-      <div className="w-full md:min-h-screen relative flex max-sm:flex-col ">
+      <div className="w-full md:min-h-screen  relative flex max-sm:flex-col ">
         {/* Left */}
-        <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[0vh] bg-amber-300 max-md:m-10 h-screen md:sticky top-0 left-0 flex justify-center items-center md:bg-[#551301]">
+        <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[0vh]  max-md:m-10 h-screen md:sticky top-0 left-0 flex justify-center items-center md:bg-[#551301]">
           <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper  items-center">
             {/* <h3 className="Font_Q COLOR_TEXT_CREAM uppercase">OutFit</h3>
             <p className="Font_YV COLOR_TEXT_CREAM mt-5">
