@@ -6,7 +6,7 @@ const MainExplorSection = () => {
   const [isMobile, SetisMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth < 700) {
+    if (window.innerWidth < 800) {
       SetisMobile(true);
     } else {
       SetisMobile(false);

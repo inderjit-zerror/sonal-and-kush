@@ -61,10 +61,10 @@ const SMExplor = () => {
         
 
         {/* text */}
-        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 mt-30 justify-center items-center">
-          <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
+        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 mt-30 justify-center m-auto items-center">
+          {/* <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
             Explore udaipur
-          </p>
+          </p> */}
           <h4 className=" text-[10vw] leading-[10vw] Font_Q contA6 COLOR_TEXT_RED uppercase flex flex-wrap px-20 text-center ">
             City Palace
           </h4>
@@ -89,10 +89,10 @@ const SMExplor = () => {
         
 
         {/* text */}
-        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center mt-20 items-center">
-           <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
+        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center m-auto mt-20 items-center">
+           {/* <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
             Explore udaipur
-          </p>
+          </p> */}
           <h4 className=" text-[10vw] leading-[10vw] Font_Q contA6 COLOR_TEXT_RED uppercase flex flex-wrap px-20 text-center ">
             Lake Pichola
           </h4>
@@ -117,10 +117,10 @@ const SMExplor = () => {
        
 
         {/* text */}
-        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center mt-20 items-center">
-          <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
+        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center m-auto mt-20 items-center">
+          {/* <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
             Explore udaipur
-          </p>
+          </p> */}
           <h4 className=" text-[10vw] leading-[10vw] Font_Q contA6 COLOR_TEXT_RED uppercase flex flex-wrap px-20 text-center ">
             Taj Lake Palace
           </h4>
@@ -145,10 +145,10 @@ const SMExplor = () => {
         
 
         {/* text */}
-        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center mt-20 items-center">
-          <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
+        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center m-auto mt-20 items-center">
+          {/* <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
             Explore udaipur
-          </p>
+          </p> */}
           <h4 className=" text-[10vw] leading-[10vw] Font_Q contA6 COLOR_TEXT_RED uppercase flex flex-wrap px-20 text-center ">
            The Oberoi Udaivilas
           </h4>
@@ -173,10 +173,10 @@ const SMExplor = () => {
        
 
         {/* text */}
-        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center mt-20 items-center">
-          <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
+        <div className="w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 m-auto justify-center mt-20 items-center">
+          {/* <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
             Explore udaipur
-          </p>
+          </p> */}
           <h4 className=" text-[10vw] leading-[10vw] Font_Q contA6 COLOR_TEXT_RED uppercase flex flex-wrap px-20 text-center ">
             Bagore Ki Haveli
           </h4>

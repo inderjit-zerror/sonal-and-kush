@@ -101,7 +101,7 @@ const CardX = () => {
       {/* div-1 Sangeet */}
       <div className="w-full md:min-h-screen relative flex max-sm:flex-col-reverse ">
         {/* left */}
-        <div className="w-1/2 md:min-h-screen  max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mt-20 md:mt-0 mr-auto">
+        <div className="w-1/2 md:min-h-screen  max-sm:w-full  COLOR_BG_CREAM relative z-50 top-0 mt-20 md:mt-0 mr-auto max-sm:px-[0px] max-lg:px-[4vw]">
           {/* Day md:sticky */}
           <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center md:mt-[5vh] md:pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 1</h2>
@@ -183,7 +183,7 @@ const CardX = () => {
         </div>
 
         {/* Right */}
-        <div className="w-1/2 max-sm:w-full max-sm:h-fit min-h-screen  COLOR_BG_CREAM relative top-0 md:ml-auto">
+        <div className="w-1/2 max-sm:w-full max-sm:h-fit min-h-screen  COLOR_BG_CREAM relative top-0 md:ml-auto max-sm:px-[0px] max-lg:px-[4vw]">
           {/* Day md:sticky */}
           <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 2</h2>
@@ -391,7 +391,7 @@ const CardX = () => {
       {/* Div - 3*/}
       <div className="w-full md:min-h-screen relative flex max-sm:flex-col-reverse">
         {/* left */}
-        <div className="w-1/2 md:min-h-screen max-sm:w-full  COLOR_BG_CREAM relative z-50 max-md:mt-7 top-0 mr-auto">
+        <div className="w-1/2 md:min-h-screen max-sm:w-full  COLOR_BG_CREAM relative z-50 max-md:mt-7 top-0 mr-auto max-sm:px-[0px] max-lg:px-[4vw]">
           {/* Day md:sticky */}
           <div className="w-full h-fit md:sticky top-0 left-0 flex justify-center items-center max-sm:mt-[2vh] md:mt-[5vh] pt-[5vw] pb-[2.5vw] COLOR_BG_CREAM z-60 ">
             <h2 className="Font_Q COLOR_TEXT_RED uppercase">Day 3</h2>

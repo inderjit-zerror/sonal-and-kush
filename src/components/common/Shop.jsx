@@ -182,7 +182,7 @@ export default function Shop() {
                 alt={item.question}
                 width={800}
                 height={600}
-                className="w-full h-[500px] max-md:h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-[500px] max-lg:h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
 

@@ -61,15 +61,15 @@ const WeddingHome = () => {
         />
       </div>
 
-      <div className="w-full h-full absolute top-0 left-0 flex items-end md:items-center  z-50 px-20 py-20">
+      <div className="w-full h-full absolute top-0 left-0 flex items-end lg:items-center  max-lg:justify-center  z-50 px-20 py-20">
         <div className="w-fit flex flex-col   COLOR_TEXT_CREAM">
-          <h1 className="Font_YIV text-[7rem] translate-y-10 leading-[8rem] max-sm:translate-y-5 max-sm:text-[15vw] max-sm:leading-[16vw] overflow-hidden">
+          <h1 className="Font_YIV text-[7rem] translate-y-10 leading-[8rem] max-lg:text-[10vw] max-lg:leading-[11vw] max-sm:translate-y-5 max-sm:text-[15vw] max-sm:leading-[16vw] overflow-hidden">
             <span className=" flex translate-y-100 WEDMAIM">The</span>
           </h1>
-          <h1 className="Font_Q text-[7rem] leading-[8rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase overflow-hidden">
+          <h1 className="Font_Q text-[7rem] leading-[8rem] max-sm:text-[15vw] max-lg:text-[10vw] max-lg:leading-[11vw] max-sm:leading-[16vw] uppercase overflow-hidden">
             <span className=" flex translate-y-100 WEDMAIM">Wedding</span>
           </h1>
-          <h1 className="Font_Q text-[7rem] leading-[8rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase overflow-hidden">
+          <h1 className="Font_Q text-[7rem] leading-[8rem] max-sm:text-[15vw] max-lg:text-[10vw] max-lg:leading-[11vw] max-sm:leading-[16vw] uppercase overflow-hidden">
             <span className=" flex translate-y-100 WEDMAIM">ITINERARY.</span>
           </h1>
         </div>

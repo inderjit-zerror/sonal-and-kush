@@ -64,20 +64,20 @@ const Itinerary = () => {
 
   return (
     <>
-      <div className="w-full -h-fit COLOR_BG_CREAM flex flex-col relative px-10 overflow-hidden">
+      <div className="w-full h-fit COLOR_BG_CREAM flex flex-col relative px-10 overflow-hidden">
         {/* Titile */}
-        <div className="w-full h-fit  max-sm:h-fit flex justify-center  items-center mt-[10vh] max-sm:mt-[10vh] mb-[1vh] max-sm:mb-[10vh] ImgTDcont">
-          <div className="w-fit flex flex-col COLOR_TEXT_RED">
-            <h1 className="Font_YIV text-[7rem] translate-y-10 max-sm:translate-y-5 leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw]">
+        <div className="w-full h-fit  max-sm:h-fit flex justify-center   items-center mt-[10vh] max-sm:mt-[10vh] mb-[1vh] max-sm:mb-[10vh] max-lg:mb-[10vh] ImgTDcont">
+          <div className="w-fit flex flex-col COLOR_TEXT_RED justify-center items-center">
+            <h1 className="Font_YIV text-[7rem] translate-y-10 max-sm:translate-y-5 leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] max-lg:text-[7vw] max-lg:leading-[14vw]">
               The
             </h1>
-            <h1 className="Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase">
+            <h1 className="Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] max-lg:text-[7vw] max-lg:leading-[8vw] uppercase">
               Wedding
             </h1>
-            <h1 className="Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] uppercase">
+            <h1 className="Font_Q text-[7rem] leading-[7rem] max-sm:text-[15vw] max-sm:leading-[16vw] max-lg:text-[7vw] max-lg:leading-[8vw] uppercase">
               ITINERARY.
             </h1>
-            <div className="Font_YV mt-10 w-full flex flex-col text-center">
+            <div className="Font_YV mt-10 w-full flex flex-col text-center ">
               <p>A series of sacred ceremonies and joyful </p>
               <p>celebrations as we begin our new journey together</p>
             </div>
@@ -87,11 +87,11 @@ const Itinerary = () => {
 
       {/* ================================ */}
 
-      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10  ">
+      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10 max-lg:pb-[10vh] ">
         {/* div-1 */}
-        <div className="w-full h-fit  max-sm:min-h-fit  items-center flex max-sm:flex-col ">
+        <div className="w-full h-fit  max-sm:min-h-fit  items-center flex max-sm:flex-col  ">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 1</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -173,12 +173,14 @@ const Itinerary = () => {
               />
             </div>
           </div>
+
+          <div className="w-full h-[1px] bg-[#5513013b] md:hidden mt-15"></div>
         </div>
 
         {/* div-2  */}
-        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse ">
+        <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse  ">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 2</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -252,12 +254,14 @@ const Itinerary = () => {
               />
             </div>
           </div>
+
+           <div className="w-full h-[1px] bg-[#5513013b] md:hidden mt-15"></div>
         </div>
 
         {/* div-3 */}
         <div className="w-full h-fit  max-sm:min-h-fit   flex items-center max-sm:flex-col ">
           {/* Left */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <p className="Font_YV font-semibold uppercase ">Day 3</p>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
