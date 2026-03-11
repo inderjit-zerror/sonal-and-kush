@@ -2,8 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full COLOR_BG_CREAM py-8">
-      <div className="max-w-5xl mx-auto text-center flex flex-col gap-1 opacity-70">
+    <footer className="w-full COLOR_BG_CREAM py-8 border-t border-[#5513013b] ">
+            
+      <div className="max-w-5xl mx-auto text-center flex flex-col gap-1 opacity-70 mt-2">
 
         {/* Heading */}
         <p className="uppercase Font_Q COLOR_TEXT_RED w-full justify-center items-center">

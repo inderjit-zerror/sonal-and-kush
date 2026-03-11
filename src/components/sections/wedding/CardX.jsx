@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const CardX = () => {
   useEffect(() => {
+     if (window.innerWidth < 750) return;
     const images = document.querySelectorAll(".imgQ1");
 
     images.forEach((img) => {
@@ -126,10 +127,10 @@ const CardX = () => {
               A night of music, dance, and pure celebration! Join us as family and friends come together to perform, celebrate our love story, and dance the night away.
             </p>
 
-             <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-                (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
-              </span> 
-              
+            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
+            </span>
+
           </div>
 
           {/* right */}
@@ -167,10 +168,10 @@ const CardX = () => {
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               A celebration dipped in sunshine and laughter. Vibrant traditions, heartfelt blessings, and playful moments mark the joyful beginning of our wedding festivities.</p>
 
-           <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-                (Join us for our vibrant, color-themed celebration — please wear yellow!)
-              </span>
-             
+            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+              (Join us for our vibrant, color-themed celebration — please wear yellow!)
+            </p>
+
 
           </div>
 
@@ -179,7 +180,7 @@ const CardX = () => {
             {/* <p className="Font_YV font-semibold uppercase ">Day 2</p> */}
 
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
-             Wedding
+              Wedding
             </h5>
 
 
@@ -196,18 +197,27 @@ const CardX = () => {
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               An electrifying procession of music, rhythm, and celebration. Dancing through the celebrations in high-spirited joy as the groom makes his grand arrival.</p>
 
-             <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-                (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
-              </span> 
-              
+            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+              (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
+            </p>
+
 
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          {/* <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center img3d-wrapper">
               <img
                 src={`/imgs/icon1.png`}
+                alt="Img"
+                className="w-full imgQ1 object-cover object-center mt-4"
+              />
+            </div>
+          </div> */}
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[2vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+            <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
+              <img
+                src={`/imgs/icon4.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -238,7 +248,7 @@ const CardX = () => {
               Sun, splashes, and effortless fun. A relaxed poolside celebration to soak in the final moments of the wedding festivities together.
             </p>
 
-           
+
 
           </div>
 
@@ -264,10 +274,10 @@ const CardX = () => {
               A night of glamour, gratitude, and celebration. An unforgettable evening of dining, speeches, music, and dancing as the newlyweds begin their next chapter.
             </p>
 
-            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-                (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
-              </span>
-             
+            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+              (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
+            </p>
+
 
           </div>
 
@@ -292,17 +302,26 @@ const CardX = () => {
               Where the formalities fade and the real fun begins. An electric night of music, signature cocktails, and uninhibited celebration as we dance, laugh, and make memories long past midnight.
             </p>
 
-            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-                (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
-              </span>
+            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+              (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
+            </p>
 
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          {/* <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
               <img
                 src={`/imgs/icon4.png`}
+                alt="Img"
+                className="w-full imgQ1 object-cover object-center mt-4"
+              />
+            </div>
+          </div> */}
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+            <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center img3d-wrapper pb-10">
+              <img
+                src={`/imgs/icon1.png`}
                 alt="Img"
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
@@ -346,9 +365,9 @@ const CardX = () => {
                 and friends come together to perform, celebrate our love story,
                 and dance the night away.
               </p>
-              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
                 (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
-              </span>
+              </p>
               {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize">
               ( no white red & gold )
             </span> */}
@@ -391,7 +410,7 @@ const CardX = () => {
             </p> */}
 
               <img
-                src={`/imgs/icon1.png`}
+                src={`/imgs/icon4.png`}
                 alt="Img"
                 className="w-full object-cover imgQ1 imgQ2 object-center mt-4"
               />
@@ -453,10 +472,10 @@ const CardX = () => {
                 of our wedding festivities.
               </p>
 
-              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
                 (Join us for our vibrant, color-themed celebration — please wear yellow!)
-              </span>
-             
+              </p>
+
 
               {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               ( No White Red )
@@ -487,7 +506,7 @@ const CardX = () => {
           </div> */}
 
             {/* 4 Wedding */}
-            <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+            <div className="w-full max-sm:w-full h-fit py-[10vh] pb-[30vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
                 Wedding
               </h5>
@@ -509,9 +528,9 @@ const CardX = () => {
                 makes his grand arrival.
               </p>
 
-               <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
                 (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
-              </span> 
+              </p>
             </div>
 
             {/* 5 Wedding Dinner*/}
@@ -692,11 +711,11 @@ const CardX = () => {
                 begin their next chapter.
               </p>
 
-              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
                 (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
-              </span>
-              
-             
+              </p>
+
+
               {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
@@ -705,7 +724,7 @@ const CardX = () => {
             </div>
 
             {/* 4 After Party */}
-            <div className="w-full max-sm:w-full h-fit md:py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
+            <div className="w-full max-sm:w-full h-fit md:py-[10vh]  max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
                 After Party
               </h5>
@@ -727,10 +746,10 @@ const CardX = () => {
                 as we dance, laugh, and make memories long past midnight.
               </p>
 
-               <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+              <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto pb-[20vh]">
                 (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
-              </span>
-              
+              </p>
+
             </div>
             {/* CHECK OUT */}
             {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
@@ -772,7 +791,7 @@ const CardX = () => {
             </p> */}
 
               <img
-                src={`/imgs/icon4.png`}
+                src={`/imgs/icon1.png`}
                 alt="Img"
                 className="w-full object-cover imgQ1 imgQ2 object-center md:mt-4"
               />

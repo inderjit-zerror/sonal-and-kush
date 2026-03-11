@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Itinerary = () => {
   useEffect(() => {
-    if(window.innerWidth < 750) return;
+    if (window.innerWidth < 750) return;
     const images = document.querySelectorAll(".imgQ1");
 
     images.forEach((img) => {
@@ -87,7 +87,7 @@ const Itinerary = () => {
 
       {/* ================================ */}
 
-      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10 lg:space-y-20 lg:pt-20 max-lg:pb-[10vh] ">
+      <div className="w-full h-fit flex flex-col pt-20 z-20 COLOR_BG_CREAM space-y-20 lg:space-y-20 lg:pt-20 max-lg:pb-[10vh] md:pb-[7vw]">
         {/* div-1 */}
         <div className="w-full h-fit  max-sm:min-h-fit  items-center flex max-sm:flex-col  ">
           {/* Left */}
@@ -98,10 +98,10 @@ const Itinerary = () => {
               <span>
                 <span className="font-semibold"></span> 09/21/2026
               </span>
-             
+
             </div>
 
-          
+
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
               Sangeet
             </h5>
@@ -144,10 +144,10 @@ const Itinerary = () => {
               </span>
             </div>
 
-           
+
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
               Haldi & Wedding
-               </h5>
+            </h5>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               A day rooted in tradition and bursting with celebration. From heartfelt rituals and vibrant ceremonies to the sacred vows and an electrifying after-party, this is where our forever truly begins.
@@ -156,11 +156,11 @@ const Itinerary = () => {
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span> */}
-            
+
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          {/* <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center img3d-wrapper">
               <img
                 src={`/imgs/icon1.png`}
@@ -168,9 +168,18 @@ const Itinerary = () => {
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
             </div>
+          </div> */}
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+            <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
+              <img
+                src={`/imgs/icon4.png`}
+                alt="Img"
+                className="w-full imgQ1 object-cover object-center mt-4"
+              />
+            </div>
           </div>
 
-           <div className="w-full h-[1px] bg-[#5513013b] md:hidden mt-15"></div>
+          <div className="w-full h-[1px] bg-[#5513013b] md:hidden mt-15"></div>
         </div>
 
         {/* div-3 */}
@@ -196,11 +205,11 @@ const Itinerary = () => {
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span> */}
-           
+
           </div>
 
           {/* right */}
-          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+          {/* <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:pb-[10vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
             <div className="w-1/2 h-fit  flex flex-col justify-center img3d-wrapper items-center">
               <img
                 src={`/imgs/icon4.png`}
@@ -208,9 +217,21 @@ const Itinerary = () => {
                 className="w-full imgQ1 object-cover object-center mt-4"
               />
             </div>
+          </div> */}
+          <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[0vh] max-sm:px-[20px] COLOR_TEXT_RED flex flex-col px-12 justify-center items-center">
+            <div className="w-2/3 max-sm:w-1/2 h-fit  flex flex-col justify-center items-center img3d-wrapper">
+              <img
+                src={`/imgs/icon1.png`}
+                alt="Img"
+                className="w-full imgQ1 object-cover object-center mt-4"
+              />
+            </div>
           </div>
         </div>
+
       </div>
+
+
     </>
   );
 };
