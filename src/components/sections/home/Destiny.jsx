@@ -98,7 +98,7 @@ const Destiny = () => {
                     </div>
                 </div>
 
-                <div className='w-full h-fit flex mt-[5vw] TT2T COLOR_TEXT_RED gap-[2rem]'>
+                <div className='w-full h-fit flex mt-[5vw] TT2T COLOR_TEXT_RED gap-[2rem] max-sm:gap-[20px] max-sm:flex-col'>
                     <div className='w-1/2  max-sm:w-full   text-justify max-sm:text-justify max-sm:pr-0'>
                         <p className='Font_YV'> It all began at a graduation party, where Sonal was busy charming the room when Kush walked in, caught one glimpse of her, and instantly knew he had to meet her. What followed was an unforgettable night filled with poker, laughter, and undeniable chemistry. They played their cards right (literally), won a little money, and unknowingly placed the biggest bet of all - on each other.
                             <br></br>
@@ -106,7 +106,7 @@ const Destiny = () => {
                             For a year, they stayed in touch, their connection never fading. Then fate stepped in. Sonal moved to New York City, and when Kush reached out, he discovered she was living just a ten minute walk from his apartment. Some call it destiny, some call it great real estate planning, but either way, their first date was pure magic. 
                         </p>
                     </div>
-                    <div className='w-1/2  max-sm:hidden  '>
+                    <div className='w-1/2  max-sm:w-full max-sm:text-justify '>
                         <p className='Font_YV'> With no furniture in Sonal’s apartment yet, they sat on the floor, shared a bottle of wine, and talked for hours. It was simple, it was effortless, and it felt like home. Three amazing years later, Kush planned the ultimate surprise - a trip to Jamaica. Surrounded by turquoise waters and golden sunsets, he got down on one knee and asked Sonal to spend forever with him. 
                              <br></br>
                             <br></br>

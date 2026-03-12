@@ -58,9 +58,7 @@ const WeddingVenue = () => {
 
         {/* Description */}
         <p className="max-w-xl mx-auto Font_YV leading-[20px] COLOR_TEXT_RED WeddingText">
-          A serene luxury resort nestled in the heart of Marrakech, blending
-          traditional Moroccan architecture with modern comfort. This is where
-          all our wedding celebrations will take place.
+         Nestled amidst the serene beauty of Udaipur, Raffles Udaipur sets the perfect stage for our wedding celebrations. With its timeless elegance, lakeside charm, and warm hospitality, this is where our most cherished memories will unfold.
         </p>
       </div>
     </section>

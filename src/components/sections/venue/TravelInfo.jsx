@@ -123,7 +123,7 @@ const TravelInfo = () => {
          {/* <div className='w-fit h-[46px] select-none mt-5 cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] bg-[#ddb98e] hover:bg-[#e3ad6b]'>
             View Location
           </div> */}
-
+{/* 
            <button className="button mt-5  " style={{ backgroundColor: '#EFDFCB' }}>
                                 <span className="button__icon-wrapper">
                                     <svg
@@ -153,7 +153,7 @@ const TravelInfo = () => {
                                     </svg>
                                 </span>
                                 <span className="COLOR_TEXT_RED"> View Location</span>
-                            </button>
+                            </button> */}
       </div>
     </section>
   );
