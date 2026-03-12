@@ -1,5 +1,3 @@
-
-
 "use client";
 import Link from "next/link";
 import { useRef, useState } from "react";
@@ -72,6 +70,7 @@ Comfortable footwear is recommended due to outdoor venues.`,
     question: "Do I need a visa to travel to India?",
     answer: `For U.S. citizens attending our wedding in India, you’ll need to apply for an Indian e-Tourist Visa: a simple online process that takes about 10–15 minutes. Just visit the link below, upload a passport photo and a scan of your passport, and pay the fee. Be sure your passport is valid for at least six months beyond your travel date (September 2026), and carry a printed copy of the e-visa when you fly. The e-Tourist Visa application opens 30 days before your scheduled departure date.
 `,
+    LINK: `https://indianvisaonline.gov.in/evisa/tvoa.html`,
   },
   {
     id: 11,
@@ -119,20 +118,23 @@ Comfortable footwear is recommended due to outdoor venues.`,
     question: "Who can I contact if I have any questions?",
     answer: `For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:
 Email: sonalskushie@gmail.com 
-Phone: __
+Phone: +91 93588 00614, +91 93100 69102
 `,
-  }, {
+  },
+  {
     id: 17,
     question: "Are children welcome at the events?",
-    answer: `We love your little ones. Children are welcome at all events except the Cocktail Hour and Reception.
+    answer: `We love your little ones. Children are welcome at all events except the Cocktail Hour and Reception Phone No : +91 93588 00614.
 
 For guests traveling with children under the age of 12, please contact the wedding planners at __ to inquire about available nanny services.
 `,
-  }, {
+  },
+  {
     id: 18,
     question: "Can I bring a plus one?",
     answer: `If a plus one is not listed on your invitation and you would like to request one, please contact the wedding planners at __ for assistance.`,
-  }, {
+  },
+  {
     id: 19,
     question: "Can I book a room before or after the wedding dates?",
     answer: `Yes. Additional nights can be booked directly through the Raffles Udaipur website, subject to availability.
@@ -140,18 +142,21 @@ For guests traveling with children under the age of 12, please contact the weddi
 I have questions about airport transfers.
 
 Please refer to the Travel page on the website for detailed information regarding airport transportation.`,
-  }, {
+  },
+  {
     id: 20,
     question: `How will rooms be assigned between the Island and Lakeshore rooms?
 `,
-    answer: `Rooms will be allocated on a first-come, first-served basis based on when reservations are confirmed.
+    answer: `Rooms will be allocated on a first-come, first-served basis based on when reservations are confirmed Phone No : +91 93588 00614.
 `,
-  }, {
+  },
+  {
     id: 21,
     question: "What is the dress code?",
     answer: `Please refer to the Event Schedule section of the website, where the dress code and attire guidelines for each event will be listed.
 `,
-  }, {
+  },
+  {
     id: 22,
     question: "What should I do if I need to cancel my reservation?",
     answer: `Please contact the wedding planners at __ as soon as possible for assistance.
@@ -241,7 +246,6 @@ const OPEN_TEXT =
 //   );
 // }
 
-
 //  className={`grid transition-all duration-500 ease-in-out
 //     ${openId === faq.id ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}
 //   `}
@@ -260,8 +264,25 @@ export default function FAQ() {
       className="min-h-screen max-sm:min-h-fit COLOR_BG_CREAM  flex items-center justify-center max-sm:py-[20vw] py-[20vh]"
     >
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
-        <h2 className="text-center Font_Q flex justify-center items-center max-sm:justify-start max-sm:mt-10 COLOR_TEXT_RED">
+        <h2 className="text-center Font_Q flex flex-col justify-center items-center max-sm:justify-start max-sm:mt-10 COLOR_TEXT_RED">
           FAQ
+          <p className=" capitalize Font_YV mt-7 font-bold">
+            For any questions
+          </p>
+          <div className="mt-2 w-fit h-fit flex max-sm:flex-col sm:gap-2">
+            <a href="tel:+919358800614">
+              <div className=" relative group flex flex-col">
+              <p className="capitalize Font_YV ">+91 93588 00614,</p>
+              <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
+              </div>
+            </a>
+            <a href="tel:+919310069102">
+              <div className=" relative group flex flex-col">
+              <p className="capitalize Font_YV max-sm:mt-2">+91 93100 69102</p>
+              <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
+              </div>
+            </a>
+          </div>
         </h2>
 
         <div className="space-y-6 w-full">
@@ -281,8 +302,9 @@ export default function FAQ() {
 
                 {/* ICON */}
                 <span
-                  className={`relative w-5 h-5 transition-transform duration-500 ${openId === faq.id ? "rotate-45" : ""
-                    }`}
+                  className={`relative w-5 h-5 transition-transform duration-500 ${
+                    openId === faq.id ? "rotate-45" : ""
+                  }`}
                 >
                   <img
                     src="/svgs/IconPlusnew.svg"
@@ -314,6 +336,17 @@ export default function FAQ() {
                     >
                       Know More
                     </Link>
+                  )}
+                  {/* Visa link */}
+                  {faq.id === 10 && faq.LINK && (
+                    <a
+                      href={faq.LINK}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block mt-2 COLOR_TEXT_RED underline"
+                    >
+                      Apply for Indian e-Tourist Visa
+                    </a>
                   )}
                 </div>
               </div>

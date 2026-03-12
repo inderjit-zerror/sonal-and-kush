@@ -1,6 +1,6 @@
 "use client";
 import Shop from "@/components/common/Shop";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const places = [
   {
@@ -46,6 +46,11 @@ const places = [
 ];
 
 const SMExplor = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [activeId, setActiveId] = useState(null);
 
   const handleClick = (id) => {
