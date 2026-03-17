@@ -86,7 +86,7 @@ const Footer = () => {
           </span></a>
         </span>
 
-        <span className=" Font_YV flex">Payments are securely processed by EDD United Pvt. Ltd.</span>
+        <span className=" Font_YV flex underline">Payments are securely processed by EDD United Pvt. Ltd.</span>
       </div>
 
     </footer>
