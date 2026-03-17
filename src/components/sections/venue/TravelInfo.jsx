@@ -94,17 +94,32 @@ const TravelInfo = () => {
       </div>
 
       {/* Content */}
-      <div className="relative max-w-3xl mx-auto text-center flex flex-col justify-center items-center">
+      <div className="relative max-w-3xl mx-auto text-center flex flex-col justify-center items-center max-md:px-10">
 
-        <span className=" uppercase mb-6 COLOR_TEXT_CREAM">
+        {/* <span className=" uppercase mb-6 COLOR_TEXT_CREAM">
           Travel Information
-        </span>
+        </span> */}
 
         <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 uppercase COLOR_TEXT_CREAM max-sm:text-white max-sm:uppercase">
-          <h2> Way To Get To Udaipur</h2>
+          <h2>Hotel & Reservations</h2>
         </div>
 
-        <div className="space-y-3 max-sm:space-y-4 ">
+        <p className="Font_YV text-white">
+          Please book your rooms at the earliest. Rooms will be allocated on a first-come, first-served basis, based on confirmed reservations.
+        </p>
+
+        <a href="https://pages.razorpay.com/pl_SQkTjtYZ04Fyph/view" target="blank"><button className="w-fit h-fit group  py-2.5 px-5 COLOR_BG_CREAM mt-5 transition-all duration-200 ease-linear Font_YV hover:rounded-[8px] hover:scale-[0.98] select-none cursor-pointer">
+          <span className="w-fit h-fit flex flex-col">
+           Reserve Your Stay
+           <div className="h-[1px] COLOR_BG_RED w-[0px] transition-all duration-200 ease-linear group-hover:w-full ">
+
+           </div>
+          </span>
+        </button></a>
+
+        <span className="Font_YV text-[14px] mt-5 text-white/50">Payments are securely processed by EDD United Pvt. Ltd.</span>
+
+        {/* <div className="space-y-3 max-sm:space-y-4 ">
           <p className="uppercase Font_YV COLOR_TEXT_CREAM">
             Nearest Airport is
           </p>
@@ -119,41 +134,8 @@ const TravelInfo = () => {
             for all guests. Coordinator details to <br />
             follow.
           </span>
-        </div>
-         {/* <div className='w-fit h-[46px] select-none mt-5 cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] bg-[#ddb98e] hover:bg-[#e3ad6b]'>
-            View Location
-          </div> */}
-{/* 
-           <button className="button mt-5  " style={{ backgroundColor: '#EFDFCB' }}>
-                                <span className="button__icon-wrapper">
-                                    <svg
-                                        viewBox="0 0 14 15"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="button__icon-svg"
-                                        width="10"
-                                    >
-                                        <path
-                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
+        </div> */}
 
-                                    <svg
-                                        viewBox="0 0 14 15"
-                                        fill="none"
-                                        width="10"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="button__icon-svg button__icon-svg--copy "
-                                    >
-                                        <path
-                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
-                                </span>
-                                <span className="COLOR_TEXT_RED"> View Location</span>
-                            </button> */}
       </div>
     </section>
   );
